@@ -3,6 +3,8 @@ titel: "Antientzündliche Lebensweise"
 url: "antientzuendliche-lebenweise"
 einleitung: "Ganzheitliche Strategien zur Reduktion stiller Entzündungen durch Ernährung und Alltag."
 komplementaer: true
+bild: ../../assets/images/infos/antientzuendliche-lebensweise.jpg
+bildAlt: "Küche mit frischem Obst, Gemüse, Nüssen, grünem Smoothie und aufgeschlagenem Buch"
 rubrik: Patienteninformationen
 seo:
   title: "Antientzündliche Lebensweise"
