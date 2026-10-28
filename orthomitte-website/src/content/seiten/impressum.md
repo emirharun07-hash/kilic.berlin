@@ -66,9 +66,9 @@ Die Regelungen sind auf der Website der [Ärztekammer Berlin](https://www.aerzte
 
 ### Berufshaftpflichtversicherung
 
-Deutsche Ärzteversicherung AG  
-Colonia-Allee 10–20, 51067 Köln  
-Räumlicher Geltungsbereich: [[BITTE ERGÄNZEN: laut Versicherungsschein, z. B. „Deutschland“]]
+Deutsche Ärzteversicherung Allgemeine, Zweigniederlassung der AXA Versicherung AG  
+Börsenplatz 1, 50667 Köln  
+Räumlicher Geltungsbereich: Deutschland
 
 ## Verbraucherstreitbeilegung
 
