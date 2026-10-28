@@ -40,7 +40,7 @@ Arzt bzw. Ärztin, verliehen in der Bundesrepublik Deutschland.
 - **Arne Schlichting:** Facharzt für Orthopädie; Facharzt für Orthopädie und Unfallchirurgie; Zusatzbezeichnungen Akupunktur und Manuelle Medizin (Chirotherapie)
 - **Dr. Bülent Kılıç:** Facharzt für Orthopädie und Unfallchirurgie; Zusatzbezeichnungen Notfallmedizin, Manuelle Medizin/Chirotherapie, Akupunktur und Spezielle Schmerztherapie
 - **Dr. Christiane Baldini:** Fachärztin für Innere Medizin; Zusatzbezeichnung Psychotherapie
-- **dr. Isabelle Landenberger:** Ärztin in Weiterbildung für Allgemeinmedizin. Der Doktorgrad wurde von der Semmelweis-Universität Budapest (Ungarn) verliehen. [[BITTE ERGÄNZEN: Staat, in dem die Approbation erteilt wurde]]
+- **dr. Isabelle Landenberger:** Ärztin in Weiterbildung für Allgemeinmedizin. Der Doktorgrad wurde von der Semmelweis-Universität Budapest (Ungarn) verliehen. [[BITTE ERGÄNZEN: Grundlage der ärztlichen Tätigkeit ohne Approbation – i. d. R. Erlaubnis zur vorübergehenden Ausübung des ärztlichen Berufs nach § 10 Bundesärzteordnung; erteilende Behörde (z. B. Landesamt für Gesundheit und Soziales Berlin)]]
 
 Die Bezeichnungen wurden von der jeweils zuständigen Ärztekammer verliehen.
 
@@ -66,7 +66,9 @@ Die Regelungen sind auf der Website der [Ärztekammer Berlin](https://www.aerzte
 
 ### Berufshaftpflichtversicherung
 
-[[BITTE ERGÄNZEN: Name und Anschrift des Versicherers sowie räumlicher Geltungsbereich der Berufshaftpflichtversicherung]]
+Deutsche Ärzteversicherung AG  
+Colonia-Allee 10–20, 51067 Köln  
+Räumlicher Geltungsbereich: [[BITTE ERGÄNZEN: laut Versicherungsschein, z. B. „Deutschland“]]
 
 ## Verbraucherstreitbeilegung
 

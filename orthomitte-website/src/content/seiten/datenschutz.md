@@ -73,7 +73,7 @@ Für die Online-Terminbuchung und Nachrichten an die Praxis nutzen wir Doctolib 
 
 ### Digitaler Anamnesebogen
 
-Den digitalen Anamnesebogen stellen wir über den Dienst „SM-Clinic“ bereit: [[BITTE ERGÄNZEN: vollständiger Name und Anschrift des Anbieters von SM-Clinic]]. Im Anamnesebogen geben Sie Gesundheitsdaten an. Der Anbieter verarbeitet diese ausschließlich in unserem Auftrag (Art. 28 DSGVO) zur Vorbereitung Ihrer Behandlung. Rechtsgrundlage ist Art. 9 Abs. 2 lit. h DSGVO in Verbindung mit Art. 6 Abs. 1 lit. b DSGVO.
+Den digitalen Anamnesebogen stellen wir über den Dienst „SM-Clinic“ bereit: SoftX ITS, Bielertstr. 32, 51379 Leverkusen, Deutschland (E-Mail: [info@sm-clinic.de](mailto:info@sm-clinic.de)). Im Anamnesebogen geben Sie Gesundheitsdaten an. Der Anbieter verarbeitet diese ausschließlich in unserem Auftrag (Art. 28 DSGVO) zur Vorbereitung Ihrer Behandlung. Rechtsgrundlage ist Art. 9 Abs. 2 lit. h DSGVO in Verbindung mit Art. 6 Abs. 1 lit. b DSGVO.
 
 ### Terminservice 116117
 

@@ -29,7 +29,7 @@ export const hauptmenue: NavEintrag[] = [
     label: 'Leistungen',
     href: '/leistungen',
     kinder: [
-      { label: 'Orthopädie', href: '/leistungen', beschreibung: 'Diagnostik und Therapie des Bewegungsapparates' },
+      { label: 'Orthopädie & Unfallchirurgie', href: '/leistungen', beschreibung: 'Diagnostik und Therapie des Bewegungsapparates' },
       { label: 'Privatpraxis Funktionelle Medizin', href: '/privatpraxis', beschreibung: 'Ganzheitliche, funktionelle Medizin' },
     ],
   },

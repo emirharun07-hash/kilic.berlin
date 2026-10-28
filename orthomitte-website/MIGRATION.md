@@ -203,8 +203,8 @@ Auf Wunsch der Praxis wurden Impressum, Datenschutzerklärung und Werbeaussagen 
 
 | Priorität | Thema | Detail |
 |---|---|---|
-| **hoch** | Impressum-Platzhalter | Approbationsstaat dr. Landenberger, Berufshaftpflichtversicherung (Name, Anschrift, Geltungsbereich). Geklärt: BAG (kein Registereintrag angegeben – falls doch Partnerschaftsgesellschaft, Register ergänzen), Privatpraxis ist Teil der BAG, keine USt-IdNr. |
-| **hoch** | Datenschutz-Platzhalter | Anbieter SM-Clinic (Name, Anschrift). Geklärt: Privatpraxis = BAG, kein Datenschutzbeauftragter benannt. AV-Verträge mit Cloudflare, Strato, SM-Clinic (und ggf. Doctolib) prüfen/abschließen. |
+| **hoch** | Impressum-Platzhalter | dr. Landenberger: Grundlage der ärztlichen Tätigkeit (keine Approbation – Berufserlaubnis nach § 10 BÄO?), Geltungsbereich der Berufshaftpflicht (Versicherer: Deutsche Ärzteversicherung AG, eingetragen). Geklärt: BAG (kein Registereintrag angegeben – falls doch Partnerschaftsgesellschaft, Register ergänzen), Privatpraxis ist Teil der BAG, keine USt-IdNr. |
+| mittel | Datenschutz | AV-Verträge mit Cloudflare, Strato, SoftX ITS (SM-Clinic) prüfen. Geklärt: SM-Clinic-Anbieter eingetragen, Privatpraxis = BAG, kein Datenschutzbeauftragter benannt. |
 | **hoch** | Paketpreise / Rabatte | „600 € bei Buchung von 4 Terminen“, „5er-Kur 550 €“: Pauschal- bzw. Rabattpreise sind mit der GOÄ (Einzelabrechnung) und § 7 HWG (Zuwendungen) schwer vereinbar → anwaltlich prüfen; ggf. auf GOÄ-Einzelpreise umstellen. |
 | mittel | Procain-/Eiseninfusion | Verschreibungspflichtige Arzneimittel: Seiten beschreiben nur das Verfahren (ohne Präparatenamen). Bitte so beibehalten. |
 | niedrig | Preise | Widersprüchliche Preisangaben (CONTENT-INVENTORY.md, Abschnitt 8) vereinheitlichen. |
