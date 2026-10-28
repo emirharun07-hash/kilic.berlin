@@ -27,7 +27,7 @@ Legende: ✅ = Inhalt übernommen, URL bleibt identisch · ↪️ 301 = dauerhaf
 | `/applied-kinesiology` | Applied Kinesiology / Orthopädische Praxis Mitte / Ganzheitliche Mediz | 628 | ✅ übernommen | `src/content/leistungen/applied-kinesiology.md` |
 | `/applied-kinesiology-2` | Ganzheitliche Schmerzdiagnostik mit Applied Kinesiology / Orthopädisch | 235 | ↪️ 301 | → `/applied-kinesiology` |
 | `/chelattherapie` | Chelattherapie / Privatpraxis für Funktionelle Medizin / Schwermetallv | 295 | ✅ übernommen | `src/content/leistungen/chelattherapie.md` |
-| `/corona` | Corona / ortho-praxis-mitte | 257 | ↪️ 301 | → `/impfungen` |
+| `/corona` | Corona / ortho-praxis-mitte | 257 | ↪️ 301 | → `/infoseite` |
 | `/datenschutz` | Datenschutz / ortho-praxis-mitte | 2368 | ✏️ neu gefasst (28.10.2026) | `src/content/seiten/datenschutz.md` |
 | `/dr-christiane-baldini` | Dr. Christiane Baldini / Fachärztin für Innere Medizin / ZB Psychother | 255 | ✅ übernommen | `src/content/team/christiane-baldini.md` |
 | `/dr-isabelle-landenberger` | dr. Isabelle Landenberger / Ärztin für Funktionelle Medizin / Chelatth | 79 | ✅ übernommen | `src/content/team/isabelle-landenberger.md` |
@@ -48,9 +48,9 @@ Legende: ✅ = Inhalt übernommen, URL bleibt identisch · ↪️ 301 = dauerhaf
 | `/hyaluronsaeure-2` | Hyaluronsäure bei Arthrose & Gelenkverschleiß / Orthopädische Praxis B | 248 | ↪️ 301 | → `/hyaluronsäure` |
 | `/hyaluronsäure` | Hyaluronsäure / Orthopädische Praxis Mitte / Arthrose / Gonarthrose /  | 386 | ✅ übernommen | `src/content/leistungen/hyaluronsaeure.md` |
 | `/hypermobilität` | Hypermobilität / Ehlers-Danlos-Syndrom / EDS / Orthopädische Praxis Mi | 1158 | ✅ übernommen | `src/content/seiten/hypermobilitaet.md` |
-| `/impfungen` | Impfungen / Corona / Influenza / Orthopädische Praxis Berlin Mitte | 23 | ✅ übernommen | `src/content/seiten/impfungen.md` |
+| `/impfungen` | Impfungen / Corona / Influenza / Orthopädische Praxis Berlin Mitte | 23 | ↪️ 301 | → `/infoseite` (Thema Impfungen auf Wunsch der Praxis entfernt, Text archiviert) |
 | `/impressum` | Impressum / ortho-praxis-mitte | 419 | ✏️ neu gefasst (28.10.2026) | `src/content/seiten/impressum.md` |
-| `/influenza` | Impfungen / Influenza / Grippe / Orthopädische Praxis Berlin Mitte | 76 | ✅ übernommen | `src/content/seiten/influenza.md` |
+| `/influenza` | Impfungen / Influenza / Grippe / Orthopädische Praxis Berlin Mitte | 76 | ↪️ 301 | → `/infoseite` (Thema Impfungen auf Wunsch der Praxis entfernt, Text archiviert) |
 | `/infoseite` | Info-Seite / ortho-praxis-mitte | 193 | ✅ übernommen | `src/pages/infoseite.astro` |
 | `/infusions-therapie` | Infusionstherapie / ortho-praxis-mitte | 595 | ✅ übernommen | `src/content/leistungen/infusionen-uebersicht.md` |
 | `/infusionstherapie` | Infusionstherapie / Orthopädie Berlin Mitte / alpha Liponsäure / Antio | 514 | ✅ übernommen | `src/content/leistungen/infusionstherapie.md` |
@@ -111,7 +111,8 @@ neue Seite weitergeleitet, **keine Adresse geht verloren** (automatisch geprüft
 | `/ohrakupunktur` | Seite war leer (nur Titel/Meta). Weiterleitung auf Akupunktur. |
 | `/photo-albums` | Wix-Fotoalbum mit nur einem Bild (Bild nicht abrufbar, HTTP 403). |
 | `/start` | Ältere Fassung der Startseite. |
-| `/corona` | Corona-Hinweise aus dem Jahr 2020 (überholt). Text archiviert; Wiederherstellung auf Wunsch. |
+| `/corona` | Corona-Hinweise aus dem Jahr 2020 (überholt). Text archiviert. |
+| `/impfungen`, `/influenza` | Thema Impfungen auf Wunsch der Praxis (28.10.2026) komplett entfernt. Texte archiviert. |
 | `/susanne-koop`, `/freia-de-vries`, `/rebecca-brendenahl` | Susanne Koop und Freia de Vries sind laut Praxis (28.10.2026) nicht mehr in der Praxis tätig. Rebecca-Seite war leer; Rebecca wird ohne Profil im Praxisteam geführt. |
 
 ## 3. Navigation der alten Website

@@ -218,7 +218,7 @@ Auf Wunsch der Praxis wurden Impressum, Datenschutzerklärung und Werbeaussagen 
 4. **Preise:** Welche Procain-Preise (120/550 € oder 150/650 €) und welcher Energy-&-Balance-Paketpreis (575 € oder 600 €) gelten?
 5. ~~Arzt-Direkt~~ – geklärt: wird nicht mehr genutzt, Verweise auf Doctolib umgestellt.
 6. **ÖPNV-Angaben:** Welche Linienliste ist korrekt (Startseite vs. Anfahrt)?
-7. **Corona-Seite:** endgültig entfernen (derzeit Weiterleitung auf Impfungen)?
+7. ~~Corona-Seite~~ – geklärt: Thema Impfungen komplett entfernt; /corona, /impfungen, /influenza → /infoseite.
 8. **Ohrakupunktur:** Seite war leer – eigener Text gewünscht?
 9. ~~Kontaktformular~~ – geklärt: es gibt kein Kontaktformular mehr.
 10. **SPF-Eintrag** für die E-Mail-Zustellbarkeit ergänzen (Abschnitt 4.5)?

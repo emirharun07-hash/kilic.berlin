@@ -5,7 +5,7 @@
  *
  *   src/content/leistungen/*.md   -> medizinische Leistungen / Behandlungen
  *   src/content/team/*.md         -> Ärztinnen, Ärzte und Mitarbeitende (Profilseiten)
- *   src/content/seiten/*.md       -> allgemeine Info-Seiten (z. B. Feriensprechzeiten, Impfungen)
+ *   src/content/seiten/*.md       -> allgemeine Info-Seiten (z. B. Rückenschmerzen, Vitamin D)
  *
  * Die URL einer Seite steht im Feld `url` (ohne führenden Schrägstrich), damit die
  * bisherigen Wix-Adressen exakt erhalten bleiben. Das Schema unten prüft beim Build,

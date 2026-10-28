@@ -32,8 +32,10 @@
 /photo-albums                 /überuns                     301
 # Ältere Startseite
 /start                        /                            301
-# Corona-Hinweise aus 2020 (Text archiviert, Wiederherstellung auf Wunsch)
-/corona                       /impfungen                   301
+# Impfungen (Corona, Impfungen, Influenza) – auf Wunsch der Praxis entfernt (Texte archiviert)
+/corona                       /infoseite                   301
+/impfungen                    /infoseite                   301
+/influenza                    /infoseite                   301
 
 # --- Profilseiten von Personen, die nicht mehr auf "Über uns" geführt werden ---
 /susanne-koop                 /überuns                     301
