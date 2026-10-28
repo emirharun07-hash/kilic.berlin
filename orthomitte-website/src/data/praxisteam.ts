@@ -8,5 +8,5 @@
 export const praxisteam: { gruppe: string; rolle?: string; namen: string[] }[] = [
   { gruppe: 'Arzthelferinnen / MFA', rolle: 'Arzthelferin', namen: ['Rebecca', 'Stefanie', 'Sharona'] },
   { gruppe: 'Auszubildende zur MFA', namen: ['Ejona'] },
-  { gruppe: '(Studentische) Aushilfskräfte', namen: ['Abdul', 'Jolina', 'Fabio', 'Furkan', 'Hamza'] },
+  { gruppe: '(Studentische) Aushilfskräfte', namen: ['Abdul', 'Jolina', 'Fabio', 'Furkan', 'Hamza', 'Manja'] },
 ];
