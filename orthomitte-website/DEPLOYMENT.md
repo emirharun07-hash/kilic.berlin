@@ -119,6 +119,13 @@ als **Root directory** `orthomitte-website` eingetragen.
    *Zero Trust → Access → Applications → Add → Self-hosted*, Domain `*.orthomitte-website.<konto>.workers.dev`,
    Regel „E-Mail endet auf @orthomitte.de“.
 
+> **Stand 28.10.2026 (eingerichtet):** Cloudflare-Projekt `orthomitte-website` ist mit
+> `emirharun07-hash/azur-shopify-theme` verbunden. Produktions-Branch vorerst
+> `claude/stoic-ptolemy-u6an31` (nach Freigabe auf `main` umstellen), Stammverzeichnis
+> `orthomitte-website`, Build `npm run build:production`, Deploy `npx wrangler deploy`,
+> Build-Variable `NODE_VERSION=22`. Hinweis: „Build erneut versuchen“ baut immer denselben
+> (alten) Commit/Branch – nach Änderung des Branches einen neuen Commit pushen.
+
 ## 5. Eigene Domain verbinden (erst NACH Freigabe – siehe MIGRATION.md)
 
 Wenn die Zone `orthomitte.de` in Cloudflare aktiv ist:
