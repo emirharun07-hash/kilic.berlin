@@ -146,6 +146,34 @@
   .prose-praxis th { @apply border-b border-ink-200 py-2 pr-4 font-semibold text-ink-900; }
   .prose-praxis td { @apply border-b border-ink-100 py-2 pr-4 align-top; }
   .prose-praxis img { @apply rounded-2xl; }
+
+  /* Gestaltungsbausteine für Info-Artikel (als HTML-Blöcke im Markdown nutzbar, Beispiel: vegetatives-nervensystem.md) */
+  .prose-praxis .hervorhebung { @apply border-l-[3px] border-brand-500 py-0.5 pl-[18px] font-medium text-ink-900; }
+  .prose-praxis .merksatz { @apply rounded-xl bg-brand-50 px-[18px] py-3.5 font-semibold tracking-[0.01em] text-brand-700; }
+  .prose-praxis .inline-cta { @apply my-8; }
+  .prose-praxis .inline-cta a { @apply btn bg-brand-600 text-white no-underline shadow-[0_8px_20px_-8px_rgb(194_69_26/0.55)] hover:-translate-y-0.5 hover:bg-brand-700; }
+  .prose-praxis .infografik { @apply my-8; }
+  .prose-praxis .infografik a { @apply block no-underline; }
+  .prose-praxis .infografik img { @apply w-full shadow-[var(--shadow-soft)]; }
+  .prose-praxis .infografik figcaption { @apply mt-2.5 text-center text-sm text-ink-500; }
+  .prose-praxis .vergleich { @apply mt-8 mb-5 grid grid-cols-1 gap-4 sm:grid-cols-2; }
+  .prose-praxis .vergleich > div { @apply min-w-0 rounded-[var(--radius-card)] bg-sand-100 px-[22px] pt-[22px] pb-4; }
+  .prose-praxis .vergleich h3 { @apply mt-0 font-serif text-xl; }
+  .prose-praxis .vergleich .untertitel { @apply mt-1 mb-3.5 text-sm font-semibold text-brand-700; }
+  .prose-praxis .vergleich ul { @apply text-[0.9375rem]; }
+  .prose-praxis .symptomliste { @apply grid grid-cols-1 gap-x-6 gap-y-2 space-y-0 sm:grid-cols-2; }
+  .prose-praxis .symptomliste span { @apply block text-sm text-ink-500; }
+  .prose-praxis .faq { @apply border-t border-ink-100; }
+  .prose-praxis .faq details { @apply border-b border-ink-100 py-1; }
+  .prose-praxis .faq summary { @apply relative cursor-pointer list-none py-3 pr-8 font-semibold text-ink-900; }
+  .prose-praxis .faq summary::-webkit-details-marker { display: none; }
+  .prose-praxis .faq summary::after { content: '+'; @apply absolute top-2 right-1 text-2xl font-normal text-brand-600; }
+  .prose-praxis .faq details[open] summary::after { content: '–'; }
+  .prose-praxis .faq details p { @apply mt-0 mb-3.5 text-ink-600; }
+  .prose-praxis .merkmale { @apply mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2; }
+  .prose-praxis .merkmale > div { @apply min-w-0 rounded-[var(--radius-card)] border border-ink-100 px-[22px] py-5; }
+  .prose-praxis .merkmale strong { @apply mb-1 block font-serif text-lg font-normal; }
+  .prose-praxis .merkmale span { @apply block text-[0.9375rem] text-ink-600; }
 }
 
 /* Dezente Einblend-Animation beim Scrollen (siehe src/scripts/reveal.ts) */

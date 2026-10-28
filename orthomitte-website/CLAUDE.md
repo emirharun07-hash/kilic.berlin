@@ -137,7 +137,10 @@ Beide werden lokal über `@fontsource-variable` ausgeliefert. **Niemals Google F
 
 **Bausteine (CSS-Klassen in global.css):**
 `container-page` (Seitenbreite), `eyebrow` (Dachzeile), `btn-primary`, `btn-secondary`, `btn-ghost-light`,
-`card`, `link`, `prose-praxis` (Fließtext aus Markdown). Animation: Attribut `data-reveal` (+ optional
+`card`, `link`, `prose-praxis` (Fließtext aus Markdown). Für gestaltete Info-Artikel gibt es innerhalb von
+`prose-praxis` HTML-Bausteine: `inline-cta`, `infografik` (figure), `vergleich` (zwei Spalten), `hervorhebung`,
+`merksatz`, `symptomliste`, `faq` (details/summary), `merkmale` – Vorlage: `src/content/seiten/vegetatives-nervensystem.md`.
+Info-Seiten können im Frontmatter eine Autorenzeile `autor:` haben. Animation: Attribut `data-reveal` (+ optional
 `style="--reveal-delay:80ms"`) für dezentes Einblenden.
 
 **Komponenten wiederverwenden:** `PageHero`, `SectionHeading`, `CtaBand`, `BookingButton`, `OpeningHours`,

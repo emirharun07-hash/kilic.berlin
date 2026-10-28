@@ -84,6 +84,8 @@ const seiten = defineCollection({
       titel: z.string(),
       url: urlField,
       einleitung: z.string().optional(),
+      /** Autorenzeile über dem Artikel, z. B. "Dr. Bülent Kılıç · Facharzt für Orthopädie und Unfallchirurgie" (optional) */
+      autor: z.string().optional(),
       bild: image().optional(),
       bildAlt: z.string().optional(),
       /** Rubrik für Brotkrumen-Navigation, z. B. "Patienteninformationen" */

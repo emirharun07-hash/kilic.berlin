@@ -31,6 +31,7 @@ const crumbs = [
   <PageHero title={d.titel} eyebrow={rubrik.name} intro={d.einleitung} crumbs={crumbs} image={d.bild} imageAlt={d.bildAlt ?? ''} />
   <article class="container-page py-16 sm:py-20">
     <div class="prose-praxis mx-auto lg:mx-0">
+      {d.autor && <p class="text-sm text-ink-500">{d.autor}</p>}
       <slot />
       {d.rubrik !== 'Rechtliches' && <MedizinischerHinweis komplementaer={d.komplementaer} />}
     </div>
