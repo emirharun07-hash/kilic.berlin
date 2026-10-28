@@ -41,6 +41,8 @@ const leistungen = defineCollection({
       /** Gruppierung auf den Übersichtsseiten – Werte siehe src/data/leistungsbereiche.ts */
       kategorie: z.string(),
       kurzbeschreibung: z.string(),
+      /** Autorenzeile über dem Text (optional) */
+      autor: z.string().optional(),
       bild: image().optional(),
       bildAlt: z.string().optional(),
       reihenfolge: z.number().default(100),

@@ -66,6 +66,7 @@ const verwandte = (await getCollection('leistungen'))
   <div class="container-page grid grid-cols-1 gap-14 py-16 sm:py-20 lg:grid-cols-[minmax(0,1fr)_22rem] lg:gap-20">
     <div class="min-w-0">
       <article class="prose-praxis">
+        {d.autor && <p class="text-sm text-ink-500">{d.autor}</p>}
         <slot />
       </article>
       <MedizinischerHinweis komplementaer={d.komplementaer} />

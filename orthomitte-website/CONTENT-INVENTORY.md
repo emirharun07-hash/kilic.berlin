@@ -194,6 +194,7 @@ Footer: Impressum · Datenschutz. Seitlich schwebendes Doctolib-Widget (Termin /
 
 - Rechtschreibung/Zeichensetzung korrigiert (z. B. „Wirbelsäure“ → „Wirbelsäule“, „Köprer“ → „Körper“, „Leitungsabfall“ → „Leistungsabfall“, „Füsse“ → „Füße“, „erfolderlich“ → „erforderlich“), Einheiten typografisch (z. B. „65€“ → „65 €“, „7,5g“ → „7,5 g“).
 - Gliederung verbessert: Zwischenüberschriften, Listen statt zerrissener Wix-Kacheln, FAQ unter „Häufige Fragen“.
+- **Hypermobilität, Dry Needling (28.10.2026):** ebenfalls von www.kilic.berlin übernommen (Text, Bild, Gestaltung); Dry Needling ohne Wirksamkeits-/Sofortversprechen, „ich“ → Dr. Kılıç/wir.
 - **Vegetatives Nervensystem (28.10.2026):** Text, Bilder und Gestaltung auf Wunsch der Praxis von www.kilic.berlin/vegetatives-nervensystem übernommen (HWG-Anpassungen: „Long COVID“ → „nach Virusinfektionen“, keine Präparatenamen, eIRT als Konzept formuliert).
 - **Rechtliche Überarbeitung 28.10.2026 (auf Wunsch der Praxis):** Impressum und Datenschutzerklärung neu gefasst; Werbeaussagen nach HWG/UWG entschärft (u. a. Vitamin C: COVID-19-/ME-CFS-/Zoster-Abschnitte, Chelattherapie-Indikationen, Präparatenamen, Wirkversprechen, Anbietervergleich Stoßwelle). Originaltexte bleiben in `archiv/wix-original/`. Übersicht: MIGRATION.md §9.
 - Reine Werbe-Zwischenzeilen ohne Information entfernt (z. B. „Erleben Sie die Wirkung …!“).
