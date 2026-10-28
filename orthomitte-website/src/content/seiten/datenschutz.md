@@ -25,11 +25,7 @@ Berufsausübungsgemeinschaft Arne Schlichting & Dr. Bülent Kılıç
 Dorotheenstraße 56 (2. OG), 10117 Berlin  
 Telefon: 030 2292958 · E-Mail: [mail@orthomitte.de](mailto:mail@orthomitte.de)
 
-Für die Privatpraxis für Funktionelle Medizin ist verantwortlich: [[BITTE ERGÄNZEN: Träger/Inhaberin der Privatpraxis mit Anschrift – oder Hinweis, dass die Website gemeinsam betrieben wird]]
-
-### Datenschutzbeauftragte(r)
-
-[[BITTE ERGÄNZEN: Name und Kontaktdaten der/des Datenschutzbeauftragten – oder, falls keine Benennungspflicht besteht (§ 38 BDSG, i. d. R. weniger als 20 Personen ständig mit Datenverarbeitung befasst), diesen Abschnitt löschen]]
+Die Privatpraxis für Funktionelle Medizin ist Teil der Berufsausübungsgemeinschaft; verantwortlich ist daher ebenfalls die oben genannte Stelle.
 
 ## 2. Bereitstellung der Website und Server-Logfiles
 

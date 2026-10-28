@@ -17,8 +17,6 @@ Berufsausübungsgemeinschaft Arne Schlichting & Dr. Bülent Kılıç
 Dorotheenstraße 56 (2. OG)  
 10117 Berlin
 
-Rechtsform: [[BITTE ERGÄNZEN: Rechtsform der Berufsausübungsgemeinschaft, z. B. „Gesellschaft bürgerlichen Rechts (GbR)“ oder „Partnerschaftsgesellschaft“ mit Registergericht und Registernummer]]
-
 Vertreten durch die Gesellschafter: Arne Schlichting, Dr. Bülent Kılıç
 
 ### Kontakt
@@ -29,8 +27,7 @@ E-Mail: [mail@orthomitte.de](mailto:mail@orthomitte.de)
 
 ### Privatpraxis für Funktionelle Medizin
 
-Die Privatpraxis befindet sich im selben Gebäude und auf derselben Etage.  
-Inhaberin/Inhaber bzw. Träger: [[BITTE ERGÄNZEN: Name(n) und Rechtsform des Trägers der Privatpraxis; Anschrift, falls abweichend]]
+Die Privatpraxis für Funktionelle Medizin ist Teil der Berufsausübungsgemeinschaft Arne Schlichting & Dr. Bülent Kılıç und befindet sich im selben Gebäude und auf derselben Etage. Es gelten die oben genannten Angaben.
 
 ## Berufsrechtliche Angaben
 
@@ -70,10 +67,6 @@ Die Regelungen sind auf der Website der [Ärztekammer Berlin](https://www.aerzte
 ### Berufshaftpflichtversicherung
 
 [[BITTE ERGÄNZEN: Name und Anschrift des Versicherers sowie räumlicher Geltungsbereich der Berufshaftpflichtversicherung]]
-
-### Umsatzsteuer
-
-[[BITTE ERGÄNZEN: Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG, falls vorhanden – sonst diesen Abschnitt löschen]]
 
 ## Verbraucherstreitbeilegung
 
