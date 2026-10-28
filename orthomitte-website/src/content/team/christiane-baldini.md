@@ -1,6 +1,6 @@
 ---
 name: Dr. Christiane Baldini
-rolle: Fachärztin für Innere Medizin
+rolle: Fachärztin für Innere Medizin, Schwerpunkt Funktionelle Medizin
 gruppe: aerzte
 url: dr-christiane-baldini
 foto: ../../assets/images/team/christiane-baldini.jpg
