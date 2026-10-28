@@ -52,7 +52,7 @@ Mehrjährige Tätigkeit auf der interdisziplinären Intensivstation des Gemeinsc
 
 - Zertifikat Funktionelle Medizin und Stressmedizin: Basisausbildung I–III und Aufbauseminar IV Energie und Mitochondrien (Institut für Funktionelle Medizin und Stressmedizin (IFMS) Hannover)
 - Prävention und Therapie chronisch-entzündlicher degenerativer Erkrankungen (International Mitochondrial Medicine Association)
-- Ursachenbeseitigung statt Symptomunterdrückung bei chronischen Erkrankungen – Heilung ist möglich (Dr. Jansen-Rossek)
+- Fortbildung „Ursachenbeseitigung statt Symptomunterdrückung bei chronischen Erkrankungen“ (Dr. Jansen-Rossek)
 - Spezialkurs Angewandte Immunologie (Medizin 3.0 Akademie Dr. M. Schmidt)
 - Multisystemerkrankungen I (Medizin 3.0, Akademie Dr. M. Schmidt)
 - Intestinales Mikrobiom (Basis- und Aufbauseminar Dr. J. Reckel/Ganzimmun)

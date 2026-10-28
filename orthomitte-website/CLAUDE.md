@@ -173,6 +173,7 @@ kurzbeschreibung: Ein bis zwei Sätze für Übersichten und Meta-Description (ma
 bild: ../../assets/images/leistungen/stosswelle.jpg   # optional
 bildAlt: Beschreibung des Bildinhalts                  # Pflicht, wenn bild gesetzt
 reihenfolge: 10
+komplementaer: false          # true bei Methoden der Komplementär-/Erfahrungsmedizin (blendet Hinweis ein)
 seo:
   title: Stoßwellentherapie in Berlin-Mitte            # optional, ~50–60 Zeichen
   description: …                                       # optional, ~120–160 Zeichen
@@ -277,6 +278,7 @@ npm run dev          # lokale Vorschau http://localhost:4321 (Live-Reload)
 npm test             # = astro check (Typen) + astro build + scripts/verify-build.mjs
 npm run preview      # Build in echter Cloudflare-Umgebung (wrangler dev) http://localhost:8787
 npm run test:urls      # bei laufendem preview: alle 82 alten URLs inkl. Weiterleitungen prüfen
+npm run golive:check   # meldet offene Platzhalter „BITTE ERGÄNZEN“ (Teil von build:production)
 ```
 
 `npm test` prüft: TypeScript/Schema, Build, alle alten URLs erreichbar, Titel/Description/Canonical/H1
@@ -289,8 +291,14 @@ meldet auch horizontales Überlaufen und JavaScript-Fehler.
 
 ### Besonderheiten dieses Projekts
 
-- **Rechtstexte** (`src/content/seiten/impressum.md`, `datenschutz.md`) sind unverändert von Wix übernommen
-  und tragen im Frontmatter einen Prüfvermerk. Nicht eigenmächtig ändern; Vorschlag liegt in `docs/`.
+- **Rechtstexte** (`src/content/seiten/impressum.md`, `datenschutz.md`) wurden am 28.10.2026 auf Wunsch der
+  Praxis neu gefasst (DDG, VSBG, DSGVO/TDDDG). Platzhalter `[[BITTE ERGÄNZEN: …]]` muss die Praxis füllen;
+  `npm run build:production` (Produktion) bricht ab, solange welche existieren. Inhaltlich nur nach Vorgabe ändern.
+- **Werbeaussagen (HWG/UWG):** Keine Heilversprechen, keine Werbung mit Krankheiten nach § 12 HWG
+  (z. B. meldepflichtige Infektionen wie COVID-19, Krebs), keine Präparatenamen verschreibungspflichtiger
+  Arzneimittel, keine herabsetzenden Vergleiche mit anderen Anbietern. Methoden der Komplementär-/
+  Erfahrungsmedizin erhalten im Frontmatter `komplementaer: true` (blendet Pflichthinweis ein).
+  Details: MIGRATION.md §9.
 - **Preise**: Es gibt bekannte Widersprüche aus der alten Website (siehe CONTENT-INVENTORY.md §8).
   Bei Preisänderungen alle Fundstellen prüfen.
 - **„dr. Isabelle Landenberger“** – kleines „dr.“ ist korrekt (ausländischer Grad), nicht korrigieren.

@@ -1,10 +1,8 @@
 # Änderungsvorschlag Datenschutzerklärung (ENTWURF – nicht veröffentlicht)
 
-> **Status:** Entwurf zur rechtlichen Prüfung. Keine Rechtsberatung. Die aktuell eingebundene
-> Datenschutzerklärung (`src/content/seiten/datenschutz.md`) ist unverändert die der Wix-Website.
-> Sie beschreibt die neue technische Lage nicht und enthält Vorlagenreste. Vor dem Go-Live auf
-> www.orthomitte.de muss eine geprüfte, aktualisierte Fassung eingesetzt werden.
-> Umsetzung danach: Claude Code anweisen „Ersetze die Datenschutzerklärung durch die freigegebene Fassung“.
+> **Status (28.10.2026): umgesetzt.** Datenschutzerklärung und Impressum wurden auf Grundlage dieses
+> Vorschlags neu gefasst (`src/content/seiten/datenschutz.md`, `impressum.md`). Offene Angaben sind dort als
+> „BITTE ERGÄNZEN“ markiert. Dieses Dokument bleibt als Begründung/Arbeitsgrundlage erhalten.
 
 ## A. Inhaltliche Mängel der bisherigen Fassung
 

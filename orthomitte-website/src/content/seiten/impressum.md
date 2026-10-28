@@ -4,53 +4,95 @@ url: "impressum"
 rubrik: Rechtliches
 seo:
   title: "Impressum"
-  description: "Impressum der Orthopädischen Praxis Mitte BAG, Arne Schlichting & Dr. Bülent Kilic, Dorotheenstraße 56, 10117 Berlin."
-# WICHTIG: Rechtstext – unverändert von der bisherigen Website übernommen (Stand Oktober 2026).
-# Prüfbedarf (siehe MIGRATION.md): § 5 TMG -> § 5 DDG, Angaben zur Privatpraxis, Rechtsform BAG,
-# Link Berufsordnung, Verbraucherschlichtung. Änderungen nur nach ausdrücklicher Freigabe!
+  description: "Impressum der Orthopädischen Praxis Mitte, Arne Schlichting & Dr. Bülent Kılıç, Dorotheenstraße 56, 10117 Berlin – Angaben gemäß § 5 DDG."
+# Rechtstext – überarbeitet am 28.10.2026 auf Wunsch der Praxis (Stand: DDG, VSBG).
+# Platzhalter „BITTE ERGÄNZEN“ müssen vor dem Livegang ausgefüllt werden;
+# `npm run build:production` bricht sonst ab (scripts/golive-check.mjs).
+# Keine Rechtsberatung – Prüfung durch Fachanwalt/Ärztekammer empfohlen.
 ---
-**Arne Schlichting & Dr. Bülent Kilic**  
-**Orthopädische Praxis Mitte BAG**
+## Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG)
 
-Für diese Präsentation ist im Sinne des geltenden Rechts verantwortlich (§ 5 TMG - Telemediengesetz):
+**Orthopädische Praxis Mitte**  
+Berufsausübungsgemeinschaft Arne Schlichting & Dr. Bülent Kılıç  
+Dorotheenstraße 56 (2. OG)  
+10117 Berlin
 
-Arne Schlichting & Dr. Bülent Kilic  
-Adresse: Dorotheenstrasse 56 • 10117 Berlin  
-Mail: [mail@orthomitte.de](mailto:mail@orthomitte.de)  
-Telefon: 030 • 229 29 58
+Rechtsform: [[BITTE ERGÄNZEN: Rechtsform der Berufsausübungsgemeinschaft, z. B. „Gesellschaft bürgerlichen Rechts (GbR)“ oder „Partnerschaftsgesellschaft“ mit Registergericht und Registernummer]]
 
-### Zuständige Aufsichtsbehörde
+Vertreten durch die Gesellschafter: Arne Schlichting, Dr. Bülent Kılıç
 
-Kassenärztliche Vereinigung Berlin  
-Masurenallee 6 A, 14057 Berlin
+### Kontakt
 
-### Zuständige Kammer
+Telefon: 030 2292958  
+Telefax: 030 20671604  
+E-Mail: [mail@orthomitte.de](mailto:mail@orthomitte.de)
+
+### Privatpraxis für Funktionelle Medizin
+
+Die Privatpraxis befindet sich im selben Gebäude und auf derselben Etage.  
+Inhaberin/Inhaber bzw. Träger: [[BITTE ERGÄNZEN: Name(n) und Rechtsform des Trägers der Privatpraxis; Anschrift, falls abweichend]]
+
+## Berufsrechtliche Angaben
+
+### Gesetzliche Berufsbezeichnung
+
+Arzt bzw. Ärztin, verliehen in der Bundesrepublik Deutschland.
+
+### Facharzt- und Zusatzbezeichnungen
+
+- **Arne Schlichting:** Facharzt für Orthopädie; Facharzt für Orthopädie und Unfallchirurgie; Zusatzbezeichnungen Akupunktur und Manuelle Medizin (Chirotherapie)
+- **Dr. Bülent Kılıç:** Facharzt für Orthopädie und Unfallchirurgie; Zusatzbezeichnungen Notfallmedizin, Manuelle Medizin/Chirotherapie, Akupunktur und Spezielle Schmerztherapie
+- **Dr. Christiane Baldini:** Fachärztin für Innere Medizin; Zusatzbezeichnung Psychotherapie
+- **dr. Isabelle Landenberger:** Ärztin in Weiterbildung für Allgemeinmedizin. Der Doktorgrad wurde von der Semmelweis-Universität Budapest (Ungarn) verliehen. [[BITTE ERGÄNZEN: Staat, in dem die Approbation erteilt wurde]]
+
+Die Bezeichnungen wurden von der jeweils zuständigen Ärztekammer verliehen.
+
+### Zuständige Ärztekammer
 
 Ärztekammer Berlin  
-Friedrichstr. 16, 10969 Berlin
+Friedrichstraße 16, 10969 Berlin  
+[www.aerztekammer-berlin.de](https://www.aerztekammer-berlin.de)
 
-### Berufsbezeichnung
+### Zuständige Kassenärztliche Vereinigung (Aufsichtsbehörde)
 
-Facharzt für Orthopädie  
-Facharzt für Orthopädie und Unfallchirurgie  
-(verliehen in der Bundesrepublik Deutschland)
+Kassenärztliche Vereinigung Berlin  
+Masurenallee 6 A, 14057 Berlin  
+[www.kvberlin.de](https://www.kvberlin.de)
 
 ### Berufsrechtliche Regelungen
 
-Berufsordnung der LÄK Berlin
+- Berufsordnung der Ärztekammer Berlin
+- Berliner Heilberufekammergesetz (BlnHKG)
+- Gebührenordnung für Ärzte (GOÄ)
 
-## Haftungsausschluss (Disclaimer)
+Die Regelungen sind auf der Website der [Ärztekammer Berlin](https://www.aerztekammer-berlin.de) und unter [www.gesetze-im-internet.de](https://www.gesetze-im-internet.de) abrufbar.
 
-### Haftung für Inhalte
+### Berufshaftpflichtversicherung
 
-Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+[[BITTE ERGÄNZEN: Name und Anschrift des Versicherers sowie räumlicher Geltungsbereich der Berufshaftpflichtversicherung]]
 
-### Urheberrecht
+### Umsatzsteuer
 
-Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
+[[BITTE ERGÄNZEN: Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG, falls vorhanden – sonst diesen Abschnitt löschen]]
 
-## Datenschutz
+## Verbraucherstreitbeilegung
 
-Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
+Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
 
-Quellverweis: Datenschutzerklärung von eRecht24, dem Portal zum Internetrecht von Rechtsanwalt Sören Siebert
+## Medizinischer Hinweis
+
+Die Inhalte dieser Website dienen der allgemeinen Information. Sie ersetzen keine persönliche ärztliche Untersuchung, Beratung oder Behandlung und dürfen nicht zur Selbstdiagnose oder -behandlung verwendet werden. Behandlungserfolge können nicht garantiert werden; Wirkung und Verträglichkeit sind individuell verschieden.
+
+## Haftung für Inhalte
+
+Als Diensteanbieter sind wir für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Wir sind jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden entsprechender Rechtsverletzungen entfernen wir diese Inhalte umgehend.
+
+## Haftung für Links
+
+Unsere Website enthält Links zu externen Websites Dritter (z. B. Doctolib, Anamnesebogen, 116117), auf deren Inhalte wir keinen Einfluss haben. Für diese fremden Inhalte ist stets der jeweilige Anbieter oder Betreiber verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft; rechtswidrige Inhalte waren zu diesem Zeitpunkt nicht erkennbar. Bei Bekanntwerden von Rechtsverletzungen entfernen wir derartige Links umgehend.
+
+## Urheberrecht
+
+Die durch die Praxis erstellten Inhalte und Werke auf diesen Seiten (Texte, Fotos, Grafiken) unterliegen dem deutschen Urheberrecht. Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung der Praxis. Soweit Inhalte nicht von der Praxis erstellt wurden, werden die Urheberrechte Dritter beachtet. Sollten Sie dennoch auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis.
+
+*Stand: Oktober 2026*

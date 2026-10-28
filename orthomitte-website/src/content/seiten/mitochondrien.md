@@ -2,6 +2,7 @@
 titel: "Mitochondropathie"
 url: "mitochondrien"
 einleitung: "Diagnose, Symptome und moderne Therapien bei gestörter Zellenergie-Produktion."
+komplementaer: true
 rubrik: Patienteninformationen
 seo:
   title: "Mitochondropathie"
@@ -29,7 +30,7 @@ Die Symptome einer Mitochondropathie (gestörte Energieproduktion) können von P
 - Entwicklungsverzögerungen
 - Verdauungsprobleme wie Durchfall, Erbrechen und Magenschmerzen
 
-Die insgesamt nachlassende Zellfunktionalität der Mitochondrien über viele Jahre fördert das Entstehen chronischer Erkrankungen, wie metabolische, kardiovaskuläre, neurodegenerative, muskuläre, gastrointestinale, inflammatorische, reproduktive und renale Erkrankungen, aber auch Infektionen und Krebs. Oft treten sie als Multisystemerkrankungen auf.
+Die insgesamt nachlassende Zellfunktionalität der Mitochondrien über viele Jahre fördert das Entstehen chronischer Erkrankungen, wie metabolische, kardiovaskuläre, neurodegenerative, muskuläre, gastrointestinale, inflammatorische, reproduktive und renale Erkrankungen begünstigen. Oft treten sie als Multisystemerkrankungen auf. Diese Zusammenhänge sind Gegenstand der Forschung und nicht in allen Punkten wissenschaftlich gesichert.
 
 Die Ursachen für mitochondriale Dysfunktionen können sehr unterschiedlich sein. Dazu gehören u. a. [stille Entzündungen](/silent-inflammation) („silent inflammation“), psychischer oder physischer Stress, Lebensmittelzusatzstoffe, Mangel an Mikro-/Phytonährstoffen, Umwelttoxine, Rauchen, verschiedene Medikamente (z. B. Antibiotika, Statine, Metformin), Magen-Darm-Störungen (Dysbiose, Leaky gut), Zahn- und Kieferherde.
 

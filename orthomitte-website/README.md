@@ -52,6 +52,7 @@ npm run dev            # lokale Vorschau mit Live-Reload: http://localhost:4321
 npm test               # Typprüfung + Build + Qualitätsprüfung (muss vor jedem Commit grün sein)
 npm run preview        # Build in echter Cloudflare-Laufzeit (wrangler dev): http://localhost:8787
 npm run test:urls      # (bei laufendem preview) alle 82 alten Wix-URLs prüfen
+npm run golive:check   # offene Pflichtangaben („BITTE ERGÄNZEN“) vor dem Go-Live finden
 npm run screenshots    # Screenshots mobil/Tablet/Desktop nach screenshots/ (benötigt Playwright)
 ```
 

@@ -99,8 +99,9 @@ als **Root directory** `orthomitte-website` eingetragen.
    |---|---|
    | Project name | `orthomitte-website` (muss zu `name` in `wrangler.jsonc` passen) |
    | Production branch | `main` |
-   | Build command | `npm run build` |
+   | Build command | `npm run build:production` (bricht ab, solange Platzhalter „BITTE ERGÄNZEN“ in Impressum/Datenschutz stehen) |
    | Deploy command | `npx wrangler deploy` |
+   | Non-production build command | `npm run build` (Vorschau darf Platzhalter enthalten) |
    | Non-production branch deploy command | `npx wrangler versions upload` |
    | Root directory | `/` (eigenes Repo) bzw. `orthomitte-website` (Unterordner) |
    | Builds for non-production branches | **aktiviert** |

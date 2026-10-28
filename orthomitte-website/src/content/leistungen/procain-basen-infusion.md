@@ -1,28 +1,29 @@
 ---
-titel: "Procain-Basen-Infusion mit ProcCluster®"
+titel: "Procain-Basen-Infusion"
 url: "leistungen-2/procainbasen-infusion"
 bereich: funktionelle-medizin
+komplementaer: true
 kategorie: infusionen
-kurzbeschreibung: "Die Procain-Basen-Infusion kombiniert ein Lokalanästhetikum mit basischen Lösungen zur Regulation von Entzündungen, Schmerzen und Übersäuerung."
+kurzbeschreibung: "Die Procain-Basen-Infusion kombiniert das Lokalanästhetikum Procain mit einer basischen Lösung – ein Verfahren der Erfahrungsmedizin, u. a. bei chronischen Schmerzen."
 reihenfolge: 5
 seo:
-  title: "Procain-Basen-Infusion mit ProcCluster® in Berlin-Mitte"
-  description: "Die Procain-Basen-Infusion kombiniert ein Lokalanästhetikum mit basischen Lösungen zur Regulation von Entzündungen, Schmerzen und Übersäuerung."
+  title: "Procain-Basen-Infusion in Berlin-Mitte"
+  description: "Die Procain-Basen-Infusion kombiniert das Lokalanästhetikum Procain mit einer basischen Lösung – ein Verfahren der Erfahrungsmedizin, u. a. bei chronischen Schmerzen."
 # Quelle: https://www.orthopaedische-praxis-mitte.de/leistungen-2/procainbasen-infusion (Wix, Stand Oktober 2026)
 ---
-## Natürliche Regulation, tiefgreifende Entspannung – für Ihr Wohlbefinden
+## Procain-Basen-Infusion in der Erfahrungsmedizin
 
-Unsere moderne Lebensweise ist oft geprägt von chronischem Stress, Übersäuerung, Schmerzen und Erschöpfung. Die Procain-Basen-Infusion mit dem innovativen Arzneimittel ProcCluster® bietet einen biologisch fundierten Weg, um gestörte Regulationsmechanismen des Körpers sanft zu harmonisieren.
+Die Procain-Basen-Infusion ist ein Verfahren der Erfahrungsmedizin, das ergänzend bei chronischen Schmerzen und Stressbelastung eingesetzt wird. Ihre Wirksamkeit ist wissenschaftlich nicht in allen Anwendungsgebieten belegt.
 
 ## Was ist eine Procain-Basen-Infusion?
 
-Procain ist ein bewährtes Lokalanästhetikum mit entzündungshemmenden und regulativen Eigenschaften. In der Kombination mit einer alkalischen Lösung (Baseninfusion) wirkt es entgiftend, entspannend und schmerzlindernd. ProcCluster® ist ein spezieller Komplex aus Procain und Natriumhydrogencarbonat, der die Zellregulation über verschiedene biochemische Wege fördert – ganz ohne klassische Betäubung.
+Procain ist ein seit Langem verwendetes örtliches Betäubungsmittel (Lokalanästhetikum), dem auch entzündungshemmende Eigenschaften zugeschrieben werden. Bei der Procain-Basen-Infusion wird es in niedriger Dosierung zusammen mit Natriumhydrogencarbonat (einer basischen Pufferlösung) verabreicht. Wir verwenden dafür eine gebrauchsfertige, als Fertigarzneimittel hergestellte Infusionslösung.
 
-Die Infusion wird über die Vene verabreicht und dauert ca. 30–45 Minuten. Sie ist gut verträglich und hat meist eine angenehm beruhigende Wirkung.
+Die Infusion wird über die Vene verabreicht und dauert ca. 30–45 Minuten. Viele Patientinnen und Patienten empfinden sie als entspannend.
 
 ## Mögliche Einsatzgebiete (Indikationen)
 
-Die Procain-Basen-Infusion wird unterstützend angewendet bei:
+Die Procain-Basen-Infusion wird in der Erfahrungsmedizin ergänzend angewendet bei:
 
 - Chronischen Schmerzen (z. B. Wirbelsäule, Gelenke, Muskeln)
 - Erschöpfungszuständen / Burnout-Syndrom
@@ -30,15 +31,12 @@ Die Procain-Basen-Infusion wird unterstützend angewendet bei:
 - Fibromyalgie
 - Schlafstörungen
 - Migräne und Spannungskopfschmerzen
-- Chronischen Entzündungen (z. B. Rheuma, Reizdarm)
-- Übersäuerung des Bindegewebes (z. B. bei Fastenkuren oder Entgiftungsprogrammen)
 
-## Wirkweise
+## Angenommene Wirkweise
 
-- **Entsäuerung:** Die basische Lösung neutralisiert überschüssige Säuren im Gewebe.
-- **Zellregulation:** Procain wirkt auf Zellmembranen, stabilisiert das vegetative Nervensystem und hemmt entzündliche Prozesse.
-- **Schmerzmodulation:** Procain unterbricht Schmerzreize auf Ebene der Nervenfasern – ganz ohne Gewöhnungseffekt.
-- **Stressregulation:** Durch die Wirkung auf das autonome Nervensystem kann sich der Körper besser regenerieren.
+- **Pufferung:** Die basische Lösung (Natriumhydrogencarbonat) wirkt säurepuffernd.
+- **Schmerzmodulation:** Procain kann die Weiterleitung von Schmerzreizen an Nervenfasern dämpfen.
+- **Vegetatives Nervensystem:** In der Erfahrungsmedizin wird eine ausgleichende Wirkung auf das vegetative Nervensystem angenommen; wissenschaftlich ist dies nicht gesichert.
 
 ## Kontraindikationen
 
@@ -59,23 +57,15 @@ Bitte informieren Sie uns vor der Behandlung über bestehende Erkrankungen und M
 
 - **Dauer der Infusion:** ca. 30–45 Minuten
 - **Anzahl der Sitzungen:** individuell, meist als Kur mit 5–10 Sitzungen empfohlen
-- **Verträglichkeit:** sehr gut, leichte Kreislaufreaktionen oder Wärmegefühl sind möglich und klingen schnell ab
+- **Verträglichkeit:** in der Regel gut; leichte Kreislaufreaktionen, Schwindel oder Wärmegefühl sind möglich und klingen meist schnell ab. Selten können allergische Reaktionen auftreten.
 
 ## Kosten
 
 - **Einzelsitzung:** 120 €
-- **5er-Kur:** 550 € (10 € Ersparnis pro Sitzung)
+- **5er-Kur:** 550 €
 
 Die Behandlung ist eine individuelle Gesundheitsleistung (IGeL) und wird in der Regel nicht von den gesetzlichen Krankenkassen übernommen. Private Versicherungen oder Zusatzversicherungen übernehmen die Kosten ggf. anteilig – bitte informieren Sie sich im Vorfeld.
 
-## Vorteil der gebrauchsfertigen ProcCluster® Infusionslösung
-
-Bei der intravenösen Anwendung von Procain in basischer Form stehen zwei Optionen zur Verfügung: die gebrauchsfertige Infusionslösung ProcCluster® und individuell selbst hergestellte Mischungen aus Procainhydrochlorid und Puffersubstanzen (z. B. Natriumhydrogencarbonat). Während Eigenmischungen kostengünstiger erscheinen mögen, bietet ProcCluster® entscheidende Vorteile hinsichtlich Qualität, Sicherheit und Anwendbarkeit.
-
-Als zugelassenes Fertigarzneimittel unterliegt ProcCluster® der pharmazeutischen Qualitätskontrolle gemäß GMP-Standards. Dies gewährleistet eine reproduzierbare Zusammensetzung, exakte Pufferung (leicht basisch, pH 8–9) sowie eine sterile und stabile Formulierung. Im Gegensatz dazu sind selbstgemischte Infusionen häufig nur kurzfristig stabil, mit potenziellen Schwankungen im pH-Wert oder in der Osmolarität. Diese Variabilität kann sowohl die klinische Wirkung als auch die Verträglichkeit beeinträchtigen – insbesondere bei intravenöser Gabe.
-
-ProcCluster® ist gegenüber der Eigenmischung sicherer, standardisierter und anwenderfreundlicher – insbesondere bei regelmäßiger Anwendung oder in einem klinischen Setting.
-
 ## Interessiert?
 
-Sie möchten neue Energie tanken, Ihre Schmerzen lindern oder Ihre Selbstheilungskräfte aktivieren? Vereinbaren Sie gern ein unverbindliches Beratungsgespräch. Wir nehmen uns Zeit für Sie und besprechen, ob die Procain-Basen-Infusion zu Ihnen passt.
+Vereinbaren Sie gern ein Beratungsgespräch. Wir nehmen uns Zeit für Sie und besprechen, ob die Procain-Basen-Infusion für Sie infrage kommt.

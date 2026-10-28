@@ -2,6 +2,7 @@
 titel: "VNS-Analyse"
 url: "vns-analyse"
 bereich: orthopaedie
+komplementaer: true
 kategorie: diagnose
 kurzbeschreibung: "Messung der vegetativen Nervensystem-Aktivität zur Beurteilung von Stress und Regeneration."
 reihenfolge: 5
@@ -13,21 +14,19 @@ seo:
 
 Das vegetative Nervensystem (VNS) steuert lebenswichtige Funktionen wie Herzschlag, Atmung, Verdauung und Stoffwechsel – ganz ohne unser bewusstes Zutun. Es besteht aus zwei Gegenspielern: dem Sympathikus, der den Körper in Aktivität versetzt, und dem Parasympathikus, der für Erholung und Regeneration sorgt. Ein gesundes Nervensystem hält diese beiden Anteile im Gleichgewicht. Ist dieses Gleichgewicht gestört – etwa durch chronischen Stress, Krankheiten oder eine ungesunde Lebensweise – kann dies langfristig zu Beschwerden wie Erschöpfung, Schlafstörungen, Bluthochdruck oder Herz-Kreislauf-Erkrankungen führen.
 
-Die VNS-Analyse misst den aktuellen Funktionszustand des vegetativen Nervensystems und insbesondere die Herzratenvariabilität (HRV) – ein wichtiger Indikator für die Anpassungsfähigkeit und Belastbarkeit des Körpers. Ziel der Analyse ist es, Regulationsstörungen frühzeitig zu erkennen, um gezielt gegensteuern zu können und langfristige gesundheitliche Probleme zu vermeiden.
+Die VNS-Analyse misst den aktuellen Funktionszustand des vegetativen Nervensystems und insbesondere die Herzratenvariabilität (HRV) – ein wichtiger Indikator für die Anpassungsfähigkeit und Belastbarkeit des Körpers. Ziel der Analyse ist es, Hinweise auf Regulationsstörungen zu erhalten, um gemeinsam mit Ihnen gezielte Maßnahmen zu besprechen.
 
 ## Wann ist eine VNS-Analyse sinnvoll?
 
-Eine VNS-Analyse hilft, vegetative Dysbalancen frühzeitig zu erkennen, bevor ernsthafte Erkrankungen entstehen. Sie kann insbesondere in folgenden Situationen von Nutzen sein:
+Eine VNS-Analyse kann Hinweise auf vegetative Dysbalancen geben. Sie ersetzt keine fachärztliche Diagnostik (z. B. bei Herz-Kreislauf-Erkrankungen) und kann insbesondere in folgenden Situationen ergänzend eingesetzt werden:
 
 - **Stressbewertung** – Ermittlung der individuellen Stressresistenz & Belastbarkeit
 - **Erschöpfung & Burnout** – Einschätzung der Regenerationsfähigkeit des Körpers
 - **Schlafanalyse** – Ursachen für Schlafstörungen erkennen
-- **Bluthochdruck & Herz-Kreislauf-Erkrankungen** – Erkennung von Regulationsstörungen
-- **Psychische Belastungen** – Zusammenhang zwischen Nervensystem & Depressionen
-- **Stoffwechselerkrankungen** – Einfluss des Nervensystems auf Diabetes & Verdauung
-- **Präventive Gesundheitsvorsorge** – Erkennen von Regulationsstörungen, bevor Symptome auftreten
+- **Psychische Belastungen** – Einschätzung der vegetativen Stressreaktion
+- **Gesundheitsvorsorge** – Einschätzung der vegetativen Regulation, auch ohne akute Beschwerden
 
-Eine reduzierte HRV kann ein Hinweis auf ein erhöhtes Risiko für verschiedene Erkrankungen sein. Die Analyse hilft, gezielt Maßnahmen zur Verbesserung der Gesundheit zu ergreifen, bevor Beschwerden entstehen oder sich verschlimmern.
+Eine reduzierte HRV kann ein Hinweis auf ein erhöhtes Risiko für verschiedene Erkrankungen sein. Die Ergebnisse können helfen, gemeinsam passende Maßnahmen zur Stressregulation zu besprechen.
 
 ## Wie funktioniert die VNS-Analyse?
 

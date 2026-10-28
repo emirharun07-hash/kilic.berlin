@@ -4,212 +4,122 @@ url: "datenschutz"
 rubrik: Rechtliches
 seo:
   title: "Datenschutzerklärung"
-  description: "Datenschutzerklärung der Orthopädischen Praxis Mitte, Dorotheenstraße 56, 10117 Berlin."
-# WICHTIG: Rechtstext – unverändert von der bisherigen Website übernommen (Stand Oktober 2026).
-# Vor dem Livegang auf Cloudflare MUSS dieser Text rechtlich geprüft und aktualisiert werden
-# (Hosting, Doctolib, Anamnesebogen, OpenStreetMap). Vorschlag: docs/DATENSCHUTZ-AENDERUNGSVORSCHLAG.md
-# Änderungen nur nach ausdrücklicher Freigabe der Praxis!
+  description: "Datenschutzerklärung der Orthopädischen Praxis Mitte, Berlin: Hosting, keine Cookies, Kartendienst, Terminbuchung über Doctolib, Ihre Rechte nach der DSGVO."
+# Rechtstext – neu verfasst am 28.10.2026 auf Wunsch der Praxis für die neue Website (Cloudflare).
+# Beschreibt die tatsächliche Technik: keine Cookies, kein Tracking, lokale Schriften,
+# OpenStreetMap nur nach Klick, externe Dienste nur als Link.
+# Wird ein neuer Dienst eingebunden (Analyse, Video, Formular …), MUSS dieser Text angepasst werden.
+# Platzhalter „BITTE ERGÄNZEN“ vor dem Livegang ausfüllen (scripts/golive-check.mjs).
+# Keine Rechtsberatung – Prüfung durch Fachanwalt/Datenschutzbeauftragte empfohlen.
 ---
-*Datenschutzerklärung für Websitebetreiber nach den Vorgaben der Datenschutz-Grundverordnung (DSGVO)*
+Der Schutz Ihrer persönlichen Daten ist uns als Arztpraxis besonders wichtig. Mit dieser Datenschutzerklärung informieren wir Sie gemäß Art. 13 und 14 der Datenschutz-Grundverordnung (DSGVO) darüber, welche personenbezogenen Daten beim Besuch dieser Website verarbeitet werden. Kurz zusammengefasst: **Diese Website verwendet keine Cookies, kein Tracking und keine Analyse-Werkzeuge.**
 
-## I. Name und Anschrift des Verantwortlichen
+Informationen zur Verarbeitung Ihrer Gesundheitsdaten im Rahmen der Behandlung erhalten Sie gesondert in unserer Praxis.
 
-Der Verantwortliche im Sinne der Datenschutz-Grundverordnung und anderer nationaler Datenschutzgesetze der Mitgliedsstaaten sowie sonstiger datenschutzrechtlicher Bestimmungen ist die:
+## 1. Verantwortliche
 
-Orthopädische Praxis Mitte BAG  
-Arne Schlichting & Dr. Bülent Kilic  
-Dorotheenstr. 56  
-10117 Berlin  
-Deutschland
+Verantwortlich für die Datenverarbeitung auf dieser Website ist:
 
-Tel.: 030 229 29 58  
-E-Mail: [mail@orthomitte.de](mailto:mail@orthomitte.de)  
-www.orthopaedische-praxis-mitte.de
+Orthopädische Praxis Mitte  
+Berufsausübungsgemeinschaft Arne Schlichting & Dr. Bülent Kılıç  
+Dorotheenstraße 56 (2. OG), 10117 Berlin  
+Telefon: 030 2292958 · E-Mail: [mail@orthomitte.de](mailto:mail@orthomitte.de)
 
-### 1. Umfang der Verarbeitung personenbezogener Daten
+Für die Privatpraxis für Funktionelle Medizin ist verantwortlich: [[BITTE ERGÄNZEN: Träger/Inhaberin der Privatpraxis mit Anschrift – oder Hinweis, dass die Website gemeinsam betrieben wird]]
 
-Wir erheben und verwenden personenbezogene Daten unserer Nutzer grundsätzlich nur, soweit dies zur Bereitstellung einer funktionsfähigen Website sowie unserer Inhalte und Leistungen erforderlich ist. Die Erhebung und Verwendung personenbezogener Daten unserer Nutzer erfolgt regelmäßig nur nach Einwilligung des Nutzers. Eine Ausnahme gilt in solchen Fällen, in denen eine vorherige Einholung einer Einwilligung aus tatsächlichen Gründen nicht möglich ist und die Verarbeitung der Daten durch gesetzliche Vorschriften gestattet ist.
+### Datenschutzbeauftragte(r)
 
-Folgende personenbezogene Daten werden erhoben: Name, Postanschrift, E-Mail-Adresse, Telefonnummer und Geburtsdatum. Diese Daten werden jedoch nur in Übereinstimmung mit dem jeweils geltenden Datenschutzrecht erhoben
+[[BITTE ERGÄNZEN: Name und Kontaktdaten der/des Datenschutzbeauftragten – oder, falls keine Benennungspflicht besteht (§ 38 BDSG, i. d. R. weniger als 20 Personen ständig mit Datenverarbeitung befasst), diesen Abschnitt löschen]]
 
-### 2. Rechtsgrundlage für die Verarbeitung personenbezogener Daten
+## 2. Bereitstellung der Website und Server-Logfiles
 
-Soweit wir für Verarbeitungsvorgänge personenbezogener Daten eine Einwilligung der betroffenen Person einholen, dient Art. 6 Abs. 1 lit. a EU-Datenschutzgrundverordnung (DSGVO) als Rechtsgrundlage.
+### Hosting bei Cloudflare
 
-Bei der Verarbeitung von personenbezogenen Daten, die zur Erfüllung eines Vertrages, dessen Vertragspartei die betroffene Person ist, erforderlich ist, dient Art. 6 Abs. 1 lit. b DSGVO als Rechtsgrundlage. Dies gilt auch für Verarbeitungsvorgänge, die zur Durchführung vorvertraglicher Maßnahmen erforderlich sind.
+Diese Website wird über die Plattform Cloudflare Workers der Cloudflare, Inc., 101 Townsend St., San Francisco, CA 94107, USA („Cloudflare“) ausgeliefert. Cloudflare betreibt ein weltweites Netzwerk von Rechenzentren und stellt die Seiten von einem Standort in Ihrer Nähe bereit.
 
-Soweit eine Verarbeitung personenbezogener Daten zur Erfüllung einer rechtlichen Verpflichtung erforderlich ist, der unser Unternehmen unterliegt, dient Art. 6 Abs. 1 lit. c DSGVO als Rechtsgrundlage.
+Beim Aufruf einer Seite werden technisch notwendig folgende Daten verarbeitet: IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Seite bzw. Datei, übertragene Datenmenge, Referrer-URL sowie Browsertyp und Betriebssystem (User-Agent). Diese Daten werden ausschließlich verwendet, um die Website auszuliefern, ihre Stabilität und Sicherheit zu gewährleisten und Angriffe abzuwehren. Eine Zusammenführung mit anderen Datenquellen oder eine Auswertung zu Werbe- oder Analysezwecken findet nicht statt. Wir selbst speichern keine Zugriffsprotokolle.
 
-Für den Fall, dass lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person eine Verarbeitung personenbezogener Daten erforderlich machen, dient Art. 6 Abs. 1 lit. d DSGVO als Rechtsgrundlage.
+Rechtsgrundlage ist unser berechtigtes Interesse an einer sicheren und funktionsfähigen Website (Art. 6 Abs. 1 lit. f DSGVO). Mit Cloudflare besteht ein Vertrag zur Auftragsverarbeitung (Art. 28 DSGVO). Eine Übermittlung in die USA ist nicht ausgeschlossen; Cloudflare ist unter dem EU-US Data Privacy Framework zertifiziert, auf dessen Grundlage die EU-Kommission ein angemessenes Datenschutzniveau festgestellt hat (Art. 45 DSGVO). Ergänzend gelten die EU-Standardvertragsklauseln. Weitere Informationen: [Datenschutzerklärung von Cloudflare](https://www.cloudflare.com/de-de/privacypolicy/).
 
-Ist die Verarbeitung zur Wahrung eines berechtigten Interesses unseres Unternehmens oder eines Dritten erforderlich und überwiegen die Interessen, Grundrechte und Grundfreiheiten des Betroffenen das erstgenannte Interesse nicht, so dient Art. 6 Abs. 1 lit. f DSGVO als Rechtsgrundlage für die Verarbeitung.
+### Verschlüsselung
 
-### 3. Datenlöschung und Speicherdauer
+Diese Website nutzt aus Sicherheitsgründen eine TLS-Verschlüsselung (erkennbar an „https://“ in der Adresszeile).
 
-Die personenbezogenen Daten der betroffenen Person werden gelöscht oder gesperrt, sobald der Zweck der Speicherung entfällt. Eine Speicherung kann darüber hinaus erfolgen, wenn dies durch den europäischen oder nationalen Gesetzgeber in unionsrechtlichen Verordnungen, Gesetzen oder sonstigen Vorschriften, denen der Verantwortliche unterliegt, vorgesehen wurde. Eine Sperrung oder Löschung der Daten erfolgt auch dann, wenn eine durch die genannten Normen vorgeschriebene Speicherfrist abläuft, es sei denn, dass eine Erforderlichkeit zur weiteren Speicherung der Daten für einen Vertragsabschluss oder eine Vertragserfüllung besteht.
+## 3. Keine Cookies, kein Tracking, lokale Schriftarten
 
-### 1. Beschreibung und Umfang der Datenverarbeitung
+Diese Website setzt keine Cookies und speichert keine Informationen auf Ihrem Endgerät. Es werden keine Analyse-, Tracking- oder Werbedienste eingesetzt. Die verwendeten Schriftarten werden von unserem eigenen Server geladen; es findet keine Verbindung zu Servern von Google oder anderen Schriftanbietern statt.
 
-Auf unserer Internetseite ist ein Kontaktformular vorhanden, welches für die elektronische Kontaktaufnahme genutzt werden kann. Nimmt ein Nutzer diese Möglichkeit wahr, so werden die in der Eingabemaske eingegeben Daten an uns übermittelt und gespeichert. Diese Daten sind:
+## 4. Kontaktaufnahme per Telefon und E-Mail
 
-E-Mail-Adresse, Telefonnummer und Name
+Wenn Sie uns telefonisch oder per E-Mail kontaktieren, verarbeiten wir Ihre Angaben (z. B. Name, Kontaktdaten, Anliegen), um Ihre Anfrage zu bearbeiten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Anbahnung bzw. Durchführung des Behandlungsvertrags) bzw. Art. 6 Abs. 1 lit. f DSGVO (Beantwortung allgemeiner Anfragen); soweit Sie uns dabei Gesundheitsdaten mitteilen, zusätzlich Art. 9 Abs. 2 lit. h DSGVO. Die Daten werden gelöscht, sobald sie nicht mehr erforderlich sind, sofern keine gesetzlichen Aufbewahrungspflichten (z. B. ärztliche Dokumentationspflicht, § 630f BGB) entgegenstehen.
 
-Zum Zeitpunkt der Absendung der Nachricht werden zudem folgende Daten gespeichert:
+Unser E-Mail-Postfach wird von der STRATO GmbH, Otto-Ostrowski-Straße 7, 10249 Berlin, als Auftragsverarbeiter betrieben.
 
-IP-Adresse des Nutzer, Datum und Uhrzeit der Anmeldung
+**Bitte beachten Sie:** Die Übertragung von E-Mails erfolgt in der Regel nicht Ende-zu-Ende-verschlüsselt. Bitte senden Sie uns daher keine sensiblen Gesundheitsdaten (z. B. Befunde) per E-Mail, sondern sprechen Sie diese in der Praxis oder telefonisch an.
 
-Für die Verarbeitung der Daten wird im Rahmen des Absendevorgangs Ihre Einwilligung eingeholt und auf diese Datenschutzerklärung verwiesen.
+Ein Kontaktformular gibt es auf dieser Website nicht.
 
-Alternativ ist eine Kontaktaufnahme über die bereitgestellte E-Mail-Adresse möglich. In diesem Fall werden die mit der E-Mail übermittelten personenbezogenen Daten des Nutzers gespeichert.
+## 5. Kartendienst OpenStreetMap (nur nach Ihrer Einwilligung)
 
-Es erfolgt in diesem Zusammenhang keine Weitergabe der Daten an Dritte. Die Daten werden ausschließlich für die Verarbeitung der Konversation verwendet.
+Auf den Seiten „Anfahrt“ und auf der Startseite können Sie eine Karte von OpenStreetMap laden. Die Karte wird **erst nach einem Klick auf „Karte laden“** eingebunden; vorher werden keine Daten an OpenStreetMap übertragen. Nach dem Klick wird Ihre IP-Adresse an die OpenStreetMap Foundation, St John’s Innovation Centre, Cowley Road, Cambridge, CB4 0WS, Vereinigtes Königreich, übermittelt. Für das Vereinigte Königreich besteht ein Angemessenheitsbeschluss der EU-Kommission.
 
-### 2. Rechtsgrundlage für die Datenverarbeitung
+Rechtsgrundlage ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG), die Sie durch den Klick erteilen. Sie können sie jederzeit für die Zukunft widerrufen, indem Sie die Seite neu laden – die Karte wird dann nicht mehr geladen. Weitere Informationen: [Datenschutzerklärung der OpenStreetMap Foundation](https://osmfoundation.org/wiki/Privacy_Policy).
 
-Rechtsgrundlage für die Verarbeitung der Daten ist bei Vorliegen einer Einwilligung des Nutzers Art. 6 Abs. 1 lit. a DSGVO.
+Die Links „Google Maps“ und „Apple Karten“ sind einfache Verweise. Daten werden erst übertragen, wenn Sie den jeweiligen Link anklicken und die Seite des Anbieters öffnen.
 
-Rechtsgrundlage für die Verarbeitung der Daten, die im Zuge einer Übersendung einer E-Mail übermittelt werden, ist Art. 6 Abs. 1 lit. f DSGVO. Zielt der E-Mail-Kontakt auf den Abschluss eines Vertrages ab, so ist zusätzliche Rechtsgrundlage für die Verarbeitung Art. 6 Abs. 1 lit. b DSGVO.
+## 6. Externe Dienste, die wir verlinken
 
-### 3. Zweck der Datenverarbeitung
+Die folgenden Dienste sind auf unserer Website **nur verlinkt**. Beim bloßen Aufruf unserer Website werden keine Daten an diese Anbieter übertragen. Erst wenn Sie einen Link anklicken, verlassen Sie unsere Website; dann gelten die Datenschutzbestimmungen des jeweiligen Anbieters.
 
-Die Verarbeitung der personenbezogenen Daten aus der Eingabemaske dient uns allein zur Bearbeitung der Kontaktaufnahme. Im Falle einer Kontaktaufnahme per E-Mail liegt hieran auch das erforderliche berechtigte Interesse an der Verarbeitung der Daten.
+### Online-Terminbuchung (Doctolib)
 
-Die sonstigen während des Absendevorgangs verarbeiteten personenbezogenen Daten dienen dazu, einen Missbrauch des Kontaktformulars zu verhindern und die Sicherheit unserer informationstechnischen Systeme sicherzustellen.
+Für die Online-Terminbuchung und Nachrichten an die Praxis nutzen wir Doctolib (Doctolib GmbH, Mehringdamm 51, 10961 Berlin). Die dort eingegebenen Daten verarbeitet Doctolib in unserem Auftrag (Art. 28 DSGVO), um Ihren Termin zu verwalten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, für Gesundheitsangaben Art. 9 Abs. 2 lit. h DSGVO. Weitere Informationen: [Datenschutzerklärung von Doctolib](https://www.doctolib.de/terms/agreement).
 
-### 4. Dauer der Speicherung
+### Digitaler Anamnesebogen
 
-Die Daten werden gelöscht, sobald sie für die Erreichung des Zweckes ihrer Erhebung nicht mehr erforderlich sind. Für die personenbezogenen Daten aus der Eingabemaske des Kontaktformulars und diejenigen, die per E-Mail übersandt wurden, ist dies dann der Fall, wenn die jeweilige Konversation mit dem Nutzer beendet ist. Beendet ist die Konversation dann, wenn sich aus den Umständen entnehmen lässt, dass der betroffene Sachverhalt abschließend geklärt ist.
+Den digitalen Anamnesebogen stellen wir über den Dienst „SM-Clinic“ bereit: [[BITTE ERGÄNZEN: vollständiger Name und Anschrift des Anbieters von SM-Clinic]]. Im Anamnesebogen geben Sie Gesundheitsdaten an. Der Anbieter verarbeitet diese ausschließlich in unserem Auftrag (Art. 28 DSGVO) zur Vorbereitung Ihrer Behandlung. Rechtsgrundlage ist Art. 9 Abs. 2 lit. h DSGVO in Verbindung mit Art. 6 Abs. 1 lit. b DSGVO.
 
-Die während des Absendevorgangs zusätzlich erhobenen personenbezogenen Daten werden spätestens nach einer Frist von sieben Tagen gelöscht.
+### Terminservice 116117
 
-### 5. Widerspruchs- und Beseitigungsmöglichkeit
+Für Akuttermine verlinken wir das Patienten-Navi der Kassenärztlichen Bundesvereinigung (KBV), Herbert-Lewin-Platz 2, 10623 Berlin. Für die Nutzung gelten die [Datenschutzhinweise der 116117](https://www.116117.de/de/datenschutz.php).
 
-Der Nutzer hat jederzeit die Möglichkeit, seine Einwilligung zur Verarbeitung der personenbezogenen Daten zu widerrufen. Nimmt der Nutzer per E-Mail Kontakt mit uns auf, so kann er der Speicherung seiner personenbezogenen Daten jederzeit widersprechen. In einem solchen Fall kann die Konversation nicht fortgeführt werden.
+### Instagram
 
-Der Widerruf ist mündlich und schriftlich möglich.
+Auf unserer Website befinden sich einfache Links zu Instagram-Profilen (Meta Platforms Ireland Limited, Merrion Road, Dublin 4, Irland). Es sind keine Instagram-Inhalte oder -Plugins eingebunden.
 
-Alle personenbezogenen Daten, die im Zuge der Kontaktaufnahme gespeichert wurden, werden in diesem Fall gelöscht.
+## 7. Speicherdauer
 
-## IV. Rechte der betroffenen Person
+Wir verarbeiten personenbezogene Daten nur so lange, wie es für den jeweiligen Zweck erforderlich ist oder gesetzliche Aufbewahrungsfristen es vorschreiben. Patientendokumentation bewahren wir gemäß § 630f Abs. 3 BGB und den berufsrechtlichen Vorgaben in der Regel zehn Jahre nach Abschluss der Behandlung auf, soweit nicht längere Fristen gelten.
 
-Die folgende Auflistung umfasst alle Rechte der Betroffenen nach der DSGVO. Rechte, die für die eigene Webseite keine Relevanz haben, müssen nicht genannt werden. Insoweit kann die Auflistung gekürzt werden.
+## 8. Ihre Rechte
 
-Werden personenbezogene Daten von Ihnen verarbeitet, sind Sie Betroffener i. S. d. DSGVO und es stehen Ihnen folgende Rechte gegenüber dem Verantwortlichen zu:
+Sie haben nach der DSGVO folgende Rechte:
 
-### 1. Auskunftsrecht
+- **Auskunft** über die zu Ihrer Person gespeicherten Daten (Art. 15 DSGVO)
+- **Berichtigung** unrichtiger Daten (Art. 16 DSGVO)
+- **Löschung** (Art. 17 DSGVO), soweit keine gesetzlichen Aufbewahrungspflichten entgegenstehen
+- **Einschränkung der Verarbeitung** (Art. 18 DSGVO)
+- **Datenübertragbarkeit** (Art. 20 DSGVO)
+- **Widerruf** einer erteilten Einwilligung mit Wirkung für die Zukunft (Art. 7 Abs. 3 DSGVO)
+- **Widerspruch** gegen Verarbeitungen, die auf Art. 6 Abs. 1 lit. f DSGVO beruhen, aus Gründen, die sich aus Ihrer besonderen Situation ergeben (Art. 21 DSGVO)
 
-Sie können von dem Verantwortlichen eine Bestätigung darüber verlangen, ob personenbezogene Daten, die Sie betreffen, von uns verarbeitet werden.
+Zur Ausübung Ihrer Rechte genügt eine formlose Mitteilung an die oben genannten Kontaktdaten.
 
-Liegt eine solche Verarbeitung vor, können Sie über folgende Informationen Auskunft verlangen:
+### Beschwerderecht bei der Aufsichtsbehörde
 
-- (1) die Zwecke, zu denen die personenbezogenen Daten verarbeitet werden;
-- (2) die Kategorien von personenbezogenen Daten, welche verarbeitet werden;
+Sie haben das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren (Art. 77 DSGVO). Für uns zuständig ist:
 
-(3) die Empfänger bzw. die Kategorien von Empfängern, gegenüber denen die Sie betreffenden personenbezogenen Daten offengelegt wurden oder noch offengelegt werden;
+Berliner Beauftragte für Datenschutz und Informationsfreiheit  
+Alt-Moabit 59–61, 10555 Berlin  
+Telefon: 030 13889-0 · E-Mail: [mailbox@datenschutz-berlin.de](mailto:mailbox@datenschutz-berlin.de)  
+[www.datenschutz-berlin.de](https://www.datenschutz-berlin.de)
 
-(4) die geplante Dauer der Speicherung der Sie betreffenden personenbezogenen Daten oder, falls konkrete Angaben hierzu nicht möglich sind, Kriterien für die Festlegung der Speicherdauer;
+## 9. Pflicht zur Bereitstellung von Daten
 
-(5) das Bestehen eines Rechts auf Berichtigung oder Löschung der Sie betreffenden personenbezogenen Daten, eines Rechts auf Einschränkung der Verarbeitung durch den Verantwortlichen oder eines Widerspruchsrechts gegen diese Verarbeitung;
+Für den reinen Besuch dieser Website müssen Sie keine personenbezogenen Daten angeben; technisch notwendig ist lediglich die Verarbeitung der unter Ziffer 2 genannten Verbindungsdaten. Eine automatisierte Entscheidungsfindung einschließlich Profiling (Art. 22 DSGVO) findet nicht statt.
 
-(6) das Bestehen eines Beschwerderechts bei einer Aufsichtsbehörde;
+## 10. Änderungen dieser Datenschutzerklärung
 
-(7) alle verfügbaren Informationen über die Herkunft der Daten, wenn die personenbezogenen Daten nicht bei der betroffenen Person erhoben werden;
+Wir passen diese Datenschutzerklärung an, wenn sich die Website oder die rechtlichen Vorgaben ändern. Es gilt die jeweils hier veröffentlichte Fassung.
 
-(8) das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling gemäß Art. 22 Abs. 1 und 4 DSGVO und – zumindest in diesen Fällen – aussagekräftige Informationen über die involvierte Logik sowie die Tragweite und die angestrebten Auswirkungen einer derartigen Verarbeitung für die betroffene Person.
-
-Ihnen steht das Recht zu, Auskunft darüber zu verlangen, ob die Sie betreffenden personenbezogenen Daten in ein Drittland oder an eine internationale Organisation übermittelt werden. In diesem Zusammenhang können Sie verlangen, über die geeigneten Garantien gem. Art. 46 DSGVO im Zusammenhang mit der Übermittlung unterrichtet zu werden.
-
-### 2. Recht auf Berichtigung
-
-Sie haben ein Recht auf Berichtigung und/oder Vervollständigung gegenüber dem Verantwortlichen, sofern die verarbeiteten personenbezogenen Daten, die Sie betreffen, unrichtig oder unvollständig sind. Der Verantwortliche hat die Berichtigung unverzüglich vorzunehmen.
-
-### 3. Recht auf Einschränkung der Verarbeitung
-
-Unter den folgenden Voraussetzungen können Sie die Einschränkung der Verarbeitung der Sie betreffenden personenbezogenen Daten verlangen:
-
-(1) wenn Sie die Richtigkeit der Sie betreffenden personenbezogenen für eine Dauer bestreiten, die es dem Verantwortlichen ermöglicht, die Richtigkeit der personenbezogenen Daten zu überprüfen;
-
-(2) die Verarbeitung unrechtmäßig ist und Sie die Löschung der personenbezogenen Daten ablehnen und stattdessen die Einschränkung der Nutzung der personenbezogenen Daten verlangen;
-
-(3) der Verantwortliche die personenbezogenen Daten für die Zwecke der Verarbeitung nicht länger benötigt, Sie diese jedoch zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigen, oder
-
-(4) wenn Sie Widerspruch gegen die Verarbeitung gemäß Art. 21 Abs. 1 DSGVO eingelegt haben und noch nicht feststeht, ob die berechtigten Gründe des Verantwortlichen gegenüber Ihren Gründen überwiegen.
-
-Wurde die Verarbeitung der Sie betreffenden personenbezogenen Daten eingeschränkt, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Union oder eines Mitgliedstaats verarbeitet werden.
-
-Wurde die Einschränkung der Verarbeitung nach den o.g. Voraussetzungen eingeschränkt, werden Sie von dem Verantwortlichen unterrichtet bevor die Einschränkung aufgehoben wird.
-
-### 4. Recht auf Löschung
-
-### a) Löschungspflicht
-
-Sie können von dem Verantwortlichen verlangen, dass die Sie betreffenden personenbezogenen Daten unverzüglich gelöscht werden, und der Verantwortliche ist verpflichtet, diese Daten unverzüglich zu löschen, sofern einer der folgenden Gründe zutrifft:
-
-(1) Die Sie betreffenden personenbezogenen Daten sind für die Zwecke, für die sie erhoben oder auf sonstige Weise verarbeitet wurden, nicht mehr notwendig.
-
-(2) Sie widerrufen Ihre Einwilligung, auf die sich die Verarbeitung gem. Art. 6 Abs. 1 lit. a oder Art. 9 Abs. 2 lit. a DSGVO stützte, und es fehlt an einer anderweitigen Rechtsgrundlage für die Verarbeitung.
-
-(3) Sie legen gem. Art. 21 Abs. 1 DSGVO Widerspruch gegen die Verarbeitung ein und es liegen keine vorrangigen berechtigten Gründe für die Verarbeitung vor, oder Sie legen gem. Art. 21 Abs. 2 DSGVO Widerspruch gegen die Verarbeitung ein.
-
-(4) Die Sie betreffenden personenbezogenen Daten wurden unrechtmäßig verarbeitet.
-
-(5) Die Löschung der Sie betreffenden personenbezogenen Daten ist zur Erfüllung einer rechtlichen Verpflichtung nach dem Unionsrecht oder dem Recht der Mitgliedstaaten erforderlich, dem der Verantwortliche unterliegt.
-
-(6) Die Sie betreffenden personenbezogenen Daten wurden in Bezug auf angebotene Dienste der Informationsgesellschaft gemäß Art. 8 Abs. 1 DSGVO erhoben.
-
-### b) Information an Dritte
-
-Hat der Verantwortliche die Sie betreffenden personenbezogenen Daten öffentlich gemacht und ist er gem. Art. 17 Abs. 1 DSGVO zu deren Löschung verpflichtet, so trifft er unter Berücksichtigung der verfügbaren Technologie und der Implementierungskosten angemessene Maßnahmen, auch technischer Art, um für die Datenverarbeitung Verantwortliche, die die personenbezogenen Daten verarbeiten, darüber zu informieren, dass Sie als betroffene Person von ihnen die Löschung aller Links zu diesen personenbezogenen Daten oder von Kopien oder Replikationen dieser personenbezogenen Daten verlangt haben.
-
-### c) Ausnahmen
-
-- Das Recht auf Löschung besteht nicht, soweit die Verarbeitung erforderlich ist
-- (1) zur Ausübung des Rechts auf freie Meinungsäußerung und Information;
-
-(2) zur Erfüllung einer rechtlichen Verpflichtung, die die Verarbeitung nach dem Recht der Union oder der Mitgliedstaaten, dem der Verantwortliche unterliegt, erfordert, oder zur Wahrnehmung einer Aufgabe, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde;
-
-(3) aus Gründen des öffentlichen Interesses im Bereich der öffentlichen Gesundheit gemäß Art. 9 Abs. 2 lit. h und i sowie Art. 9 Abs. 3 DSGVO;
-
-(4) für im öffentlichen Interesse liegende Archivzwecke, wissenschaftliche oder historische Forschungszwecke oder für statistische Zwecke gem. Art. 89 Abs. 1 DSGVO, soweit das unter Abschnitt a) genannte Recht voraussichtlich die Verwirklichung der Ziele dieser Verarbeitung unmöglich macht oder ernsthaft beeinträchtigt, oder
-
-(5) zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.
-
-### 5. Recht auf Unterrichtung
-
-Haben Sie das Recht auf Berichtigung, Löschung oder Einschränkung der Verarbeitung gegenüber dem Verantwortlichen geltend gemacht, ist dieser verpflichtet, allen Empfängern, denen die Sie betreffenden personenbezogenen Daten offengelegt wurden, diese Berichtigung oder Löschung der Daten oder Einschränkung der Verarbeitung mitzuteilen, es sei denn, dies erweist sich als unmöglich oder ist mit einem unverhältnismäßigen Aufwand verbunden.
-
-Ihnen steht gegenüber dem Verantwortlichen das Recht zu, über diese Empfänger unterrichtet zu werden.
-
-6. Recht auf Datenübertragbarkeit
-
-Sie haben das Recht, die Sie betreffenden personenbezogenen Daten, die Sie dem Verantwortlichen bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten. Außerdem haben Sie das Recht, diese Daten einem anderen Verantwortlichen ohne Behinderung durch den Verantwortlichen, dem die personenbezogenen Daten bereitgestellt wurden, zu übermitteln, sofern
-
-(1) die Verarbeitung auf einer Einwilligung gem. Art. 6 Abs. 1 lit. a DSGVO oder Art. 9 Abs. 2 lit. a DSGVO oder auf einem Vertrag gem. Art. 6 Abs. 1 lit. b DSGVO beruht und
-
-(2) die Verarbeitung mithilfe automatisierter Verfahren erfolgt.
-
-In Ausübung dieses Rechts haben Sie ferner das Recht, zu erwirken, dass die Sie betreffenden personenbezogenen Daten direkt von einem Verantwortlichen einem anderen Verantwortlichen übermittelt werden, soweit dies technisch machbar ist. Freiheiten und Rechte anderer Personen dürfen hierdurch nicht beeinträchtigt werden.
-
-Das Recht auf Datenübertragbarkeit gilt nicht für eine Verarbeitung personenbezogener Daten, die für die Wahrnehmung einer Aufgabe erforderlich ist, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde.
-
-### 7. Widerspruchsrecht
-
-Sie haben das Recht, aus Gründen, die sich aus ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung der Sie betreffenden personenbezogenen Daten, die aufgrund von Art. 6 Abs. 1 lit. e oder f DSGVO erfolgt, Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmungen gestütztes Profiling.
-
-Der Verantwortliche verarbeitet die Sie betreffenden personenbezogenen Daten nicht mehr, es sei denn, er kann zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.
-
-Werden die Sie betreffenden personenbezogenen Daten verarbeitet, um Direktwerbung zu betreiben, haben Sie das Recht, jederzeit Widerspruch gegen die Verarbeitung der Sie betreffenden personenbezogenen Daten zum Zwecke derartiger Werbung einzulegen; dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht.
-
-Widersprechen Sie der Verarbeitung für Zwecke der Direktwerbung, so werden die Sie betreffenden personenbezogenen Daten nicht mehr für diese Zwecke verarbeitet.
-
-Sie haben die Möglichkeit, im Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft – ungeachtet der Richtlinie 2002/58/EG – Ihr Widerspruchsrecht mittels automatisierter Verfahren auszuüben, bei denen technische Spezifikationen verwendet werden.
-
-### 8. Recht auf Widerruf der datenschutzrechtlichen Einwilligungserklärung
-
-Sie haben das Recht, Ihre datenschutzrechtliche Einwilligungserklärung jederzeit zu widerrufen. Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt.
-
-### 9. Recht auf Beschwerde bei einer Aufsichtsbehörde
-
-Unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs steht Ihnen das Recht auf Beschwerde bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres Aufenthaltsorts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes, zu, wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden personenbezogenen Daten gegen die DSGVO verstößt.
-
-Die Aufsichtsbehörde, bei der die Beschwerde eingereicht wurde, unterrichtet den Beschwerdeführer über den Stand und die Ergebnisse der Beschwerde einschließlich der Möglichkeit eines gerichtlichen Rechtsbehelfs nach Art. 78 DSGVO.
+*Stand: Oktober 2026*

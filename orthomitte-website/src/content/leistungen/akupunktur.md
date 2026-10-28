@@ -11,7 +11,7 @@ seo:
   title: "Akupunktur in Berlin-Mitte"
 # Quelle: https://www.orthopaedische-praxis-mitte.de/akupunktur (Wix, Stand Oktober 2026)
 ---
-## Ganzheitliche Heilmethode mit jahrtausendalter Tradition
+## Ein Verfahren mit jahrtausendealter Tradition
 
 Die Körperakupunktur ist eine der zentralen Behandlungsmethoden der Traditionellen Chinesischen Medizin (TCM) und zählt zu den ältesten Heilverfahren der Menschheit. Ihr Prinzip basiert auf der Vorstellung von Qi, der fließenden Lebensenergie, die alle Organfunktionen, die Körperabwehr und Muskelbewegungen beeinflusst. Diese Energie bewegt sich entlang spezifischer Bahnen im Körper, den sogenannten Meridianen. Ein harmonischer Energiefluss sorgt für körperliches Wohlbefinden, während Blockaden oder Störungen zu Beschwerden und Krankheiten führen können.
 
@@ -24,13 +24,13 @@ Die Körperakupunktur wird besonders bei Beschwerden des Bewegungsapparats einge
 - Knieschmerzen (durch nachgewiesene Kniearthrose)
 - Verspannungen und Muskelverhärtungen
 
-In vielen Fällen können durch Akupunktur langfristige Verbesserungen ohne Medikamente erzielt werden.
+Für chronische Rückenschmerzen und Knieschmerzen bei Kniearthrose ist die Wirksamkeit der Akupunktur in Studien untersucht; sie ist dort eine Leistung der gesetzlichen Krankenkassen. Bei manchen Patientinnen und Patienten lässt sich so der Bedarf an Schmerzmitteln verringern.
 
 ## Wie funktioniert Akupunktur?
 
 Die Akupunktur nutzt 361 spezielle Akupunkturpunkte entlang der Meridiane, um den Energiefluss zu regulieren und Blockaden zu lösen. Nach einer ausführlichen chinesischen Syndromdiagnostik werden feine Einmalnadeln an individuell ausgewählten Akupunkturpunkten platziert.
 
-Diese gezielte Stimulation aktiviert die Selbstheilungskräfte des Körpers, indem sie das Qi ausbalanciert und die den Punkten zugeordneten Organe und Funktionen reguliert. Ziel der Behandlung ist es, Schmerzen zu lindern, die Durchblutung zu fördern und das energetische Gleichgewicht wiederherzustellen.
+Nach der Vorstellung der TCM wird durch diese gezielte Stimulation das Qi ausbalanciert. Ziel der Behandlung ist es, Schmerzen zu lindern, die Durchblutung zu fördern und das energetische Gleichgewicht wiederherzustellen.
 
 ## Akupunktur in unserer Praxis in Berlin Mitte
 
@@ -39,7 +39,7 @@ Wir als Ärzte der Orthopädischen Praxis Mitte verfügen über langjährige Erf
 Was uns ausmacht:
 
 - **Individuelle Behandlung** – abgestimmt auf Ihre Symptome und Bedürfnisse
-- **Ganzheitlicher Ansatz** – wir behandeln nicht nur Symptome, sondern die Ursache
+- **Ganzheitlicher Ansatz** – wir betrachten nicht nur die Symptome, sondern auch mögliche Ursachen
 
 ### Gut zu wissen
 
@@ -57,12 +57,12 @@ In der Regel ist das Einführen der Nadeln kaum spürbar, da sie sehr dünn sind
 
 ### Wie schnell kann ich eine Wirkung erwarten?
 
-Viele Patienten spüren eine sofortige Linderung, besonders bei akuten Schmerzen. Bei chronischen Beschwerden kann es mehrere Sitzungen dauern, um eine dauerhafte Wirkung zu erzielen.
+Das ist individuell verschieden. Manche Patientinnen und Patienten bemerken bereits nach wenigen Sitzungen eine Linderung; bei chronischen Beschwerden ist in der Regel eine Behandlungsserie vorgesehen. Ein Behandlungserfolg kann nicht garantiert werden.
 
 ### Ist Akupunktur für jedes Schmerzproblem geeignet?
 
-Akupunktur ist sehr vielseitig und kann bei vielen chronischen und akuten Schmerzzuständen angewendet werden, einschließlich Rücken-, Kopf- und Gelenkschmerzen.
+Akupunktur kann bei verschiedenen chronischen und akuten Schmerzzuständen angewendet werden, z. B. bei Rücken-, Kopf- und Gelenkschmerzen. Ob sie für Ihre Beschwerden geeignet ist, klären wir im ärztlichen Gespräch.
 
-### Kann Akupunktur auch bei chronischen Erkrankungen helfen?
+### Wird Akupunktur auch bei anderen chronischen Beschwerden eingesetzt?
 
-Ja, Akupunktur wird erfolgreich zur Behandlung chronischer Beschwerden wie Migräne, Rheuma und Arthritis eingesetzt.
+Ja, Akupunktur wird z. B. auch zur Vorbeugung von Migräne und Spannungskopfschmerzen eingesetzt. Die Studienlage ist je nach Krankheitsbild unterschiedlich; wir beraten Sie dazu gern.

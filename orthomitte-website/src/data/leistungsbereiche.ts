@@ -24,19 +24,19 @@ export const leistungsbereiche: Leistungsbereich[] = [
     id: 'therapie',
     titel: 'Therapeutische & funktionelle Behandlung',
     icon: 'hands',
-    text: 'Für eine effektive und nachhaltige Therapie setzen wir auf das Fasziendistorsionsmodell (FDM), sensomotorische Einlagen, Akupunktur und Neuraltherapie. Diese Methoden verbessern die Beweglichkeit, lösen Verspannungen, optimieren die Körperstatik und unterstützen die Regulation des Nervensystems – für eine gezielte Schmerzreduktion und funktionelle Balance.',
+    text: 'In der Therapie setzen wir unter anderem auf das Fasziendistorsionsmodell (FDM), sensomotorische Einlagen, Akupunktur und Neuraltherapie. Ziel dieser Methoden ist es, die Beweglichkeit zu verbessern, Verspannungen zu lösen, die Körperstatik zu unterstützen und Schmerzen zu lindern.',
   },
   {
     id: 'regeneration',
     titel: 'Regeneration & Prävention',
     icon: 'leaf',
-    text: 'Zur Unterstützung der Regeneration und Gesundheitsvorsorge setzen wir auf Infusionstherapie, Vitamin-D-Therapie, Orthomolekulare Medizin und Tapen. Diese Maßnahmen stärken das Immunsystem, fördern die Zellgesundheit, unterstützen die Muskulatur und beschleunigen Heilungsprozesse.',
+    text: 'Zur Unterstützung der Regeneration und Gesundheitsvorsorge setzen wir auf Infusionstherapie, Vitamin-D-Therapie, Orthomolekulare Medizin und Tapen. Diese Maßnahmen können – etwa bei einem Nährstoffmangel – Regeneration und Muskulatur unterstützen.',
   },
   {
     id: 'spezial',
     titel: 'Spezielle Behandlungsmethoden',
     icon: 'sparkle',
-    text: 'Wir bieten gezielte Verfahren wie Dry Needling, Neuraltherapie, Hyaluronsäurebehandlungen und FDM, um chronische Schmerzen zu lindern, Heilungsprozesse zu fördern und die Funktionalität betroffener Gewebe und Gelenke zu verbessern. Diese Methoden stellen eine effektive Lösung für spezifische Beschwerden dar.',
+    text: 'Wir bieten gezielte Verfahren wie Dry Needling, Neuraltherapie, Hyaluronsäurebehandlungen und FDM, mit dem Ziel, chronische Schmerzen zu lindern und die Funktion betroffener Gewebe und Gelenke zu verbessern.',
   },
 ];
 
@@ -44,7 +44,7 @@ export const leistungsbereiche: Leistungsbereich[] = [
 export const privatpraxisBereiche: Leistungsbereich[] = [
   {
     id: 'grundlagen',
-    titel: 'Funktionelle Medizin, Hormone & Entgiftung',
+    titel: 'Funktionelle Medizin, Hormone & Chelattherapie',
     icon: 'leaf',
     text: 'Ursachenorientierte Diagnostik und Therapie chronischer Beschwerden – von der funktionellmedizinischen Anamnese über die individuelle Hormontherapie bis zur Chelattherapie.',
   },

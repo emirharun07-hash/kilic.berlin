@@ -28,7 +28,7 @@ Legende: ✅ = Inhalt übernommen, URL bleibt identisch · ↪️ 301 = dauerhaf
 | `/applied-kinesiology-2` | Ganzheitliche Schmerzdiagnostik mit Applied Kinesiology / Orthopädisch | 235 | ↪️ 301 | → `/applied-kinesiology` |
 | `/chelattherapie` | Chelattherapie / Privatpraxis für Funktionelle Medizin / Schwermetallv | 295 | ✅ übernommen | `src/content/leistungen/chelattherapie.md` |
 | `/corona` | Corona / ortho-praxis-mitte | 257 | ↪️ 301 | → `/impfungen` |
-| `/datenschutz` | Datenschutz / ortho-praxis-mitte | 2368 | ✅ übernommen | `src/content/seiten/datenschutz.md` |
+| `/datenschutz` | Datenschutz / ortho-praxis-mitte | 2368 | ✏️ neu gefasst (28.10.2026) | `src/content/seiten/datenschutz.md` |
 | `/dr-christiane-baldini` | Dr. Christiane Baldini / Fachärztin für Innere Medizin / ZB Psychother | 255 | ✅ übernommen | `src/content/team/christiane-baldini.md` |
 | `/dr-isabelle-landenberger` | dr. Isabelle Landenberger / Ärztin für Funktionelle Medizin / Chelatth | 79 | ✅ übernommen | `src/content/team/isabelle-landenberger.md` |
 | `/dry-needling` | Dry needling / Triggerpunkte / Orthopädische Praxis Mitte / Kilic / Mu | 438 | ✅ übernommen | `src/content/leistungen/dry-needling.md` |
@@ -49,7 +49,7 @@ Legende: ✅ = Inhalt übernommen, URL bleibt identisch · ↪️ 301 = dauerhaf
 | `/hyaluronsäure` | Hyaluronsäure / Orthopädische Praxis Mitte / Arthrose / Gonarthrose /  | 386 | ✅ übernommen | `src/content/leistungen/hyaluronsaeure.md` |
 | `/hypermobilität` | Hypermobilität / Ehlers-Danlos-Syndrom / EDS / Orthopädische Praxis Mi | 1158 | ✅ übernommen | `src/content/seiten/hypermobilitaet.md` |
 | `/impfungen` | Impfungen / Corona / Influenza / Orthopädische Praxis Berlin Mitte | 23 | ✅ übernommen | `src/content/seiten/impfungen.md` |
-| `/impressum` | Impressum / ortho-praxis-mitte | 419 | ✅ übernommen | `src/content/seiten/impressum.md` |
+| `/impressum` | Impressum / ortho-praxis-mitte | 419 | ✏️ neu gefasst (28.10.2026) | `src/content/seiten/impressum.md` |
 | `/influenza` | Impfungen / Influenza / Grippe / Orthopädische Praxis Berlin Mitte | 76 | ✅ übernommen | `src/content/seiten/influenza.md` |
 | `/infoseite` | Info-Seite / ortho-praxis-mitte | 193 | ✅ übernommen | `src/pages/infoseite.astro` |
 | `/infusions-therapie` | Infusionstherapie / ortho-praxis-mitte | 595 | ✅ übernommen | `src/content/leistungen/infusionen-uebersicht.md` |
@@ -193,5 +193,6 @@ Footer: Impressum · Datenschutz. Seitlich schwebendes Doctolib-Widget (Termin /
 
 - Rechtschreibung/Zeichensetzung korrigiert (z. B. „Wirbelsäure“ → „Wirbelsäule“, „Köprer“ → „Körper“, „Leitungsabfall“ → „Leistungsabfall“, „Füsse“ → „Füße“, „erfolderlich“ → „erforderlich“), Einheiten typografisch (z. B. „65€“ → „65 €“, „7,5g“ → „7,5 g“).
 - Gliederung verbessert: Zwischenüberschriften, Listen statt zerrissener Wix-Kacheln, FAQ unter „Häufige Fragen“.
+- **Rechtliche Überarbeitung 28.10.2026 (auf Wunsch der Praxis):** Impressum und Datenschutzerklärung neu gefasst; Werbeaussagen nach HWG/UWG entschärft (u. a. Vitamin C: COVID-19-/ME-CFS-/Zoster-Abschnitte, Chelattherapie-Indikationen, Präparatenamen, Wirkversprechen, Anbietervergleich Stoßwelle). Originaltexte bleiben in `archiv/wix-original/`. Übersicht: MIGRATION.md §9.
 - Reine Werbe-Zwischenzeilen ohne Information entfernt (z. B. „Erleben Sie die Wirkung …!“).
 - Neu formuliert (von Claude, bitte gegenlesen): Meta-Descriptions einiger Seiten (alte waren Keyword-Listen), Kurzbeschreibungen der Karten für eIRT, Neuraltherapie, Funktionelle Medizin, Energy-Infusionen, Hormonersatztherapie; Einleitungstexte der Privatpraxis-Kategorien (`src/data/leistungsbereiche.ts`); kurze Service-Hinweise (Anamnese-Datenschutzhinweis, „keine sensiblen Gesundheitsdaten per E-Mail“, Intro Feriensprechzeiten/Kontakt).

@@ -2,17 +2,18 @@
 titel: "Alpha-Liponsäure-Infusion"
 url: "alpha-liponsaeure"
 bereich: funktionelle-medizin
+komplementaer: true
 kategorie: infusionen
-kurzbeschreibung: "Vitamine, Mineralien und Spurenelemente werden per Infusion direkt ins Blut geleitet – für schnellere und gezieltere Wirkung als bei oraler Einnahme."
+kurzbeschreibung: "Vitamine, Mineralien und Spurenelemente werden per Infusion direkt ins Blut geleitet – unabhängig von der Aufnahme über den Darm."
 reihenfolge: 6
 seo:
   title: "Alpha-Liponsäure-Infusion in Berlin-Mitte"
 # Quelle: https://www.orthopaedische-praxis-mitte.de/alpha-liponsaeure (Wix, Stand Oktober 2026)
 ---
-Alpha-Liponsäure-Infusionen repräsentieren eine vielseitige Anwendung dieses beeindruckenden Wirkstoffs. Gemäß Dr. L. Packer, einem renommierten Antioxidationsforscher und Professor für molekulare Zellbiologie an der Universität Berkeley, wird Alpha-Liponsäure als "DIE Antioxidanz der Antioxidanzien" bezeichnet. Neben Vitamin C, Glutathion und Coenzym Q10 zählt sie zu den effektivsten Radikalfängern und kann Zellmembranen sowohl von innen als auch von außen schützen, was sie zu einer herausragenden Substanz macht, um den Alterungsprozess zu verlangsamen, der maßgeblich durch freie Radikale verursacht wird.
+Alpha-Liponsäure ist eine körpereigene Substanz, die als Antioxidans wirkt. Neben Vitamin C, Glutathion und Coenzym Q10 zählt sie zu den bekannten Radikalfängern; da sie sowohl wasser- als auch fettlöslich ist, kann sie in unterschiedlichen Bereichen der Zelle wirken.
 
-Insbesondere zeigt Alpha-Liponsäure eine beeindruckende Wirksamkeit bei Nervenschäden, sei es durch einen erhöhten Blutzuckerspiegel (diabetische Polyneuropathie) oder durch Chemo-/Strahlentherapie bedingt. Zusätzlich besitzt sie die einzigartige Fähigkeit, die Radikalfänger Vitamin C, Vitamin E, Glutathion und Coenzym Q10 zu "recyceln", indem sie diese von ihrer radikalen Form zurück in ihre aktive Form umwandelt.
+Als Arzneimittel ist Alpha-Liponsäure zur Behandlung von Missempfindungen bei diabetischer Polyneuropathie zugelassen. Zusätzlich kann sie andere Radikalfänger wie Vitamin C, Vitamin E, Glutathion und Coenzym Q10 „recyceln“, indem sie diese von ihrer oxidierten Form zurück in ihre aktive Form umwandelt.
 
-Darüber hinaus agiert Alpha-Liponsäure als effektiver Chelator und kann im Rahmen einer Chelattherapie verschiedene Schwermetallbelastungen wie Quecksilber und Blei aus dem Organismus entfernen. Ihre Fähigkeit, die Blut-Hirn-Schranke zu überwinden, ist dabei von großem therapeutischem Nutzen, insbesondere bei Schwermetallbelastungen im Gehirn und im zentralen Nervensystem.
+Darüber hinaus kann Alpha-Liponsäure Metalle binden (Chelatbildner) und überwindet die Blut-Hirn-Schranke. Ein therapeutischer Nutzen zur Ausleitung von Schwermetallen ist wissenschaftlich jedoch nicht ausreichend belegt.
 
-Die Unterstützung enzymatischer Reaktionen durch Alpha-Liponsäure ist essenziell, besonders im Energiestoffwechsel von Kohlenhydraten und Fetten. Sie steigert die Glucoseaufnahme in Muskelzellen zur Energieproduktion und reduziert gleichzeitig den Einbau von Glucose in Fettzellen, was zu einer beschleunigten Regeneration und gesteigerten Leistungsfähigkeit führt. Sportler profitieren besonders von diesen Effekten.
+Die Unterstützung enzymatischer Reaktionen durch Alpha-Liponsäure ist essenziell, besonders im Energiestoffwechsel von Kohlenhydraten und Fetten. Sie ist an der Aufnahme von Glucose in die Muskelzellen beteiligt.

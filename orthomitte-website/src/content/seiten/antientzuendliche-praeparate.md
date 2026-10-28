@@ -2,6 +2,7 @@
 titel: "Antientzündliche Präparate"
 url: "antientzuendliche-praeparate"
 einleitung: "Ganzheitliche Ansätze zur Behandlung abakterieller Entzündungen mit Naturstoffen."
+komplementaer: true
 rubrik: Patienteninformationen
 seo:
   title: "Antientzündliche Präparate"
@@ -35,16 +36,16 @@ Bei verschiedenen Phytopharmaka, wie z. B. Bromelain, Kurkuma und Weihrauch, w
 
 Bromelain, ein Enzym aus der Ananaspflanze, wird seit langem in der traditionellen Medizin zur Linderung von Schmerzen und Schwellungen eingesetzt.
 
-Ähnliche positive Effekte auf das Sehnengewebe wurden auch durch die Anwendung von Kurkuma beobachtet. Speziell wurde gezeigt, dass Curcumin, ein Bestandteil von Kurkuma, die Expression von Kollagen deutlich erhöht und somit die Kollagensynthese fördert. Zudem konnte nachgewiesen werden, dass Curcumin nach Sehnenverletzungen mit chronischer Entzündung die häufig auftretende Kalzifikation verhindern kann. Dies geschieht durch die lokale Herunterregulierung der Osteogenese, also der Knochenbildung an der Verletzungsstelle, und gleichzeitige Stimulation der Tenogenese, also der Neubildung von Sehnenzellen.
+Ähnliche Effekte auf das Sehnengewebe wurden in experimentellen Studien (überwiegend Labor- und Tierstudien) auch für Kurkuma beobachtet. Dort wurde gezeigt, dass Curcumin, ein Bestandteil von Kurkuma, die Expression von Kollagen deutlich erhöht und somit die Kollagensynthese fördert. Zudem gibt es experimentelle Hinweise, dass Curcumin nach Sehnenverletzungen mit chronischer Entzündung die häufig auftretende Kalzifikation verhindern kann. Dies geschieht durch die lokale Herunterregulierung der Osteogenese, also der Knochenbildung an der Verletzungsstelle, und gleichzeitige Stimulation der Tenogenese, also der Neubildung von Sehnenzellen.
 
-Weihrauch hat sich ebenfalls wiederholt als erfolgreicher Wirkstoff bei muskuloskelettalen Beschwerden bewährt, indem er entzündungshemmend und schmerzlindernd wirkt.
+Auch Weihrauch werden entzündungshemmende und schmerzlindernde Eigenschaften bei muskuloskelettalen Beschwerden zugeschrieben; die Studienlage ist allerdings begrenzt.
 
 Weitere interessante Substanzen mit antiinflammatorischen Kapazitäten sind:
 
 - Vitamin D
 - Omega-3-Fettsäuren
 
-Die hier aufgeführten Wirkstoffe empfehlen wir grundsätzlich bei allen entzündlichen Reaktionen des Bewegungsapparates, deren Ursache nicht bakteriell ist, sondern durch Über-, Fehlbelastung oder traumatisch bedingt sind.
+Die hier aufgeführten Wirkstoffe können nach ärztlicher Rücksprache ergänzend bei entzündlichen Reaktionen des Bewegungsapparates infrage kommen, deren Ursache nicht bakteriell ist, sondern durch Über-, Fehlbelastung oder traumatisch bedingt sind.
 
 Liegen hingegen akute oder chronische Entzündungen in unserem Körper vor, wir anfällig für Infektionen sind und/ oder uns generell sehr schwach und müde fühlen, dann kann eine [antientzündliche Lebensweise](/antientzuendliche-lebenweise) hilfreich sein.
 

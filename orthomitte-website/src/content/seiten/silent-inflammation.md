@@ -2,6 +2,7 @@
 titel: "Chronische Entzündungen – Silent Inflammation"
 url: "silent-inflammation"
 einleitung: "Stille Entzündungen erkennen, Ursachen verstehen und ganzheitlich behandeln lernen."
+komplementaer: true
 rubrik: Patienteninformationen
 seo:
   title: "Chronische Entzündungen – Silent Inflammation"

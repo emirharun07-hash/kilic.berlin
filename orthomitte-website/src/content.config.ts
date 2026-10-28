@@ -46,6 +46,11 @@ const leistungen = defineCollection({
       reihenfolge: z.number().default(100),
       /** false = Seite existiert, wird aber nicht in Übersichten angezeigt */
       inUebersicht: z.boolean().default(true),
+      /**
+       * true = Methode der Komplementär-/Erfahrungsmedizin bzw. ohne gesicherten Wirksamkeitsnachweis
+       * für alle genannten Anwendungsgebiete. Blendet einen Pflichthinweis ein (§ 3 HWG, Irreführungsschutz).
+       */
+      komplementaer: z.boolean().default(false),
       seo,
     }),
 });
@@ -84,6 +89,11 @@ const seiten = defineCollection({
       /** Rubrik für Brotkrumen-Navigation, z. B. "Patienteninformationen" */
       rubrik: z.enum(['Patienteninformationen', 'Praxis', 'Privatpraxis', 'Rechtliches']).default('Patienteninformationen'),
       verwandteLeistungen: z.array(reference('leistungen')).default([]),
+      /**
+       * true = Methode der Komplementär-/Erfahrungsmedizin bzw. ohne gesicherten Wirksamkeitsnachweis
+       * für alle genannten Anwendungsgebiete. Blendet einen Pflichthinweis ein (§ 3 HWG, Irreführungsschutz).
+       */
+      komplementaer: z.boolean().default(false),
       seo,
     }),
 });

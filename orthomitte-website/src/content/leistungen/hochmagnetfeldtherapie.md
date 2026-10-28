@@ -2,6 +2,7 @@
 titel: "Hochmagnetfeldtherapie"
 url: "hochmagnetfeldtherapie"
 bereich: orthopaedie
+komplementaer: true
 kategorie: regeneration
 kurzbeschreibung: "Förderung von Zellstoffwechsel, Durchblutung und Regeneration durch starke pulsierende Magnetfelder."
 reihenfolge: 5
@@ -9,47 +10,45 @@ seo:
   title: "Hochmagnetfeldtherapie in Berlin-Mitte"
 # Quelle: https://www.orthopaedische-praxis-mitte.de/hochmagnetfeldtherapie (Wix, Stand Oktober 2026)
 ---
-## Moderne, fokussierte, nicht-invasive Therapie mit Impuls für die Selbstheilung
+## Fokussierte, nicht-invasive Magnetfeldbehandlung
 
 ### Was kann das Gerät?
 
 - Das emFieldPro-Gerät erzeugt ein hochintensives elektromagnetisches Feld – bis zu etwa 3 Tesla, was etwa 600‑mal stärker ist als ein normaler Magnetstab. Es handelt sich dabei um eine moderne, nicht invasive Behandlungsmethode.
-- Es wirkt auf Zellen, Gewebe, Nerven, Muskeln und Blutgefäße: Es kann die Zellmembranladung stärken, wodurch die Zellfunktion optimiert wird. Es fördert die Durchblutung und verbessert so die Mikrozirkulation im behandelten Bereich. Es unterstützt die Regeneration von Muskel-, Nerven- und Gefäßgewebe. Es wird zur Schmerzlinderung eingesetzt, da elektromagnetische Felder Einfluss auf Schmerz- und Triggerpunkte nehmen können.
+- Das Magnetfeld soll auf Nerven, Muskeln und Gewebe wirken, die Durchblutung im behandelten Bereich anregen und Schmerzen lindern. Die wissenschaftliche Datenlage zur Wirksamkeit ist bislang begrenzt.
 - Anwendungen: z. B. Muskeltonusverbesserung, Regeneration nach Belastung, Schmerztherapie, Durchblutungsförderung.
 
 ## Für wen ist die Therapie geeignet?
 
-Diese Therapieform eignet sich insbesondere für Patientinnen und Patienten mit:
+Diese Therapieform kann – ergänzend zu anderen Maßnahmen – infrage kommen bei:
 
 - Chronischen und akuten Schmerzen
 - Muskulären Verspannungen & Bewegungseinschränkungen
-- Durchblutungsstörungen, Gelenkarthrose
-- Wunsch nach schnelleren Regenerationsprozessen
-
-Gerade bei akuten oder chronisch verlaufenden Beschwerden, insbesondere hervorgerufen durch Arthrose oder Verspannungen, kann die Therapie neue Impulse für Heilung und Regulation setzen.
+- Gelenkarthrose
+- Regeneration nach Belastung
 
 ## Wie wirkt die Behandlung?
 
 - In einer statischen Behandlung wird der große Applikator gezielt auf Schmerz- oder Triggerpunkte angelegt – so wird gezielt stimuliert.
-- Die elektromagnetischen Impulse durchdringen Gewebe, ohne es mechanisch zu deformieren, aktivieren die Elektro-Chemie der Zellen und können so die Funktion von Zellmembranen verbessern.
-- Bereits nach wenigen Sitzungen können spürbare Effekte eintreten — z. B. Verbesserung der Beweglichkeit, Reduktion von Schmerz, bessere Geweberegeneration.
+- Die elektromagnetischen Impulse durchdringen das Gewebe berührungsfrei und können Nerven und Muskeln stimulieren.
+- Ob und nach wie vielen Sitzungen sich Beschwerden bessern, ist individuell verschieden.
 
 ## Ihre Spezialisten für die Hochmagnetfeldtherapie in Berlin Mitte
 
-Die Hochmagnetfeldtherapie nutzt ein starkes elektromagnetisches Feld (bis zu 3 Tesla), um Muskeln, Nerven und Gewebe tiefgreifend zu stimulieren – völlig schmerzfrei und ohne Eingriff.
+Die Hochmagnetfeldtherapie nutzt ein starkes elektromagnetisches Feld (bis zu 3 Tesla), um Muskeln, Nerven und Gewebe zu stimulieren – in der Regel schmerzfrei und ohne Eingriff.
 
-- **Aktivierung der Selbstheilung** – durch Förderung der natürlichen Regeneration
-- **Gezielte, tiefwirkende Therapie** – durch ein starkes magnetisches Feld
+- **Berührungsfrei** – keine Nadeln, keine Medikamente
+- **Gezielt** – Behandlung der betroffenen Region
 
 ## Häufige Fragen
 
 ### Was genau passiert bei einer Hochmagnetfeldtherapie?
 
-Die Hochmagnetfeldtherapie nutzt ein starkes elektromagnetisches Feld (bis zu 3 Tesla), um Muskeln, Nerven und Gewebe tiefgreifend zu stimulieren – völlig schmerzfrei und ohne Eingriff.
+Die Hochmagnetfeldtherapie nutzt ein starkes elektromagnetisches Feld (bis zu 3 Tesla), um Muskeln, Nerven und Gewebe zu stimulieren – in der Regel schmerzfrei und ohne Eingriff.
 
 ### Wie schnell spüre ich die Wirkung der Hochmagnetfeldtherapie?
 
-Schon nach wenigen Anwendungen können viele Patient:innen eine spürbare Linderung und Lockerung wahrnehmen. Eine Behandlung dauert ca. 20 Minuten.
+Das ist individuell verschieden; manche Patient:innen bemerken nach einigen Anwendungen eine Linderung oder Lockerung, ein Erfolg kann jedoch nicht garantiert werden. Eine Behandlung dauert ca. 20 Minuten.
 
 ### Tut die Hochmagnetfeldtherapie weh?
 

@@ -2,6 +2,7 @@
 titel: "Vegetatives Nervensystem"
 url: "vegetatives-nervensystem"
 einleitung: "Einblick in Funktionen, Dysbalancen und Therapien des vegetativen Nervensystems."
+komplementaer: true
 rubrik: Patienteninformationen
 seo:
   title: "Vegetatives Nervensystem"
@@ -55,7 +56,7 @@ Das Ziel ist es, ein Gleichgewicht zwischen Sympathikus und Parasympathikus wied
 
 ## Wie wir das vegetative Nervensystem beeinflussen können
 
-- Medikamentös (Amitriptylin, Procain-Basen-Infusionen, Vagusvit(R)-Infusionstherapie)
+- Medikamentös (nach ärztlicher Verordnung) sowie Infusionstherapien, z. B. Procain-Basen-Infusionen
 - Hydrotherapie (Wechsel von Wärmereiz und Kältereiz regen Regulation an, z. B. Güsse, Wickel, Sauna, Wassertreten)
 - Sport/ Bewegung, Ausdauertraining (z. B. Ergometertraining, Laufbandtraining, Walking/Nordic Walking)
 - (Psychologische) Entspannungsverfahren (Atemtherapie, PMR nach Jacobson, Autogenes Training, Qi Gong, Achtsamkeitstraining)

@@ -2,6 +2,7 @@
 titel: "Infusionstherapie"
 url: "infusionstherapie"
 bereich: orthopaedie
+komplementaer: true
 kategorie: regeneration
 kurzbeschreibung: "Zufuhr von Nährstoffen und Flüssigkeiten zur Unterstützung von Regeneration und Energieaufbau."
 reihenfolge: 1
@@ -9,79 +10,64 @@ seo:
   title: "Infusionstherapie in Berlin-Mitte"
 # Quelle: https://www.orthopaedische-praxis-mitte.de/infusionstherapie (Wix, Stand Oktober 2026)
 ---
-## Mehr Energie, bessere Regeneration & gezielte Nährstoffzufuhr
+## Gezielte Nährstoffzufuhr über die Vene
 
-**Energielos? Häufig müde? Leistungsgemindert? Infektanfällig?**
-
-Leiden Sie unter Konzentrationsschwäche, Muskel- oder Gliederschmerzen, Schlafstörungen oder Allergien?
-
-Diese Beschwerden können auf einen Nährstoffmangel hinweisen. Eine gezielte Infusionstherapie kann helfen, Ihren Körper optimal zu versorgen und Ihr Wohlbefinden nachhaltig zu verbessern.
+Anhaltende Müdigkeit, verminderte Leistungsfähigkeit oder häufige Infekte können viele Ursachen haben – eine davon kann ein Nährstoffmangel sein. Ob ein Mangel vorliegt, klären wir ärztlich, gegebenenfalls mit einer Laboruntersuchung. Bei nachgewiesenem oder wahrscheinlichem Mangel kann eine Infusionstherapie eine Möglichkeit sein, den Körper gezielt mit Nährstoffen zu versorgen.
 
 ## Was ist eine Infusionstherapie?
 
 Bei der Infusionstherapie werden essenzielle Nährstoffe – Vitamine, Mineralien, Aminosäuren und Antioxidantien – direkt über die Vene in die Blutbahn geleitet. Dadurch entfällt der Umweg über den Verdauungstrakt, sodass die Stoffe:
 
-- Schneller aufgenommen werden
-- Effektiver wirken als Tabletten oder Pulver
-- Nahezu 100 % bioverfügbar sind
+- unabhängig von der Aufnahme im Darm in den Blutkreislauf gelangen
+- nahezu vollständig verfügbar sind (Bioverfügbarkeit)
 
-Diese Methode eignet sich sowohl zur Behandlung von Mangelzuständen als auch zur Regeneration nach Krankheiten, Verletzungen oder Operationen.
+Die Infusionstherapie kann zur Behandlung von Mangelzuständen und begleitend in Erholungsphasen nach Krankheiten, Verletzungen oder Operationen eingesetzt werden.
 
 ## Unsere Infusionsangebote
 
 ### Vitamin-C-Infusion
 
-Stärkung für Immunsystem & Regeneration. Ideal zur Unterstützung bei:
+Hochdosiertes Vitamin C (7,5 g). Kann infrage kommen bei erhöhtem Vitamin-C-Bedarf, z. B. bei:
 
 - Infektanfälligkeit
 - Erschöpfung & Müdigkeit
-- Haut- & Bindegewebsstärkung
-- Regeneration nach Verletzungen oder Operationen
+- in Erholungsphasen nach Verletzungen oder Operationen
 
 **Preis:** 65 € pro Infusion · [Mehr zur Vitamin-C-Hochdosis-Infusion](/vitamin-c-hochdosis-infusion)
 
 ### Vitamin Booster + Detox
 
-Energie & Zellgesundheit. Besteht aus 2 Infusionen, die nacheinander verabreicht werden. Diese Doppel-Infusion ist perfekt zur:
+Besteht aus 2 Infusionen, die nacheinander verabreicht werden: B-Vitamine, Aminosäuren, Mineralstoffe und Vitamin C, anschließend Glutathion. Ziel ist die Unterstützung von:
 
-- Leistungssteigerung
-- Förderung der Zellgesundheit
-- Stärkung des Immunsystems
-- Antioxidativen Abwehr & Entgiftung (Detox)
+- Energiestoffwechsel
+- antioxidativem Schutz
 
 **Preis:** 175 € pro Infusion, 600 € bei Buchung von 4 Terminen · [Mehr zur Energy & Detox – Infusion](/leistungen-2/vitaminbooster-detox-glutathion)
 
 ### Energy & Balance – Infusion
 
-Power Boost. Besteht aus 2 Infusionen, die nacheinander verabreicht werden. Diese Doppel-Infusion ist perfekt zur:
+Besteht aus 2 Infusionen, die nacheinander verabreicht werden: B-Vitamine, Aminosäuren, Mineralstoffe und Vitamin C, anschließend Mineralstoffe und Spurenelemente. Ziel ist die Unterstützung von:
 
-- Steigerung von Energie und Konzentration
-- Bekämpfung von Erschöpfung und Müdigkeit
-- Unterstützung bei Stressbewältigung
-- Förderung der mentalen und körperlichen Leistungsfähigkeit
+- Energiestoffwechsel
+- Mineralstoffhaushalt, Muskel- und Nervenfunktion
 
 **Preis:** 175 € pro Infusion, 600 € bei Buchung von 4 Terminen · [Mehr zur Energy & Balance – Infusion](/leistungen-2/energy-balance)
 
-### Procain-Basen-Infusion mit ProcCluster®
+### Procain-Basen-Infusion
 
-Sanfte Regulation, spürbare Erleichterung. Ideal zur Unterstützung der:
+Infusion mit dem örtlichen Betäubungsmittel Procain in basischer Lösung. Wird in der Erfahrungsmedizin eingesetzt zur Unterstützung bei:
 
-- Entsäuerung
-- Zellregulation
-- Schmerzmodulation
-- Stressregulation
+- Schmerzen
+- Stressbelastung
 
 **Preis:** 150 € pro Infusion, 650 € bei Buchung von 5 Terminen · [Mehr zur Procain-Basen-Infusion](/leistungen-2/procainbasen-infusion)
 
 ### Eisen-Infusion
 
-Mehr Energie. Mehr Leistungsfähigkeit. Mehr Lebensqualität. Ideal zur Unterstützung bei:
+Zum Ausgleich eines im Labor nachgewiesenen Eisenmangels, insbesondere wenn Eisentabletten nicht ausreichend wirken oder nicht vertragen werden, z. B. bei:
 
-- Eisenmangel
-- Eisenmangelanämie
-- Müdigkeit & Erschöpfung
-- Verminderter Leistungsfähigkeit
-- Erhöhtem Eisenbedarf (z. B. Schwangerschaft)
+- Eisenmangel mit oder ohne Blutarmut (Eisenmangelanämie)
+- erhöhtem Eisenbedarf
 
 **Preis:** 100 € pro Infusion, 450 € bei Buchung von 5 Terminen
 
@@ -95,21 +81,17 @@ Die gesetzliche Krankenversicherung erstattet die Kosten der Infusionstherapie n
 
 ## Ihre Spezialisten für die Infusionstherapie in Berlin Mitte
 
-Unsere individuell abgestimmten Infusionskonzepte versorgen Ihren Körper gezielt mit essenziellen Nährstoffen – für mehr Energie, ein stärkeres Immunsystem und eine schnellere Regeneration.
-
-- Hochwertige Wirkstoffe
-- Sichere Verabreichung
-- Schnelle Wirkung durch optimale Nährstoffaufnahme
+Welche Infusion für Sie infrage kommt, besprechen wir in einem ärztlichen Gespräch. Die Infusionen werden in der Praxis unter ärztlicher Aufsicht verabreicht.
 
 ## Häufige Fragen
 
 ### Wie schnell wirken Infusionen?
 
-Die Wirkung ist in der Regel sofort spürbar, da die Nährstoffe direkt in den Blutkreislauf gelangen und schnell vom Körper aufgenommen werden.
+Die Nährstoffe gelangen direkt in den Blutkreislauf. Ob und wann Sie eine Wirkung bemerken, ist individuell sehr verschieden; häufig sind mehrere Infusionen vorgesehen.
 
 ### Muss ich nach einer Infusionstherapie Ruhepausen einhalten?
 
-Es sind keine speziellen Ruhepausen erforderlich, aber eine entspannte Nachruhe kann den Heilungsprozess unterstützen.
+Es sind keine speziellen Ruhepausen erforderlich, eine kurze Ruhepause nach der Infusion ist aber angenehm.
 
 ### Wie oft sollte ich eine Infusionstherapie durchführen lassen?
 

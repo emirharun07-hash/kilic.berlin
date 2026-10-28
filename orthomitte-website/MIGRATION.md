@@ -179,18 +179,35 @@ Frühestens **4 Wochen** nach Phase 4, wenn Google die neue Domain indexiert hat
 1. Wix → Domain-Verbindung trennen (betrifft nur Wix, DNS liegt bereits bei Cloudflare).
 2. Wix-Premium-Abo kündigen (Laufzeit/Kündigungsfrist beachten), Wix-Site ggf. unveröffentlichen.
 
-## 9. Punkte mit Bedarf an rechtlicher Prüfung
+## 9. Rechtliche Überarbeitung (Stand 28.10.2026) und verbleibende Punkte
+
+Auf Wunsch der Praxis wurden Impressum, Datenschutzerklärung und Werbeaussagen überarbeitet
+(keine Rechtsberatung – abschließende Prüfung durch Fachanwalt für Medizinrecht empfohlen).
+
+**Erledigt**
+
+| Thema | Umsetzung |
+|---|---|
+| Impressum | Neu nach § 5 DDG: BAG, Berufsangaben (Kammer, KV, Berufsordnung), Verbraucherstreitbeilegung (§ 36 VSBG), Haftung, medizinischer Hinweis. |
+| Datenschutzerklärung | Neu: Cloudflare-Hosting, keine Cookies/kein Tracking, E-Mail (Strato), OpenStreetMap (Zwei-Klick, § 25 TDDDG), Doctolib, SM-Clinic, 116117, Instagram, Rechte, Aufsichtsbehörde BlnBDI. |
+| HWG § 12 | COVID-19/Post-Covid, Herpes Zoster, Krebs-/Tumorbezüge aus Werbetexten entfernt. |
+| HWG § 3 (Irreführung) | Wirkversprechen neutralisiert („sofort spürbar“, „effektiver als Tabletten“, „vollkommen sicher“, „Anti-Aging“, „Entgiftungsmeister“, „nicht dauerhaft behandelbar ohne …“ u. a.). Chelattherapie: nur noch nachgewiesene Schwermetallvergiftung als anerkannte Indikation. |
+| Komplementärmedizin | Frontmatter-Feld `komplementaer: true` blendet auf 16 Leistungs- und 7 Info-Seiten einen Hinweis ein (Wirksamkeit nicht für alle Anwendungsgebiete belegt). Alle Leistungs-/Info-Seiten tragen zusätzlich einen allgemeinen medizinischen Hinweis (`MedizinischerHinweis.astro`). |
+| HWG § 10 / Markennamen | ProcCluster®, Dekristol®, Phyto C®, Vagusvit®, Amitriptylin entfernt bzw. durch Wirkstoff-/Gattungsbegriffe ersetzt. |
+| UWG | Vergleich „6000 statt 2000 Impulse bei anderen Anbietern“, „bestmögliche Qualität zu fairen Konditionen“ entfernt. |
+| Berufsbezeichnung | dr. Landenberger: „Ärztin in Weiterbildung für Allgemeinmedizin, Schwerpunkt Funktionelle Medizin“. |
+| Go-Live-Sperre | `npm run build:production` bricht ab, solange Platzhalter „BITTE ERGÄNZEN“ existieren (`scripts/golive-check.mjs`). |
+
+**Noch von der Praxis zu ergänzen bzw. zu entscheiden (vor Go-Live)**
 
 | Priorität | Thema | Detail |
 |---|---|---|
-| **hoch** | Datenschutzerklärung | Unverändert übernommen, aber veraltet/unvollständig (Vorlagenreste, keine Angaben zu Hosting, Doctolib, SM-Clinic, Karten). Muss **vor dem Go-Live** aktualisiert werden → Vorschlag `docs/DATENSCHUTZ-AENDERUNGSVORSCHLAG.md`. |
-| **hoch** | Heilmittelwerbegesetz (HWG) § 12 | Seite *Vitamin-C-Hochdosis-Infusion* bewirbt die Behandlung bei **COVID-19/Post-Covid**, ME/CFS, Gürtelrose und Allergien. Werbung für die Behandlung bestimmter (u. a. meldepflichtiger Infektions-)Krankheiten gegenüber Laien ist eingeschränkt. |
-| **hoch** | HWG / Wirksamkeitsaussagen | u. a. Chelattherapie (Arteriosklerose, Durchblutungsstörungen, chronische Müdigkeit), Alpha-Liponsäure („Alterungsprozess verlangsamen“), Energy-Infusionen („Anti-Aging“, „Entgiftungsmeister“), FAQ-Antworten („vollkommen sicher“, „erfolgreich bei Migräne, Rheuma und Arthritis“), Stoßwelle („erfolgreich“ bei rheumatoider Arthritis u. a.), Procain („ganz ohne Gewöhnungseffekt“). |
-| mittel | UWG – vergleichende Werbung | Stoßwelle: „6000 Impulse … im Gegensatz zu vielen anderen Anbietern, die lediglich 2000 Impulse …“, „bestmögliche Qualität zu fairen Konditionen“. |
-| mittel | Impressum | Verweis auf § 5 TMG (seit 14.05.2024 § 5 DDG), Angaben zur eigenständigen **Privatpraxis** (Inhaber/Rechtsform) fehlen, Rechtsform der BAG, Link zur Berufsordnung, Hinweis Verbraucherschlichtung. |
-| mittel | Berufsbezeichnungen | „Ärztin für Funktionelle Medizin“ ist keine Facharztbezeichnung; Führung des ausländischen Grades „dr.“ (korrekt in Originalform). |
-| mittel | Arzneimittel-/Markennamen | Vitamin-D-Info nennt das verschreibungspflichtige Präparat „Dekristol®“ (im Kontext Kostenübernahme), Nebennieren: „Phyto C®“ (homöopathisch), ProcCluster®. |
-| niedrig | Preise | Widersprüchliche Preisangaben (CONTENT-INVENTORY.md, Abschnitt 8) vereinheitlichen; Preisangaben gemäß GOÄ/PAngV prüfen. |
+| **hoch** | Impressum-Platzhalter | Rechtsform/Register der BAG, Träger der Privatpraxis, Approbationsstaat dr. Landenberger, Berufshaftpflichtversicherung (Name, Anschrift, Geltungsbereich), USt-IdNr. (falls vorhanden). |
+| **hoch** | Datenschutz-Platzhalter | Verantwortliche Stelle Privatpraxis, Datenschutzbeauftragte(r) (oder Abschnitt löschen), Anbieter SM-Clinic. AV-Verträge mit Cloudflare, Strato, SM-Clinic (und ggf. Doctolib) prüfen/abschließen. |
+| **hoch** | Paketpreise / Rabatte | „600 € bei Buchung von 4 Terminen“, „5er-Kur 550 €“: Pauschal- bzw. Rabattpreise sind mit der GOÄ (Einzelabrechnung) und § 7 HWG (Zuwendungen) schwer vereinbar → anwaltlich prüfen; ggf. auf GOÄ-Einzelpreise umstellen. |
+| mittel | Osteopathie | Ausübung durch Nicht-Ärzte erfordert in Berlin eine Heilpraktikererlaubnis (oder ärztliche Delegation) – Angabe im Profil von Herrn Giesker prüfen/ergänzen. |
+| mittel | Procain-/Eiseninfusion | Verschreibungspflichtige Arzneimittel: Seiten beschreiben nur das Verfahren (ohne Präparatenamen). Bitte so beibehalten. |
+| niedrig | Preise | Widersprüchliche Preisangaben (CONTENT-INVENTORY.md, Abschnitt 8) vereinheitlichen. |
 | niedrig | Bildrechte | Nutzungsrechte und Einwilligungen für alle übernommenen Fotos bestätigen; hEDS-Checkliste (PDF): Urheber/Erlaubnis. |
 
 ## 10. Offene Fragen an die Praxis

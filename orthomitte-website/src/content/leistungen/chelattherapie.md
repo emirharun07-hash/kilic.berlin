@@ -2,6 +2,7 @@
 titel: "Chelattherapie"
 url: "chelattherapie"
 bereich: funktionelle-medizin
+komplementaer: true
 kategorie: grundlagen
 kurzbeschreibung: "- Infusionsbehandlung zur Bindung und Ausscheidung von Schwermetallen aus dem Körper"
 reihenfolge: 3
@@ -11,21 +12,13 @@ seo:
 ---
 ## Wenn der Körper Unterstützung bei der Entgiftung braucht
 
-**Belastet? Erschöpft? Unklarer Leistungsabfall?**
-
-Leiden Sie unter Konzentrationsproblemen, chronischer Müdigkeit, Kopfschmerzen oder diffusen Beschwerden ohne klare Ursache?
-
-Diese Symptome können mit einer erhöhten Belastung durch Schwermetalle zusammenhängen. Die Chelattherapie kann dabei helfen, solche Metalle im Körper zu binden und deren Ausscheidung zu unterstützen - als gezielte Maßnahme zur Entlastung des Organismus und zur Förderung des allgemeinen Wohlbefindens.
+Die Chelattherapie kann eingesetzt werden, um bestimmte Metalle im Körper zu binden und deren Ausscheidung über die Nieren zu ermöglichen. Voraussetzung ist eine sorgfältige ärztliche Abklärung, ob tatsächlich eine relevante Schwermetallbelastung vorliegt.
 
 ## Was ist eine Chelattherapie?
 
 Die Chelattherapie ist ein medizinisches Behandlungsverfahren, bei dem bestimmte Substanzen (sogenannte Chelatbildner) eingesetzt werden, um Metalle im Körper zu binden. Diese gebundenen Stoffe können anschließend über die Nieren und den Urin ausgeschieden werden. Am häufigsten wird dabei der Wirkstoff EDTA (Ethylendiamintetraessigsäure) verwendet.
 
-- Direkte Wirkung im Blutkreislauf
-- Effektive Bindung belastender Metalle
-- Hohe Bioverfügbarkeit durch Infusion
-
-Diese Methode eignet sich zur gezielten Unterstützung bei erhöhter Schwermetallbelastung sowie zur Entlastung des Organismus.
+Die Wirkstoffe werden als Infusion direkt in den Blutkreislauf gegeben.
 
 ## Wie wirkt die Chelattherapie?
 
@@ -37,29 +30,19 @@ Chelatbildner wirken wie eine Art „Zange“:
 
 Die Therapie erfolgt meist als Infusion über die Vene und dauert in der Regel 2–3 Stunden.
 
-**Entgiftungsunterstützung, Zellschutz, Stoffwechselentlastung**
-
 ## Wofür wird Chelattherapie eingesetzt?
 
-Die klassische Anwendung ist die Schwermetallvergiftung, z. B. durch:
+Wissenschaftlich anerkannt ist die Chelattherapie zur Behandlung einer nachgewiesenen Schwermetallvergiftung, z. B. durch:
 
 - Blei
 - Quecksilber
 - Arsen
 
-Chelattherapie wird auch eingesetzt bei:
-
-- Durchblutungsstörungen
-- Arteriosklerose („Gefäßverkalkung“)
-- Chronischer Müdigkeit
-- Umweltbelastungen
+Für weitere Anwendungsgebiete, für die die Chelattherapie in der Erfahrungsmedizin eingesetzt wird, ist ein Nutzen wissenschaftlich nicht belegt. Eine Behandlung erfolgt bei uns nur nach eingehender Diagnostik und sorgfältiger Nutzen-Risiko-Abwägung. Über mögliche Nebenwirkungen (z. B. Belastung der Nieren, Verlust lebenswichtiger Mineralstoffe) klären wir Sie vorher ausführlich auf.
 
 ## Ihre Spezialisten für die Chelattherapie in Berlin Mitte
 
-Unsere individuell abgestimmten Chelattherapie-Konzepte unterstützen die gezielte Bindung und Ausscheidung von Schwermetallen – zur Entlastung des Körpers und zur Förderung des allgemeinen Wohlbefindens.
+Ob eine Chelattherapie in Ihrem Fall sinnvoll ist, klären wir in einem ausführlichen ärztlichen Gespräch.
 
 **Ihre Ansprechpartnerin:** [dr. Isabelle Landenberger](/dr-isabelle-landenberger)
 
-- Hochwertige Wirkstoffe
-- Sichere Verabreichung
-- Schnelle Wirkung durch optimale Nährstoffaufnahme

@@ -1,7 +1,7 @@
 ---
 titel: "Kurzer Fuß nach Janda"
 url: "kurzer-fuß-nach-janda"
-einleitung: "Effektive Fußübung zur Haltungskorrektur und Rumpfstabilisierung nach Janda."
+einleitung: "Fußübung zur Haltungskorrektur und Rumpfstabilisierung nach Janda."
 rubrik: Patienteninformationen
 seo:
   title: "Kurzer Fuß nach Janda"

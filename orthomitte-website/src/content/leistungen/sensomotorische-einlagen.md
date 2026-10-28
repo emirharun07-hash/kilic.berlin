@@ -33,7 +33,7 @@ Es gibt zwei Hauptarten von Einlagen: feste Einlagen und aktive (sensomotorische
 
 Es gibt die Einlagen, deren Kosten nach ärztlicher Verordnung von den gesetzlichen Krankenkassen übernommen werden. Der Versicherte leistet lediglich eine Zuzahlung in Höhe von zehn Prozent (mindestens fünf bis höchstens zehn Euro). Bei diesen Einlagen unterscheiden wir stützende, bettende und korrigierende Einlagen, die entweder Kunststoff mit einer Blankleder-, Kunstleder- oder Veloursdecke haben oder Flexokork/ Korkgummi-Gemisch als Basis mit einer Lederdecke haben. Optionale Zusätze sind eine Weichbettung, eine Spreizfußpelotte, ein Supinations-/ Pronationskeil, eine Fersenspornaussparung, eine Rigidusfeder und ein Verkürzungsausgleich. Diese von der gesetzlichen Krankenkasse übernommenen Schuheinlagen werden nach 2D-Abdruck angefertigt und sind allesamt sehr fest. Sie stützen den Fuß passiv und führen letztendlich zur Inaktivierung der fußeigenen stützenden Muskulatur. Sie führen durch Aufrichtung des Längs- und Quergewölbes zu einer Verbesserung der Statik im Fuß, allerdings wie gesagt passiv. In Situationen mit Beschwerden in Füßen und z. B. Knien kann das durchaus vorübergehend sinnvoll sein, diese Einlagen zu tragen. Auch wenn die Fußfehlstellung bereits fortgeschritten ist, ist der Einsatz von stützenden Einlagen manchmal sinnvoll.
 
-Das aktive Trainieren der eigenen Fußmuskulatur (z. B. mit Hilfe des „kurzen Fußes nach Janda“), die letztendlich für die Aufrechterhaltung der Fußgewölbe zuständig ist, ist die bessere Variante. Es ist zwar aufwändiger, was die Therapie betrifft, jedoch sind die Effekte sicher und besser, weil sie den Patienten aktivieren gegenüber der passiven Adaptierung auf die meistens unangenehme Einlage. Die Aktivierung der Fußmuskulatur kann durch die Nutzung von Barfußschuhen oder durch den Einsatz von aktiven sensomotorischen Einlagen in den Alltag problemlos integriert werden.
+Das aktive Trainieren der eigenen Fußmuskulatur (z. B. mit Hilfe des „kurzen Fußes nach Janda“), die letztendlich für die Aufrechterhaltung der Fußgewölbe zuständig ist, ist die bessere Variante. Es ist zwar aufwändiger, was die Therapie betrifft, aus unserer Sicht jedoch vorteilhaft, weil sie den Patienten aktivieren gegenüber der passiven Adaptierung auf die meistens unangenehme Einlage. Die Aktivierung der Fußmuskulatur kann durch die Nutzung von Barfußschuhen oder durch den Einsatz von aktiven sensomotorischen Einlagen in den Alltag problemlos integriert werden.
 
 ## Weiche (sensomotorische) Einlagen
 
@@ -77,4 +77,4 @@ Sensomotorische Einlagen sind sehr langlebig und halten bei guter Pflege mehrere
 
 ### Kann Tapen mit den Einlagen kombiniert werden?
 
-Ja, die Kombination aus Tapen und Einlagen kann bei bestimmten Beschwerden eine noch effektivere Wirkung erzielen.
+Ja, die Kombination aus Tapen und Einlagen kann bei bestimmten Beschwerden sinnvoll sein.

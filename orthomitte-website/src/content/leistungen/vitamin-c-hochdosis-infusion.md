@@ -2,6 +2,7 @@
 titel: "Vitamin-C-Hochdosis-Infusion"
 url: "vitamin-c-hochdosis-infusion"
 bereich: funktionelle-medizin
+komplementaer: true
 kategorie: infusionen
 kurzbeschreibung: "Bei der Infusionstherapie werden wichtige Nährstoffe wie Vitamine, Aminosäuren, Mineralstoffe und Antioxidantien direkt über die Vene in die Blutbahn befördert."
 reihenfolge: 2
@@ -16,7 +17,7 @@ Vitamin C (auch Ascorbinsäure genannt) ist ein lebensnotwendiger Wirkstoff, das
 
 Fünf Portionen Obst und Gemüse am Tag sollten genügen, um über natürliche Quellen Ihren Vitamin-C-Bedarf zu decken. Wird Vitamin C mit der Nahrung verzehrt, so erfolgt die Aufnahme in den Organismus im Dünndarm aktiv mit Hilfe bestimmter Transportmoleküle, die sie dann der Blutbahn zuführen. Sind alle “Transporter” besetzt, wird das überschüssige Vitamin C mit dem Stuhl ausgeschieden.
 
-Großartige Vitamin-C-Lieferanten sind: Johannisbeeren, Petersilie, Rotkohl, Sauerkraut, Zitrone, Orange, rote Paprika, Kiwi.
+Gute Vitamin-C-Lieferanten sind: Johannisbeeren, Petersilie, Rotkohl, Sauerkraut, Zitrone, Orange, rote Paprika, Kiwi.
 
 ## Welche Wirkung hat Vitamin C in unserem Körper?
 
@@ -26,15 +27,11 @@ Vitamin C ist als Kofaktor auch an über 150 Stoffwechselfunktionen beteiligt. A
 
 Vitamin C ist wichtig für das Immunsystem, um Krankheitserreger abwehren zu können (Abwehrstärkung).
 
-Vitamin C schützt vor Entzündungen und kurbelt die Wundheilung an (ideal zum Beispiel nach Operationen). Ihr Körper kann mithilfe von Vitamin C auch besser Eisen aufnehmen und beugt damit einem Eisenmangel vor (Eisenaufnahme).
+Vitamin C trägt zu einer normalen Funktion des Immunsystems und zur normalen Kollagenbildung bei, die für die Wundheilung wichtig ist. Außerdem verbessert Vitamin C die Aufnahme von Eisen aus der Nahrung (Eisenaufnahme).
 
-Vitamin C setzt zudem die Bildung von Kollagen in Gang, das Ihre Haut strafft, Haare und Nägel stärkt und am Aufbau von Knochen und Zähnen beteiligt ist (Knochen und Bindegewebe).
+Das mithilfe von Vitamin C gebildete Kollagen ist ein wichtiger Baustein von Haut, Bindegewebe, Knochen und Zähnen (Knochen und Bindegewebe).
 
-Ohne Vitamin C können wir schlecht sehen: Nervenzellen im Auge benötigen Vitamin C, um dem Gehirn ein genaues Abbild davon zu vermitteln, was wir sehen. Zudem enthält das Wasser in der Linse im Auge viel Vitamin C, das Forscher*innen zufolge verhindern kann, dass sich die Linse eintrübt und so grauer Star entsteht (Augengesundheit).
-
-Eine Studie, in der Proband*innen täglich 500 Milligramm Vitamin C für vier Wochen einnahmen, zeigte, dass die Konzentration vom ungesunden LDL-Cholesterin absinkt. LDL-Cholesterin ist maßgeblich an der Entstehung von Herzinfarkten und Schlaganfällen beteiligt (Regulation des Fettstoffwechsels, Herzgesundheit).
-
-Wissenschaftlich konnte gezeigt werden, dass Vitamin C die Hautalterung verlangsamen kann. Es reduziert die Faltenbildung und lässt das Hautbild jünger erscheinen. Vitamin-C-Supplemente bewahren die Haut vor Trockenheit, was die Entstehung von Fältchen verhindert (Hautgesundheit).
+Auch im Auge kommt Vitamin C in hoher Konzentration vor, unter anderem in der Augenlinse (Augengesundheit).
 
 ## Was ist eine Hochdosis (Booster) Vitamin C Infusion?
 
@@ -50,13 +47,12 @@ Wird eine Infusion mit 7,5 g Vitamin C gut toleriert, sind auch Infusionen mit 1
 
 Der Vitamin-C-Bedarf ist beispielsweise erhöht bei:
 
-- Infektionskrankheiten, ständigen Stress-Situationen
+- häufigen Infekten, ständigen Stress-Situationen
 - Infektionen, chronisch entzündliche Erkrankungen, z. B. Arthritis
-- Allergien: Da bei Allergien die gefürchteten freien Radikale kumulieren und dadurch eine überschießende Immun- und Entzündungsreaktion stimulieren, kommt es zur Zunahme von oxidativem Stress. Durch hochdosierte Vitamin-C-Infusionen kann dieser Teufelskreis durchbrochen und eine deutliche Besserung herbeigeführt werden.
-- Arteriosklerose
+- Allergien, die mit vermehrtem oxidativem Stress einhergehen können
 - Rauchern
 - Leistungssportlern (körperliche Anstrengung)
-- Einnahme bestimmter Medikamente (z. B. Tumorpatienten)
+- Einnahme bestimmter Medikamente
 - nach Verletzungen und Operationen
 - Aufnahmestörungen im Darm
 - chronischer Müdigkeit / chronisches Fatigue-Syndrom
@@ -86,7 +82,7 @@ Nur durch die direkte intravenöse (über die Vene) Darreichung (Infusion) gelan
 
 So können auch Menschen mit einer verminderten Resorptionsfähigkeit des Darms von einer Infusion mit hohen Dosen von Vitamin C profitieren.
 
-Da Vitamin C kaum speicherbar ist, kann man es nicht überdosieren. Was zu viel ist, wird relativ schnell über den Urin ausgeschieden.
+Da Vitamin C kaum speicherbar ist, wird ein Überschuss relativ schnell über den Urin ausgeschieden. Die Dosis legen wir dennoch individuell fest und beachten die unten genannten Gegenanzeigen.
 
 Bei Menschen mit einem sehr starken Mangel, der immer wieder aufs Neue entsteht, weil ihre Erkrankung mit einem sehr hohen Verbrauch an Vitamin C verbunden ist, können auch mehrere Infusionen notwendig sein.
 
@@ -94,7 +90,7 @@ Es liegt eine gute Verträglichkeit des Vitamin-Präparates vor, es enthält wed
 
 ## Hat Vitamin C Nebenwirkungen?
 
-Vitamin C in Form einer Infusion wird im Allgemeinen sehr gut vertragen – vorausgesetzt es sind wirklich keine Konservierungsstoffe o.ä. enthalten.
+Vitamin C in Form einer Infusion wird im Allgemeinen gut vertragen – vorausgesetzt es sind wirklich keine Konservierungsstoffe o.ä. enthalten.
 
 Bei der Infusion kann es zu leichten Reizungen an der Einstichstelle kommen. Andere Überempfindlichkeitsreaktionen (Haut, Atmung, Kreislauf) sind zwar sehr selten, aber in Einzelfällen nicht auszuschließen. Sehr selten können hohe Dosen von Ascorbinsäure Beschwerden im Verdauungstrakt hervorrufen (z. B. Übelkeit, Erbrechen, Durchfall, Bauchschmerzen, Blähungen, Kopfschmerzen). Das tritt bei hoher oraler Zufuhr aber deutlich häufiger auf.
 
@@ -107,27 +103,15 @@ In folgenden Fällen sind Infusionen mit hochdosiertem Vitamin C nicht zu empfeh
 - Neigung zur Bildung von Oxalat-Nierensteinen (Ascorbinsäure wird nämlich im Körper teilweise zu Oxalsäure abgebaut)
 - bestimmte, meist angeborene Eisenspeicherkrankheiten mit zu hohen Eisen-Spiegeln im Blut
 
-## Hochdosiertes Vitamin C bei COVID-19/Post-Covid
+## Vitamin C bei Erschöpfung (Fatigue)
 
-Ein schwerer Verlauf nach einer COVID-19-Infektion ist die Folge einer direkten Zelltötung durch SARS-CoV-2 und den deleteren Folgen für das Immunsystem. Dabei spielt oxidativer Stress mit der Bildung von freien Radikalen eine zentrale Rolle in der Pathogenese bei einem schwerem COVID-19 Verlauf. Mit starken Antioxidantien wie Vitamin C kann solch ein Verlauf u.U. verhindert oder abgemildert werden.
-
-## Hochdosiertes Vitamin C bei Fatigue, ME/CFS
-
-Fatigue wird beschrieben als Erschöpfung, Schwäche und Unfähigkeit, eine Aktivität über eine längere Zeit aufrechtzuerhalten. Sie tritt nach Infektionen mit Viren oder Bakterien, bei Autoimmunerkrankungen und auch bei Krebspatient*innen während oder nach der Tumortherapie auf.
+Fatigue wird beschrieben als Erschöpfung, Schwäche und Unfähigkeit, eine Aktivität über eine längere Zeit aufrechtzuerhalten. Sie kann zum Beispiel nach Infektionen oder bei Autoimmunerkrankungen auftreten.
 
 Bei einer ME/CFS (Myalgische Enzephalomyelitis / Chronisches Fatigue-Syndrom) bestehen über mindestens 3 Monate neben einer ausgeprägten Fatigue weitere Symptome wie Kopf-, Muskel- und/oder Gelenkschmerzen, kognitive Störungen (Probleme beim Denken, Erinnern oder Konzentrieren) und nicht erholsamer Schlaf.
 
 Alle Beschwerden können sich schon nach leichten körperlichen oder geistigen Aktivitäten für Tage oder auch Wochen verschlimmern und zusätzlich mit grippeähnlichen Symptomen und gastrointestinalen Beschwerden und Übelkeit einhergehen. Diese Belastungsintoleranz, auch als Post-Exertional Malaise (PEM) bezeichnet, gilt als Leitsymptom des ME/CFS. Sie schränkt die Lebensqualität vieler Betroffener stark ein.
 
-Es gibt in der Literatur mehrere Studien zur intravenösen Vitamin-C-Therapie bei Fatigue bei den i.v.-Vitamin-C-Dosen zwischen 3,5g und über 50g verabreicht wurden. In 3 der 4 placebo-kontrollierten Studien nahm die Fatigue in der Vitamin-C-Gruppe im Vergleich zur Kontrollgruppe signifikant ab.
-
-In einer Studie, in der die Wirksamkeit von intravenösen Vitamin C bei einer Viruserkrankung (Herpes Zoster) geprüft wurde, wurden 7,5 g jeden 2. oder 3. Tag infundiert. Fatigue besserte sich bei 78,2 % der Patient'innen, die begleitend Konzentrationsstörungen bei 81,8% [1]. Die gleiche Dosis wurde auch in einer Studie zur Behandlung von Allergien, die mit Fatigue einhergingen, mit Erfolg eingesetzt [2].
-
-Die Ergebnisse der bisherigen klinischen Studien zeigen, dass hochdosiertes intravenöses Vitamin C aufgrund seiner antioxidativen, entzündungshemmenden, endothelprotektiven und immunmodulierenden Wirkung bei Fatigue und ME/CFS eine geeignete Behandlungsoption darstellt.
-
-1 Schencking M, Vollbracht C, Weiss G et al. Intravenous vitamin Cin the treatment of shingles: Results of a multicenter prospective cohort study. MeSci Monit 2012; 18: CR215
-
-2 Vollbracht C, Raithel M, Krick B et al. lntravenous vitamin Cin the treatment of allergies: An interim subgroup analysis of a long-term observational study J Int Med Res 2018;46: 3640-3655
+In der Literatur gibt es einzelne, überwiegend kleine Studien zur intravenösen Gabe von Vitamin C bei Erschöpfungszuständen. Die Datenlage ist bislang begrenzt und uneinheitlich; eine Wirksamkeit ist wissenschaftlich nicht gesichert. Die Vitamin-C-Infusion ist keine etablierte Standardtherapie des ME/CFS und ersetzt nicht dessen fachärztliche Diagnostik und Behandlung. Ob ein Behandlungsversuch – etwa bei nachgewiesenem Vitamin-C-Mangel – sinnvoll sein kann, besprechen wir mit Ihnen individuell.
 
 ## Vitamin-C-Mangel und Histaminintoleranz
 
@@ -147,6 +131,6 @@ Während der normalen Sprechstunde erfolgt die Beratung zur Vitamin-C-Infusion. 
 
 Für die Termine sollten Sie jeweils ca. 30 Minuten Zeit einplanen. Bei mehreren Terminen sollten zwischen den Infusionen im besten Fall immer ca. 7 Tage liegen.
 
-Zu empfehlen sind mindestens 5 Infusionen.
+Die Anzahl der Infusionen legen wir nach dem ärztlichen Gespräch individuell mit Ihnen fest.
 
 Die Infusion ist unabhängig von Tageszeiten, Mahlzeiten oder Aktivitäten möglich und lässt sich also problemlos in Ihren Alltag integrieren.

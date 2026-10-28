@@ -2,6 +2,7 @@
 titel: "Labordiagnostik bei Entzündungen"
 url: "labor-entzündungen"
 einleitung: "Laborwerte zur Erkennung stiller Entzündungen (silent inflammation)."
+komplementaer: true
 rubrik: Patienteninformationen
 seo:
   title: "Labordiagnostik bei Entzündungen"

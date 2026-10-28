@@ -2,6 +2,7 @@
 titel: "Applied Kinesiology & eIRT"
 url: "applied-kinesiology"
 bereich: orthopaedie
+komplementaer: true
 kategorie: diagnose
 kurzbeschreibung: "Muskeltests zur ganzheitlichen Erkennung und Korrektur funktioneller Störungen."
 bild: ../../assets/images/leistungen/applied-kinesiology.jpg
@@ -13,9 +14,9 @@ seo:
 ---
 ## Was ist Applied Kinesiology?
 
-Die Applied Kinesiology (AK) ist eine ganzheitliche Untersuchungs- und Therapiemethode, die sich auf die manuelle Testung von Muskeln stützt. Ziel ist es, neuromuskuläre Funktionsstörungen zu erkennen und gezielt zu behandeln. Dabei stehen alte Verletzungsmuster, die Beschwerden im Bewegungsapparat verursachen, im Fokus der Diagnostik.
+Die Applied Kinesiology (AK) ist eine ganzheitliche Untersuchungs- und Therapiemethode der Erfahrungsmedizin, die sich auf die manuelle Testung von Muskeln stützt. Ziel ist es, neuromuskuläre Funktionsstörungen zu erkennen und gezielt zu behandeln. Dabei stehen alte Verletzungsmuster, die nach dem Konzept der AK Beschwerden im Bewegungsapparat verursachen können, im Fokus. Die Aussagekraft der AK-Muskeltests ist wissenschaftlich nicht belegt.
 
-Viele Menschen leiden unter chronischen oder immer wiederkehrenden Schmerzen, die trotz Physiotherapie, Sport oder bewusster Ernährung nicht verschwinden. Oft sind unverarbeitete Verletzungen, z. B. durch Unfälle, Operationen oder Zahnextraktionen, die Ursache. Diese hinterlassen neurologische Spuren im Nervensystem, die zu Fehlansteuerungen der Muskulatur, Instabilitäten und Schmerzen führen können. Mit Hilfe der Muskeltestung in der Applied Kinesiology können wir solche funktionellen Blockaden und Dysbalancen identifizieren und gezielt therapieren.
+Viele Menschen leiden unter chronischen oder immer wiederkehrenden Schmerzen, die trotz Physiotherapie, Sport oder bewusster Ernährung nicht verschwinden. Nach dem Konzept der AK können unverarbeitete Verletzungen, z. B. durch Unfälle, Operationen oder Zahnextraktionen, dazu beitragen. Sie sollen Spuren im Nervensystem hinterlassen, die zu Fehlansteuerungen der Muskulatur, Instabilitäten und Schmerzen führen können. Mit Hilfe der Muskeltestung der Applied Kinesiology versuchen wir, solche funktionellen Blockaden und Dysbalancen aufzuspüren und gezielt zu behandeln.
 
 ## Wie funktioniert Applied Kinesiology?
 
@@ -35,7 +36,7 @@ Durch gezielte manuelle Techniken, Stimulation von Reflexzonen und die Anwendung
 
 ## Was ist die eIRT-Behandlung?
 
-Die erweiterte Injury-Recall-Technique (eIRT) wurde entwickelt, um neurologisch aktive Verletzungsmuster zu erkennen und nachhaltig zu behandeln. Ähnlich wie ein psychisches Trauma kann auch ein körperliches Trauma vom Nervensystem gespeichert und immer wieder „abgerufen“ werden, was zu anhaltenden Beschwerden führt.
+Die erweiterte Injury-Recall-Technique (eIRT) wurde entwickelt, um neurologisch aktive Verletzungsmuster zu erkennen und zu behandeln. Ähnlich wie ein psychisches Trauma kann auch ein körperliches Trauma vom Nervensystem gespeichert und immer wieder „abgerufen“ werden, was zu anhaltenden Beschwerden führt.
 
 ## Wie entstehen Verletzungsmuster?
 
@@ -51,7 +52,7 @@ Dadurch entstehen Fehlbelastungen, Instabilitäten und Schmerzen.
 
 Betroffene Muskeln werden gehemmt, was zu einem muskulären Ungleichgewicht führt.
 
-Aktive Verletzungsmuster äußern sich oft durch chronische Schmerzen, unerklärliche Muskelschwäche, Verspannungen oder Instabilitäten. Häufig bestehen Beschwerden fort, die auf keine herkömmliche Therapie ansprechen.
+Aktive Verletzungsmuster äußern sich oft durch chronische Schmerzen, unerklärliche Muskelschwäche, Verspannungen oder Instabilitäten. Häufig handelt es sich um Beschwerden, die auf bisherige Behandlungen nicht ausreichend angesprochen haben.
 
 ## Wie funktioniert die eIRT-Behandlung?
 
@@ -70,9 +71,9 @@ Parallel dazu kommen gezielte Augenbewegungen zum Einsatz, die auf der EMDR-Tech
 
 ## Wissenschaftliche Hintergründe & EMDR-Technik
 
-Die eIRT-Technik bedient sich unter anderem der Eye Movement Desensitization and Reprocessing (EMDR), einer wissenschaftlich anerkannten Methode zur Verarbeitung von Traumata. EMDR wird seit Jahren erfolgreich in der Psychotherapie eingesetzt, um tief verankerte Stressmuster zu lösen. Diese Prinzipien können auch auf körperliche Traumata und Verletzungsmuster angewendet werden.
+Die eIRT-Technik bedient sich unter anderem der Eye Movement Desensitization and Reprocessing (EMDR), einer wissenschaftlich anerkannten Methode zur Verarbeitung von Traumata. Für die Behandlung der posttraumatischen Belastungsstörung ist die Wirksamkeit von EMDR in Studien belegt. Die eIRT überträgt diese Prinzipien auf körperliche Traumata und Verletzungsmuster; diese Übertragung ist wissenschaftlich nicht untersucht.
 
-Durch die Kombination aus bilateraler Stimulation (Augenbewegungen), Akupressur und neurologischer Reorganisation wird das Verletzungsmuster nachhaltig aufgelöst.
+Durch die Kombination aus bilateraler Stimulation (Augenbewegungen), Akupressur und neurologischer Reorganisation soll das Verletzungsmuster aufgelöst werden.
 
 ## Kosten
 

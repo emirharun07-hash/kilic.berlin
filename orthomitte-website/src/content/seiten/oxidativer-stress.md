@@ -2,6 +2,7 @@
 titel: "Oxidativer und nitrosativer Stress"
 url: "oxidativer-stress"
 einleitung: "Ursachen, Folgen und Therapieansätze bei oxidativem und nitrosativem Stress."
+komplementaer: true
 rubrik: Patienteninformationen
 seo:
   title: "Oxidativer und nitrosativer Stress"
@@ -21,7 +22,7 @@ Oxidativer Stress entsteht hauptsächlich durch normale Stoffwechselprozesse in 
 
 Nitrosativer Stress tritt auf, wenn Stickstoffmoleküle in unseren Zellen außer Kontrolle geraten, was unter anderem durch Entzündungen oder Infektionen passieren kann.
 
-Beide Arten von Stress können zu Zellschäden führen und verschiedene Krankheiten wie Krebs, Herzkrankheiten und Alzheimer beeinflussen, wenn sie nicht ausreichend neutralisiert werden.
+Beide Arten von Stress können zu Zellschäden führen und die Entstehung verschiedener Krankheiten, z. B. Herz-Kreislauf- und neurodegenerativer Erkrankungen, beeinflussen, wenn sie nicht ausreichend neutralisiert werden.
 
 ## Oxidativer/nitrosativer Stress und „silent inflammation“
 
@@ -29,13 +30,13 @@ Oxidativer/nitrosativer Stress und unterschwellige chronische Entzündungen („
 
 Auf der anderen Seite können stille Entzündungen auch oxidativen Stress verstärken, indem sie die Produktion von freien Radikalen erhöhen und die antioxidativen Abwehrmechanismen des Körpers schwächen.
 
-Insgesamt verstärken sich oxidativer/nitrosativer Stress und stille Entzündung gegenseitig, was zu einem erhöhten Risiko für verschiedene chronische Krankheiten wie Herz-Kreislauf-Erkrankungen, Diabetes, Krebs und neurodegenerative Erkrankungen führen kann.
+Insgesamt verstärken sich oxidativer/nitrosativer Stress und stille Entzündung gegenseitig, was zu einem erhöhten Risiko für verschiedene chronische Krankheiten wie Herz-Kreislauf-Erkrankungen, Diabetes und neurodegenerative Erkrankungen beitragen kann.
 
 ## Oxidativen und nitrosativen Stress reduzieren
 
 Es ist wichtig, einen gesunden Lebensstil zu pflegen und sich vor schädlichen Umwelteinflüssen zu schützen, um das Risiko dieser Belastungen zu verringern. Der Körper hat jedoch auch Mechanismen zur Bekämpfung freier Radikale, einschließlich antioxidativer Enzyme und Moleküle, die dazu beitragen, ihre schädlichen Wirkungen zu neutralisieren.
 
-Die Zufuhr von Antioxidantien ist ebenfalls eine Maßnahme, um den Körper von freien Radikalen zu entgiften.
+Die Zufuhr von Antioxidantien ist eine weitere Maßnahme, um freie Radikale abzufangen.
 
 > Das Gleichgewicht zwischen Radikalbildung und Radikalbeseitigung entscheidet über Gesundheit und Vitalität.
 

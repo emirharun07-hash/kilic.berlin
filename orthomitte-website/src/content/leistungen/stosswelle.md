@@ -11,13 +11,13 @@ seo:
   title: "Stoßwellentherapie in Berlin-Mitte"
 # Quelle: https://www.orthopaedische-praxis-mitte.de/stoßwelle (Wix, Stand Oktober 2026)
 ---
-## Effektive Hilfe bei Schmerzen und Beschwerden
+## Stoßwellentherapie bei Beschwerden des Bewegungsapparates
 
-Schmerzen und Bewegungseinschränkungen können den Alltag erheblich belasten. Die Stoßwellentherapie ist eine moderne, nicht-invasive Behandlungsmethode, die gezielt Schmerzen lindert, Heilungsprozesse aktiviert und die Beweglichkeit verbessert. Dabei werden energiereiche Schallwellen auf die betroffenen Bereiche übertragen, um Durchblutung, Zellregeneration und Selbstheilungskräfte des Körpers zu stimulieren.
+Schmerzen und Bewegungseinschränkungen können den Alltag erheblich belasten. Die Stoßwellentherapie ist eine moderne, nicht-invasive Behandlungsmethode, die Schmerzen lindern und die Beweglichkeit verbessern kann. Dabei werden energiereiche Schallwellen auf die betroffenen Bereiche übertragen, um Durchblutung und Heilungsprozesse im Gewebe anzuregen.
 
-## Wann hilft die Stoßwellentherapie?
+## Wann kommt die Stoßwellentherapie infrage?
 
-Die Stoßwellentherapie wird erfolgreich bei zahlreichen Beschwerden des Bewegungsapparates eingesetzt, darunter:
+Die Stoßwellentherapie wird bei zahlreichen Beschwerden des Bewegungsapparates eingesetzt, darunter:
 
 - Sehnen- und Muskelprobleme (z. B. Achillessehnenentzündung, Tennis- & Golferellenbogen, Patellaspitzensyndrom, ITBS)
 - Kalkablagerungen in Sehnen (z. B. Kalkschulter)
@@ -28,36 +28,28 @@ Die Stoßwellentherapie wird erfolgreich bei zahlreichen Beschwerden des Bewegun
 - Verzögerte Knochenheilung (nach Frakturen – Pseudarthrose)
 - Chronische Rücken- & Nackenschmerzen
 
-Des Weiteren wird die Stoßwellentherapie erfolgreich zur Behandlung von Marschfrakturen, Morbus Osgood-Schlatter, Morbus Dupuytren sowie rheumatoider Arthritis eingesetzt.
+Darüber hinaus wird sie bei weiteren Krankheitsbildern eingesetzt, etwa bei Morbus Osgood-Schlatter. Die wissenschaftliche Datenlage ist je nach Anwendungsgebiet unterschiedlich gut; für einige Anwendungen (z. B. Fersensporn, Kalkschulter) ist die Wirksamkeit gut belegt, für andere weniger. Wir beraten Sie, ob die Therapie für Ihre Beschwerden sinnvoll ist.
 
 ## Wie funktioniert die Stoßwellentherapie?
 
 Die Behandlung erfolgt ambulant und dauert in der Regel einige Minuten pro Sitzung. In unserer Praxis behandeln wir nicht nur die schmerzende oder betroffene Stelle, sondern beziehen auch die gesamte Muskelkette und angrenzende Regionen in die Therapie mit ein. Viele Beschwerden im Bewegungsapparat entstehen nicht isoliert, sondern sind oft Teil eines größeren funktionellen Zusammenhangs. Schmerzen oder Entzündungen können durch Überbelastungen oder Verspannungen in benachbarten Bereichen verstärkt oder sogar verursacht werden.
 
-Indem wir auch die angrenzenden Regionen mit Stoßwellen behandeln, entlasten wir die gesamte Muskelkette, fördern eine bessere Durchblutung und Mobilität und beugen möglichen Folgebeschwerden vor, die durch Fehlhaltungen oder Schonmechanismen entstehen könnten.
+Indem wir auch die angrenzenden Regionen mit Stoßwellen behandeln, möchten wir die gesamte Muskelkette entlasten sowie Durchblutung und Mobilität fördern. Wir stimmen die Stoßwellentherapie individuell auf Ihre Beschwerden ab.
 
-Unsere ganzheitliche Herangehensweise sorgt dafür, dass Ihre Behandlung nicht nur effektiv, sondern auch nachhaltig ist. Wir stimmen die Stoßwellentherapie individuell auf Ihre Bedürfnisse ab, um optimale und langfristige Ergebnisse zu erzielen.
-
-Damit Sie so von der Stoßwellentherapie maximal profitieren können, erhalten Sie bei uns für die Behandlung der betroffenen Stelle und der dazugehörigen Muskelkette 6000 Impulse pro Sitzung (im Gegensatz zu vielen anderen Anbietern, die lediglich 2000 Impulse pro Behandlung anbieten).
+Für die Behandlung der betroffenen Stelle und der dazugehörigen Muskelkette sind bei uns bis zu 6000 Impulse pro Sitzung vorgesehen.
 
 ## Vorteile der Stoßwellentherapie
 
-- Nicht-invasiv & schmerzarm – keine Operation erforderlich
-- Aktiviert natürliche Heilungsprozesse
-- Schnelle Linderung & nachhaltige Wirkung
-- Wenig Nebenwirkungen, hohe Verträglichkeit
-- Reduzierung der Rehabilitationszeit
-- Meist nur wenige Sitzungen erforderlich
+- Nicht-invasiv – ohne Operation und ohne Narkose
+- Regt körpereigene Heilungsprozesse an
+- In der Regel gut verträglich; mögliche Nebenwirkungen sind z. B. vorübergehende Rötungen, Schwellungen oder Blutergüsse
+- Meist sind mehrere Sitzungen erforderlich
 
 ## Ihre Spezialisten für die Stoßwellentherapie in Berlin Mitte
 
-Die Stoßwellentherapie eignet sich sowohl für akute Beschwerden als auch für chronische Schmerzzustände. Die Stoßwellentherapie ist eine wertvolle Investition in Ihre Gesundheit – und bei uns erhalten Sie die bestmögliche Qualität zu fairen Konditionen. Unsere Praxis berät Sie gerne individuell, ob diese Therapie für Ihre Beschwerden infrage kommt.
+Die Stoßwellentherapie eignet sich sowohl für akute Beschwerden als auch für chronische Schmerzzustände. Unsere Praxis berät Sie gerne individuell, ob diese Therapie für Ihre Beschwerden infrage kommt. Dabei betrachten wir nicht nur die Symptome, sondern suchen auch nach möglichen Ursachen.
 
-**Wir behandeln nicht nur Symptome, sondern die Ursache.**
-
-Zögern Sie nicht, uns anzusprechen!
-
-Wir helfen Ihnen, wieder schmerzfrei und beweglich in Ihren Alltag zurückzukehren.
+Sprechen Sie uns gerne an.
 
 ## Kosten der Stoßwellentherapie
 
@@ -71,11 +63,11 @@ Eine Sitzung dauert zwischen 10 und 20 Minuten, abhängig vom behandelten Bereic
 
 ### Wann kann ich eine Besserung spüren?
 
-Erste Erleichterungen können bereits nach der ersten Sitzung spürbar sein, eine spürbare und nachhaltige Wirkung zeigt sich jedoch oft nach mehreren Sitzungen.
+Manche Patientinnen und Patienten bemerken bereits nach der ersten Sitzung eine Erleichterung; häufig zeigt sich eine Wirkung erst nach mehreren Sitzungen oder einige Wochen nach der Behandlung. Ein Behandlungserfolg kann nicht garantiert werden.
 
 ### Wie viele Sitzungen sind nötig?
 
-In der Regel sind 3-5 Sitzungen erforderlich, je nach Art und Dauer der Beschwerden.
+In der Regel sind 3–5 Sitzungen vorgesehen, je nach Art und Dauer der Beschwerden.
 
 ### Ist die Behandlung schmerzhaft?
 

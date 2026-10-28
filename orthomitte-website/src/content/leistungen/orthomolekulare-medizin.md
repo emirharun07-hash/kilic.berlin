@@ -2,6 +2,7 @@
 titel: "Orthomolekulare Medizin"
 url: "orthomolekulare-medizin"
 bereich: orthopaedie
+komplementaer: true
 kategorie: regeneration
 kurzbeschreibung: "Nährstofftherapie zur gezielten Unterstützung von Gesundheit und Regeneration."
 reihenfolge: 3
@@ -41,17 +42,17 @@ Erfahren Sie, wie oxidativer Stress Ihre Zellen angreift, Entzündungen begünst
 
 ### [Infusion: Energy & Detox](/leistungen-2/vitaminbooster-detox-glutathion)
 
-Erfahren Sie, wie eine Infusion aus B-Vitaminen, hochdosiertem Vitamin C und Glutathion Ihre Zellen mit Energie versorgt, das Immunsystem stärkt und den Körper effektiv entgiftet.
+Erfahren Sie, wie eine Infusion aus B-Vitaminen, hochdosiertem Vitamin C und Glutathion zur Unterstützung von Energiestoffwechsel und antioxidativem Schutz eingesetzt wird.
 
 ## Häufige Fragen
 
 ### Was sind orthomolekulare Nährstoffe und wie wirken sie?
 
-Orthomolekulare Medizin nutzt hochdosierte Nährstoffe wie Vitamine, Mineralstoffe und Aminosäuren zur Unterstützung der Körperfunktionen und zur Heilung.
+Orthomolekulare Medizin nutzt hochdosierte Nährstoffe wie Vitamine, Mineralstoffe und Aminosäuren zur Unterstützung der Körperfunktionen, insbesondere bei nachgewiesenem Mangel.
 
 ### Wie lange dauert es, bis ich eine Verbesserung merke?
 
-Die Wirkung kann je nach Zustand des Körpers und Nährstoffmangel sofort oder nach einigen Wochen spürbar sein.
+Ob und wann eine Wirkung spürbar ist, hängt vom Ausgangszustand und einem eventuellen Nährstoffmangel ab und ist individuell verschieden.
 
 ### Kann ich orthomolekulare Medizin begleitend anwenden?
 

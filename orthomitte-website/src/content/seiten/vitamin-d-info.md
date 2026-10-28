@@ -39,7 +39,7 @@ Somit ist ein ausreichender Vitamin-D-Spiegel ein wichtiger Faktor der Präventi
 
 ## Vitamin D-Effekte auf Körperzellen und das Immunsystem
 
-Unabhängig vom Kalzium-/Knochenstoffwechsel reguliert Vitamin D zahlreiche andere zelluläre Funktionen. Es gibt eine große Anzahl von epidemiologischen Daten, die darauf hinweisen, dass das Erkrankungsrisiko und teilweise auch der Schweregrad von einigen Krebserkrankungen, Infektionserkrankungen, Autoimmunerkrankungen, Schwangerschaftshypertonie und Schwangerschaftsdiabetes, aber auch Herz-Kreislauf-Erkrankungen bei Vitamin D-Mangel erhöht sind.
+Unabhängig vom Kalzium-/Knochenstoffwechsel reguliert Vitamin D zahlreiche andere zelluläre Funktionen. Es gibt eine große Anzahl von epidemiologischen Daten, die darauf hinweisen, dass ein Vitamin-D-Mangel mit einem erhöhten Risiko für verschiedene Erkrankungen, z. B. Autoimmun- und Herz-Kreislauf-Erkrankungen, verbunden ist. Solche Beobachtungsdaten belegen allerdings keinen ursächlichen Zusammenhang; dass eine Vitamin-D-Gabe diese Erkrankungen verhindert, ist wissenschaftlich nicht gesichert.
 
 Auch in nahezu allen Immunzellen bindet Vitamin D im Zellkern an den Vitamin D-Rezeptor und moduliert das Ablesen zahlreicher für die Immunantwort wichtiger Gene.
 
@@ -142,4 +142,4 @@ Die manifeste Osteoporose ist in jedem Fall behandlungsbedürftig, bei der sog. 
 
 ## Gesetzeslage zur Kostenübernahme für Vitamin D-Präparate > 1000 I.E. Vit. D3
 
-Verschreibungspflichtige hoch dosierte Vitamin D-Präparate (> 1.000 I.E., z. B. Dekristol ®) können zu Lasten der gesetzlichen Krankenversicherungen zur Behandlung verordnet werden. Sie sind jedoch nur zugelassen, beispielsweise zur einmaligen Anwendung bei Vitamin D-Mangelzuständen.
+Verschreibungspflichtige hoch dosierte Vitamin D-Präparate (> 1.000 I.E., Vitamin D3 als Fertigarzneimittel) können zu Lasten der gesetzlichen Krankenversicherungen zur Behandlung verordnet werden. Sie sind jedoch nur zugelassen, beispielsweise zur einmaligen Anwendung bei Vitamin D-Mangelzuständen.

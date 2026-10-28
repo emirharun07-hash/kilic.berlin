@@ -33,12 +33,12 @@ Die Manuelle Medizin nutzt spezifische Handgrifftechniken, um Bewegungseinschrä
 
 ## Ihre Spezialisten für manuelle Medizin in Berlin Mitte
 
-In der Orthopädischen Praxis Mitte setzen wir die Manuelle Medizin als zentrale Diagnose- und Therapiemethode ein. Wir nutzen diese bewährte Technik, um Funktionsstörungen sanft und effektiv zu behandeln – ohne Medikamente oder invasive Eingriffe.
+In der Orthopädischen Praxis Mitte setzen wir die Manuelle Medizin als zentrale Diagnose- und Therapiemethode ein. Wir nutzen diese bewährte Technik, um Funktionsstörungen schonend zu behandeln – ohne Medikamente oder invasive Eingriffe.
 
 Was uns ausmacht:
 
 - **Individuelle Behandlung**
-- **Ganzheitlicher Ansatz** – wir behandeln nicht nur Symptome, sondern die Ursache
+- **Ganzheitlicher Ansatz** – wir betrachten nicht nur Symptome, sondern auch mögliche Ursachen
 
 ## Häufige Fragen
 

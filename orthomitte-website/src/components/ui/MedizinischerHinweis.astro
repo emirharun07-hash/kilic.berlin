@@ -1,0 +1,29 @@
+---
+/**
+ * Pflichthinweise auf Leistungs- und Info-Seiten (Heilmittelwerbegesetz, Irreführungsschutz).
+ * `komplementaer` = zusätzlicher Hinweis für Methoden der Komplementär-/Erfahrungsmedizin
+ * (Frontmatter-Feld `komplementaer: true`). Texte nur nach Rücksprache mit der Praxis ändern.
+ */
+interface Props {
+  komplementaer?: boolean;
+}
+const { komplementaer = false } = Astro.props;
+---
+
+<aside class="mt-12 space-y-3 rounded-2xl border border-ink-100 bg-sand-100 p-6 text-sm leading-relaxed text-ink-700" aria-label="Hinweise">
+  {
+    komplementaer && (
+      <p>
+        <strong class="text-ink-900">Hinweis zur Methode:</strong> Es handelt sich um ein Verfahren der Komplementär- bzw.
+        Erfahrungsmedizin. Seine Wirksamkeit ist wissenschaftlich nicht für alle hier genannten Anwendungsgebiete
+        belegt; es ist kein Ersatz für eine schulmedizinisch notwendige Diagnostik oder Behandlung. Ob die Methode für
+        Sie infrage kommt, klären wir in einem ärztlichen Gespräch.
+      </p>
+    )
+  }
+  <p>
+    <strong class="text-ink-900">Medizinischer Hinweis:</strong> Diese Informationen ersetzen keine ärztliche
+    Untersuchung und Beratung. Ein Behandlungserfolg kann nicht garantiert werden; Wirkung und Verträglichkeit sind
+    individuell verschieden. Über Nutzen, Risiken und mögliche Nebenwirkungen klären wir Sie vor jeder Behandlung auf.
+  </p>
+</aside>

@@ -21,7 +21,7 @@ import type { IconName } from '@/components/ui/Icon.astro';
 export const hero = {
   dachzeile: 'Gesundheit, Fürsorge und Mobilität',
   titel: 'Ihr Spezialist für Orthopädie in Berlin',
-  text: 'Mit Leidenschaft und Expertise finden wir gemeinsam die besten Lösungen für Ihre Beschwerden, die Ihre Gesundheit fördern und Sie zurück in ein schmerzfreies, aktives Leben bringen.',
+  text: 'Mit Leidenschaft und Expertise suchen wir gemeinsam mit Ihnen nach der passenden Behandlung für Ihre Beschwerden – mit dem Ziel, Ihre Gesundheit und Beweglichkeit im Alltag zu fördern.',
   bild: heroBild,
   bildAlt: 'Arne Schlichting und Dr. Bülent Kılıç besprechen einen Befund am Arbeitsplatz der Praxis',
   zweiterButton: { label: 'Unsere Informationsseite', href: '/infoseite' },
@@ -43,7 +43,7 @@ export const privatpraxisHinweis = {
 export const ueberUns = {
   dachzeile: 'Was uns ausmacht',
   titel: 'Wir sind da – für Ihre Gesundheit',
-  text: 'In unserer orthopädischen Praxis setzen wir auf moderne Therapien, langjährige Erfahrung und eine individuelle Betreuung. Unser Ziel ist es, Ihre Beschwerden effektiv zu behandeln und Ihre Lebensqualität nachhaltig zu verbessern – für eine gesunde und schmerzfreie Zukunft.',
+  text: 'In unserer orthopädischen Praxis setzen wir auf moderne Therapien, langjährige Erfahrung und eine individuelle Betreuung. Unser Ziel ist es, Ihre Beschwerden wirksam zu lindern und Ihre Lebensqualität zu verbessern.',
   terminHinweis: {
     titel: 'Bitte vereinbaren Sie nach Möglichkeit einen Termin für Ihren Besuch',
     text: 'Unser Anliegen ist es, unsere Patientinnen und Patienten möglichst ohne Wartezeit angemessen zu untersuchen und zu behandeln. Wir arbeiten deshalb mit Terminvergabe.',
@@ -54,12 +54,12 @@ export const saeulen: { icon: IconName; titel: string; text: string }[] = [
   {
     icon: 'hands',
     titel: 'Ganzheitliche Behandlung',
-    text: 'Wir betrachten jeden Patienten ganzheitlich und kombinieren klassische orthopädische Methoden mit innovativen Verfahren wie Manueller Medizin, Osteopathie und Körperakupunktur. So entwickeln wir individuelle Behandlungskonzepte, die optimale Ergebnisse für Ihre Gesundheit ermöglichen.',
+    text: 'Wir betrachten jeden Patienten ganzheitlich und kombinieren klassische orthopädische Methoden mit innovativen Verfahren wie Manueller Medizin, Osteopathie und Körperakupunktur. So entwickeln wir individuelle Behandlungskonzepte, die auf Ihre Situation abgestimmt sind.',
   },
   {
     icon: 'stethoscope',
     titel: 'Moderne Diagnoseverfahren',
-    text: 'Wir setzen auf moderne Diagnoseverfahren wie Applied Kinesiology und umfassende Untersuchungen, um Störungen des Bewegungsapparates genau zu erfassen. Durch den Einsatz fortschrittlicher Technologien wie MRT, CT und Laboruntersuchungen bieten wir eine präzise und schnelle Diagnose, die die Grundlage für eine effektive Behandlung bildet.',
+    text: 'Eine gründliche körperliche Untersuchung, Ultraschall und manualmedizinische Diagnostik bilden die Grundlage unserer Behandlung. Bei Bedarf veranlassen wir weiterführende Untersuchungen wie MRT, CT oder Laboranalysen. Ergänzend bieten wir Verfahren der Erfahrungsmedizin wie die Applied Kinesiology an.',
   },
   {
     icon: 'spine',

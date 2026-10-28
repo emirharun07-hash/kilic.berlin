@@ -15,7 +15,9 @@
     "test:urls": "node scripts/check-urls.mjs",
     "screenshots": "node scripts/screenshots.mjs",
     "deploy:preview": "astro build && wrangler versions upload",
-    "deploy:production": "astro build && wrangler deploy"
+    "deploy:production": "npm run build:production && wrangler deploy",
+    "golive:check": "node scripts/golive-check.mjs",
+    "build:production": "node scripts/golive-check.mjs && astro build"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",

@@ -9,7 +9,7 @@ seo:
   title: "Hormonersatztherapie in Berlin-Mitte"
 # Quelle: https://www.orthopaedische-praxis-mitte.de/hormonersatztherapie (Wix, Stand Oktober 2026)
 ---
-## Individueller Ausgleich bei Hormonmangel – für mehr Vitalität & Lebensqualität
+## Individueller Ausgleich bei nachgewiesenem Hormonmangel
 
 Die Hormonersatztherapie ist eine Behandlung, bei der dem Körper Hormone zugeführt werden, die er nicht mehr in ausreichender Menge selbst herstellen kann. Hormone sind wichtige Botenstoffe, die viele Abläufe im Körper steuern – zum Beispiel Energie, Schlaf, Stimmung, Gewicht und das allgemeine Wohlbefinden.
 
@@ -19,16 +19,15 @@ Wenn ein Hormonmangel besteht, kann es zu verschiedenen Beschwerden kommen. Ziel
 
 Ein Hormonmangel kann sich auf viele Körpersysteme negativ auswirken.
 
-Die Hormonersatztherapie eignet sich bei:
+Eine Hormonersatztherapie kann – nach Diagnostik – infrage kommen bei:
 
 - Wechseljahresbeschwerden
-- Anhaltender Müdigkeit oder Erschöpfung
-- Konzentrations- oder Libidoverlust
+- anhaltender Müdigkeit, Erschöpfung, Konzentrations- oder Libidoverlust, sofern ein Hormonmangel als Ursache nachgewiesen ist
 - Zyklusstörungen
 - Hormonmangel nach Operationen
 - Schilddrüsenerkrankungen
 
-Ziel der Therapie ist die Verbesserung des Wohlbefindens und die Prävention zahlreicher Erkrankungen, sofern keine Kontraindikationen bestehen.
+Ziel der Therapie ist die Linderung hormonbedingter Beschwerden. Jede Hormontherapie kann auch Risiken und Nebenwirkungen haben (z. B. ein erhöhtes Thromboserisiko); Nutzen und Risiken besprechen wir vor Beginn ausführlich mit Ihnen und überprüfen die Behandlung regelmäßig.
 
 ## Wie läuft die Behandlung ab?
 
@@ -54,13 +53,13 @@ Häufig werden Hormone verwendet, die den körpereigenen Hormonen sehr ähnlich 
 
 - Hormone sind wichtig für viele Körperfunktionen
 - Ein Mangel kann unterschiedliche Beschwerden verursachen
-- Die Hormonersatztherapie kann helfen, das Gleichgewicht wiederherzustellen
+- Die Hormonersatztherapie kann einen nachgewiesenen Mangel ausgleichen
 - Die Behandlung wird individuell angepasst
 - Eine ärztliche Begleitung ist unerlässlich
 
 ## Ihre Spezialisten für die Hormonersatztherapie in Berlin Mitte
 
-Unsere Hormonersatztherapie erfolgt präzise abgestimmt auf Ihre individuellen Blutwerte und Ihr Körpergewicht und wird von erfahrenen Fachärzten medizinisch begleitet – für maximale Wirksamkeit und Sicherheit.
+Unsere Hormonersatztherapie wird auf Ihre individuellen Blutwerte abgestimmt und ärztlich begleitet.
 
-- **Laboranalysen & Kofaktor-Beratung** – für eine fundierte Therapieanpassung
-- **Sichere Anwendung** – auf Basis aktueller wissenschaftlicher Erkenntnisse
+- **Laboranalysen & Kofaktor-Beratung** – als Grundlage der Therapieanpassung
+- **Regelmäßige Kontrollen** – zur Überprüfung von Wirkung und Verträglichkeit

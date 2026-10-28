@@ -50,8 +50,8 @@ Eine Sonographie dauert in der Regel zwischen 10 und 30 Minuten, je nach Umfang 
 
 ### Gibt es Risiken oder Nebenwirkungen bei einer Sonographie?
 
-Ultraschalluntersuchungen sind vollkommen sicher und haben keine bekannten Risiken oder Nebenwirkungen.
+Die Ultraschalluntersuchung arbeitet ohne Röntgenstrahlung und gilt bei diagnostischer Anwendung als sehr risikoarm; Nebenwirkungen sind nicht bekannt.
 
 ### Für welche Beschwerden wird eine Sonographie angewendet?
 
-Die Sonographie wird verwendet, um Weichteile, Organe, Gelenke und Gefäße zu untersuchen, z. B. bei Verdacht auf Entzündungen, Tumore oder Organstörungen.
+In unserer Praxis untersuchen wir mit der Sonographie vor allem Gelenke, Muskeln, Sehnen, Bänder und Schleimbeutel, z. B. bei Verdacht auf Entzündungen, Verletzungen oder Verschleiß.

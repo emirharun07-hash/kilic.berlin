@@ -2,6 +2,7 @@
 titel: "Antientzündliche Lebensweise"
 url: "antientzuendliche-lebenweise"
 einleitung: "Ganzheitliche Strategien zur Reduktion stiller Entzündungen durch Ernährung und Alltag."
+komplementaer: true
 rubrik: Patienteninformationen
 seo:
   title: "Antientzündliche Lebensweise"
@@ -82,7 +83,7 @@ Umgekehrt kann eine unzureichende Nebennierenaktivität zu niedrigen Cortisolspi
 Eine Optimierung der endogenen Cortisolbiosynthese kann erfolgen durch:
 
 - Einnahme von [Vitamin C](/vitamin-c-hochdosis-infusion) und B5: Vitamin C ist notwendig für die Umwandlung von Cholesterin zu Cortisol in den Nebennieren. Vitamin B5 (Pantothensäure) ist die Hauptkomponente von Coenzym A, welches eine wichtige Rolle bei der Synthese von Cortisol und anderen Hormonen in den Nebennieren spielt.
-- regulatorische Unterstützung mit homöopathischen Komplexen wie Phyto C ®
+- regulatorische Unterstützung mit homöopathischen Komplexmitteln
 - Verbesserung der Ausdauer der Nebennierenrindenaktivität durch die Einnahme von pflanzlichen Extrakten, insbesondere von Adaptogenen wie Rhodiola, Ginseng oder Ashwagandha. Sie wirken, indem sie die Stressreaktionen ausgleichen, die Homöostase im Körper unterstützen, die Anpassungsfähigkeit verbessern, Energie und Ausdauer steigern und das Immunsystem stärken.
 
 ## Darmgesundheit

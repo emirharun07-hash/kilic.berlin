@@ -14,7 +14,7 @@ Unter Funktionsstörungen versteht man eine Einschränkung der Beweglichkeit in 
 
 Funktionsstörungen bleiben in der Regel schmerzfrei, solange die Nachbargelenke die Defizite ausgleichen. Sind diese Kompensationsmechanismen erschöpft, weil z. B. weitere Funktionsstörungen hinzugekommen sind oder die Belastung zugenommen hat, können Beschwerden z. B. in Form von Schmerzen auftreten. Schmerzhafte Funktionsstörungen an der Wirbelsäule und/ oder den Gliedmaßen sind mit bildgebenden Maßnahmen nicht darstellbar.
 
-Bei Kindern und jungen Menschen mit Schmerzen, bei denen keine sichtbaren Veränderungen an den Knochen und Gelenken nachweisbar sind, sind in der Regel die funktionellen Störungen die alleinige Ursache. Werden diese beseitigt, können die Beschwerden meist vollkommen zurückgehen.
+Bei Kindern und jungen Menschen mit Schmerzen, bei denen keine sichtbaren Veränderungen an den Knochen und Gelenken nachweisbar sind, sind häufig funktionelle Störungen die Ursache. Werden diese behandelt, können die Beschwerden in vielen Fällen deutlich zurückgehen.
 
 Funktionelle Störungen an den unteren Extremitäten zeigen sich klinisch z. B. als Läuferknie (Runner's knee oder ITBS - Iliotibialband-Syndrom), als Springerknie (Jumper's knee oder Patellaspitzensyndrom) oder als das Schienbeinkantensyndrom (Shin splints).
 

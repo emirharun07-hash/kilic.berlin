@@ -2,7 +2,7 @@
 # Hinweis: "dr." (klein geschrieben) ist die Originalform des ausländischen Doktorgrades
 # (Semmelweis-Universität Budapest) und darf NICHT zu "Dr." geändert werden.
 name: dr. Isabelle Landenberger
-rolle: Ärztin für Funktionelle Medizin
+rolle: Ärztin in Weiterbildung für Allgemeinmedizin, Schwerpunkt Funktionelle Medizin
 gruppe: aerzte
 url: dr-isabelle-landenberger
 foto: ../../assets/images/team/isabelle-landenberger.jpg
@@ -16,8 +16,8 @@ schwerpunkte:
 reihenfolge: 4
 zeigeAufStartseite: true
 seo:
-  title: dr. Isabelle Landenberger – Ärztin für Funktionelle Medizin
-  description: dr. Isabelle Landenberger, Ärztin für Funktionelle Medizin in Berlin-Mitte – Chelattherapie und Hormontherapie nach Rimkus. Werdegang und Fortbildungen.
+  title: dr. Isabelle Landenberger – Ärztin, Schwerpunkt Funktionelle Medizin
+  description: dr. Isabelle Landenberger, Ärztin mit Schwerpunkt Funktionelle Medizin in Berlin-Mitte – Chelattherapie und Hormontherapie nach Rimkus. Werdegang und Fortbildungen.
 ---
 
 ### Medizinstudium

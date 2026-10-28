@@ -2,6 +2,7 @@
 titel: "Infusionstherapie – Infusionskonzepte"
 url: "infusions-therapie"
 bereich: funktionelle-medizin
+komplementaer: true
 kategorie: infusionen
 kurzbeschreibung: "Infusionstherapie – Infusionskonzepte"
 reihenfolge: 1
@@ -9,29 +10,21 @@ seo:
   title: "Infusionstherapie – Infusionskonzepte in Berlin-Mitte"
 # Quelle: https://www.orthopaedische-praxis-mitte.de/infusions-therapie (Wix, Stand Oktober 2026)
 ---
-**Energielos? Häufig müde? Leistungsgemindert? Infektanfällig? Allergien? Konzentrationsschwäche? Muskel- und Gliederschmerzen? Schlafstörungen?**
+Anhaltende Müdigkeit, verminderte Leistungsfähigkeit, häufige Infekte oder Konzentrationsschwäche können viele Ursachen haben – eine davon kann ein Nährstoffmangel sein. Ob ein Mangel vorliegt, klären wir ärztlich, gegebenenfalls mit einer Laboruntersuchung.
 
-All das kann auf einen Mangelzustand Ihres Körpers hinweisen, den man behandeln sollte. Auch nach akuten Verletzungen oder Operationen benötigt der Körper zusätzliche Ressourcen, um sich möglichst schnell und effizient wieder regenerieren zu können.
+Bei der Infusionstherapie werden Nährstoffe wie Vitamine, Aminosäuren, Mineralien und Antioxidantien direkt über die Vene in die Blutbahn gegeben. Anders als bei Tabletten oder Pulvern hängt die Aufnahme dabei nicht vom Magen-Darm-Trakt ab, und es lassen sich höhere Blutspiegel erreichen.
 
-- Gezielte Zufuhr ohne Umwege
-- Schnelle Aufnahme
-- Schnelle Wirkung
-- Nahezu 100 % bioverfügbar
-
-Bei der Infusionstherapie werden wichtige Nährstoffe wie Vitamine, Aminosäuren, Mineralien und Antioxidantien direkt über die Vene in die Blutbahn befördert. Dadurch wirken sie besser und schneller als Nahrungsergänzungsmittel in Pulver-, Kapsel- oder Tablettenform, die erst noch den Magen-Darm-Trakt passieren müssen. Sie können vom Körper direkt genutzt werden.
-
-Unsere Infusionskonzepte kommen insbesondere bei folgenden Indikationen zum Einsatz:
+Unsere Infusionen werden insbesondere in folgenden Situationen angefragt:
 
 - Erschöpfung, Müdigkeit oder Konzentrationsschwäche
 - Nach akuten oder chronischen Infekten
 - Bei oxidativem Stress oder Umweltbelastung
-- Im Rahmen von Detox-Kuren oder zur Leberunterstützung
 - Zur Begleitung bei Regenerationsphasen nach körperlicher Belastung
 - Bei Mangelzuständen (z. B. Vitamin C, Mineralien)
 
 ## Vitamin-C-Infusion
 
-**„Starkes Immunsystem“** – Immunsystem, Erschöpfung, Haut-/Bindegewebe, postoperativ/nach Verletzungen
+Hochdosiertes Vitamin C – z. B. bei erhöhtem Vitamin-C-Bedarf, Infektanfälligkeit, Erschöpfung oder nach Verletzungen und Operationen. [Mehr erfahren](/vitamin-c-hochdosis-infusion)
 
 **Inhaltsstoffe der Infusion:**
 
@@ -42,7 +35,7 @@ Unsere Infusionskonzepte kommen insbesondere bei folgenden Indikationen zum Eins
 
 ## Energy & Detox – Infusion
 
-**„Entgiften. Schützen. Auftanken.“** – Leistungssteigerung, Zellgesundheit, Immunsystem, antioxidative Abwehr, Entgiftung/Detox
+B-Vitamine, Aminosäuren, Mineralstoffe und Vitamin C, gefolgt von Glutathion – zur Unterstützung von Energiestoffwechsel und antioxidativem Schutz. [Mehr erfahren](/leistungen-2/vitaminbooster-detox-glutathion)
 
 Diese besteht aus 2 Infusionen, die nacheinander verabreicht werden.
 
@@ -76,7 +69,7 @@ Diese besteht aus 2 Infusionen, die nacheinander verabreicht werden.
 
 ## Energy & Balance – Infusion
 
-**„Neue Energie. Innere Balance.“** – Power-Boost für Körper und Geist, gegen Erschöpfung und Müdigkeit, ideal bei Stress und Leistungsdruck
+B-Vitamine, Aminosäuren, Mineralstoffe und Vitamin C, gefolgt von Mineralstoffen und Spurenelementen – zur Unterstützung von Energiestoffwechsel und Mineralstoffhaushalt. [Mehr erfahren](/leistungen-2/energy-balance)
 
 Diese besteht aus 2 Infusionen, die nacheinander verabreicht werden.
 

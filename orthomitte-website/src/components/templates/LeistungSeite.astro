@@ -10,6 +10,7 @@ import PageHero from '@/components/sections/PageHero.astro';
 import CtaBand from '@/components/sections/CtaBand.astro';
 import BookingButton from '@/components/ui/BookingButton.astro';
 import Icon from '@/components/ui/Icon.astro';
+import MedizinischerHinweis from '@/components/ui/MedizinischerHinweis.astro';
 import { praxis } from '@/data/praxis';
 import { breadcrumbSchema } from '@/data/strukturierte-daten';
 
@@ -63,9 +64,12 @@ const verwandte = (await getCollection('leistungen'))
   />
 
   <div class="container-page grid grid-cols-1 gap-14 py-16 sm:py-20 lg:grid-cols-[minmax(0,1fr)_22rem] lg:gap-20">
-    <article class="prose-praxis">
-      <slot />
-    </article>
+    <div class="min-w-0">
+      <article class="prose-praxis">
+        <slot />
+      </article>
+      <MedizinischerHinweis komplementaer={d.komplementaer} />
+    </div>
 
     <aside class="space-y-6 lg:sticky lg:top-32 lg:self-start" aria-label="Termin und weitere Leistungen">
       <div class="card p-7">
