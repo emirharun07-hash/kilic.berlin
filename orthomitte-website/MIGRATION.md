@@ -7,6 +7,14 @@ unverändert online.
 
 ---
 
+
+> **Statusprotokoll 28.10.2026:** Nameserver von orthomitte.de durch die Praxis auf Cloudflare
+> (`lars`/`mimi.ns.cloudflare.com`) umgestellt. Der Cloudflare-Import hatte die DKIM-Einträge
+> **nicht** übernommen → `strato-dkim-0002/-0003._domainkey` am selben Tag manuell ergänzt und
+> extern verifiziert (Cloudflare- und Google-DNS). MX, DMARC, `_domainkey`, `_autodiscover._tcp`
+> und `autoconfig` vorhanden. Website-Projekt `orthomitte-website` in Cloudflare Workers angelegt
+> (noch ohne eigene Domain; orthomitte.de leitet weiterhin auf die Wix-Seite weiter).
+
 ## 0. Zielbild
 
 | | Heute | Nach der Umstellung |
