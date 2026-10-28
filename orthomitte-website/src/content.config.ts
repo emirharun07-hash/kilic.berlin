@@ -88,6 +88,9 @@ const seiten = defineCollection({
       autor: z.string().optional(),
       bild: image().optional(),
       bildAlt: z.string().optional(),
+      /** Kleines Bild für die Karte auf der Übersicht /infoseite (optional, sonst wird `bild` verwendet) */
+      vorschaubild: image().optional(),
+      vorschaubildAlt: z.string().optional(),
       /** Rubrik für Brotkrumen-Navigation, z. B. "Patienteninformationen" */
       rubrik: z.enum(['Patienteninformationen', 'Praxis', 'Privatpraxis', 'Rechtliches']).default('Patienteninformationen'),
       verwandteLeistungen: z.array(reference('leistungen')).default([]),

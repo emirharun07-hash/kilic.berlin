@@ -6,6 +6,8 @@ autor: "Dr. Bülent Kılıç · Facharzt für Orthopädie und Unfallchirurgie"
 bild: ../../assets/images/infos/vns-messung.jpg
 bildAlt: "Pulsoximeter am Finger zeigt Sauerstoffsättigung und Pulsfrequenz an"
 komplementaer: true
+vorschaubild: ../../assets/images/infos/vns-vorschau.jpg
+vorschaubildAlt: "Illustration verzweigter Nervenfasern"
 rubrik: Patienteninformationen
 seo:
   title: "Dysautonomie & vegetatives Nervensystem"

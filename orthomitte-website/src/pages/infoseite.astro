@@ -7,6 +7,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import PageHero from '@/components/sections/PageHero.astro';
 import CtaBand from '@/components/sections/CtaBand.astro';
+import { Image } from 'astro:assets';
 import Icon from '@/components/ui/Icon.astro';
 import { breadcrumbSchema } from '@/data/strukturierte-daten';
 
@@ -52,13 +53,30 @@ const crumbs = [{ name: 'Startseite', href: '/' }, { name: 'Informationsseite', 
       {
         liste.map((s, i) => (
           <li data-reveal style={`--reveal-delay:${(i % 3) * 70}ms`}>
-            <a href={`/${s.data.url}`} class="group card flex h-full flex-col p-7 transition duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-lift)]">
+            <a href={`/${s.data.url}`} class="group card flex h-full flex-col overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-lift)]">
+              {(s.data.vorschaubild ?? s.data.bild) ? (
+                <Image
+                  src={(s.data.vorschaubild ?? s.data.bild)!}
+                  alt={s.data.vorschaubild ? (s.data.vorschaubildAlt ?? '') : (s.data.bildAlt ?? '')}
+                  widths={[400, 640, 800]}
+                  sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw"
+                  class="aspect-[16/9] w-full object-cover transition duration-500 group-hover:scale-[1.03]"
+                />
+              ) : (
+                <div class="relative aspect-[16/9] w-full overflow-hidden bg-sand-100" aria-hidden="true">
+                  <span class="absolute -right-10 -bottom-16 size-48 rounded-full border border-brand-500/25" />
+                  <span class="absolute -right-2 -bottom-8 size-32 rounded-full border border-brand-500/35" />
+                  <span class="absolute right-10 bottom-8 size-10 rounded-full bg-brand-500/15" />
+                </div>
+              )}
+              <div class="flex flex-1 flex-col p-7">
               <span class="font-serif text-sm text-brand-600 tabular-nums">{String(i + 1).padStart(2, '0')}</span>
               <h2 class="mt-3 text-xl leading-snug group-hover:text-brand-700">{s.data.titel}</h2>
               {s.data.einleitung && <p class="mt-2 flex-1 text-[0.9375rem] leading-relaxed text-ink-600">{s.data.einleitung}</p>}
               <span class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-brand-700">
                 Weiterlesen <Icon name="arrow" class="size-4 transition group-hover:translate-x-1" />
               </span>
+              </div>
             </a>
           </li>
         ))

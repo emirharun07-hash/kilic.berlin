@@ -2,6 +2,8 @@
 titel: "Rückenschmerzen"
 url: "rückenschmerzen"
 einleitung: "Ganzheitliche Diagnostik und Therapieansätze bei Rückenschmerzen und Rumpfinstabilität."
+vorschaubild: ../../assets/images/infos/rueckenschmerzen-vorschau.jpg
+vorschaubildAlt: "Mann hält sich Nacken und unteren Rücken"
 rubrik: Patienteninformationen
 seo:
   title: "Rückenschmerzen"

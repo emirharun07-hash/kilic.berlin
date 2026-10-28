@@ -2,6 +2,8 @@
 titel: "Vitamin D – Hintergrundwissen"
 url: "vitamin-d-info"
 einleitung: "Hintergrundwissen zu Vitamin D: Bedeutung für Knochen, Immunsystem und Stoffwechsel, Ursachen und Folgen eines Mangels sowie die Vitamin-D-Therapie."
+vorschaubild: ../../assets/images/infos/vitamin-d-vorschau.jpg
+vorschaubildAlt: "Sonne über Wolken"
 rubrik: Patienteninformationen
 seo:
   title: "Vitamin D – Hintergrundwissen"

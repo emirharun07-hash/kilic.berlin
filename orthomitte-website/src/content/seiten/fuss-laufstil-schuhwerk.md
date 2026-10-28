@@ -2,6 +2,8 @@
 titel: "Fuß, Laufstil, Schuhwerk"
 url: "fuß-laufstil-schuhwerk-barfußschuhe"
 einleitung: "Analyse von Fußanatomie, Laufstil und Schuhwerk für gesunde Bewegung."
+vorschaubild: ../../assets/images/infos/fuss-vorschau.jpg
+vorschaubildAlt: "Anatomisches Modell eines Fußskeletts"
 rubrik: Patienteninformationen
 seo:
   title: "Fuß, Laufstil, Schuhwerk"

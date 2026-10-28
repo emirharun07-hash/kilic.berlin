@@ -174,6 +174,9 @@
   .prose-praxis .merkmale > div { @apply min-w-0 rounded-[var(--radius-card)] border border-ink-100 px-[22px] py-5; }
   .prose-praxis .merkmale strong { @apply mb-1 block font-serif text-lg font-normal; }
   .prose-praxis .merkmale span { @apply block text-[0.9375rem] text-ink-600; }
+  .prose-praxis .downloadbox { @apply mt-10 rounded-[var(--radius-card)] border border-ink-100 bg-sand-100 px-[26px] py-6; }
+  .prose-praxis .downloadbox h3 { @apply mt-0; }
+  .prose-praxis .downloadbox a { @apply btn mt-2 bg-brand-600 text-white no-underline hover:bg-brand-700; }
 }
 
 /* Dezente Einblend-Animation beim Scrollen (siehe src/scripts/reveal.ts) */
