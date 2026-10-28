@@ -3,6 +3,8 @@ titel: "Mitochondropathie"
 url: "mitochondrien"
 einleitung: "Diagnose, Symptome und moderne Therapien bei gestörter Zellenergie-Produktion."
 komplementaer: true
+bild: ../../assets/images/infos/mitochondrien.jpg
+bildAlt: "Farbige Querschnitt-Illustration eines Mitochondriums mit seinen inneren Strukturen"
 rubrik: Patienteninformationen
 seo:
   title: "Mitochondropathie"

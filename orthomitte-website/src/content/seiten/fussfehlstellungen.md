@@ -2,6 +2,8 @@
 titel: "Fußfehlstellungen"
 url: "fußfehlstellungen"
 einleitung: "Ursachen, Folgen und Formen von Senk-, Spreiz- und Plattfüßen erklärt."
+bild: ../../assets/images/infos/fussfehlstellungen.jpg
+bildAlt: "Illustration des Vorfußes mit hervorgehobenen, gereizten Zehengrundgelenken"
 rubrik: Patienteninformationen
 seo:
   title: "Fußfehlstellungen"

@@ -2,6 +2,8 @@
 titel: "Kurzer Fuß nach Janda"
 url: "kurzer-fuß-nach-janda"
 einleitung: "Fußübung zur Haltungskorrektur und Rumpfstabilisierung nach Janda."
+bild: ../../assets/images/infos/kurzer-fuss.jpg
+bildAlt: "Seitliche Darstellung des Fußskeletts mit Fußgewölbe"
 rubrik: Patienteninformationen
 seo:
   title: "Kurzer Fuß nach Janda"
