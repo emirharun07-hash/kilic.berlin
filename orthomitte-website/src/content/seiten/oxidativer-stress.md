@@ -3,6 +3,8 @@ titel: "Oxidativer und nitrosativer Stress"
 url: "oxidativer-stress"
 einleitung: "Ursachen, Folgen und Therapieansätze bei oxidativem und nitrosativem Stress."
 komplementaer: true
+bild: ../../assets/images/infos/oxidativer-stress.jpg
+bildAlt: "Farbige Illustration einer Körperzelle mit Zellkern und Zellorganellen"
 rubrik: Patienteninformationen
 seo:
   title: "Oxidativer und nitrosativer Stress"
