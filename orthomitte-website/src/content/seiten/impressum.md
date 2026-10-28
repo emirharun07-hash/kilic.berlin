@@ -40,7 +40,7 @@ Arzt bzw. Ärztin, verliehen in der Bundesrepublik Deutschland.
 - **Arne Schlichting:** Facharzt für Orthopädie; Facharzt für Orthopädie und Unfallchirurgie; Zusatzbezeichnungen Akupunktur und Manuelle Medizin (Chirotherapie)
 - **Dr. Bülent Kılıç:** Facharzt für Orthopädie und Unfallchirurgie; Zusatzbezeichnungen Notfallmedizin, Manuelle Medizin/Chirotherapie, Akupunktur und Spezielle Schmerztherapie
 - **Dr. Christiane Baldini:** Fachärztin für Innere Medizin; Zusatzbezeichnung Psychotherapie
-- **dr. Isabelle Landenberger:** Ärztin in Weiterbildung für Allgemeinmedizin. Der Doktorgrad wurde von der Semmelweis-Universität Budapest (Ungarn) verliehen. [[BITTE ERGÄNZEN: Grundlage der ärztlichen Tätigkeit ohne Approbation – i. d. R. Erlaubnis zur vorübergehenden Ausübung des ärztlichen Berufs nach § 10 Bundesärzteordnung; erteilende Behörde (z. B. Landesamt für Gesundheit und Soziales Berlin)]]
+- **dr. Isabelle Landenberger:** Ärztin (approbiert), in Weiterbildung für Allgemeinmedizin. Der Grad „dr.“ ist ein Berufsdoktorgrad ohne Dissertation, verliehen von der Semmelweis-Universität Budapest (Ungarn), und wird in der Originalform geführt; er ist nicht mit dem deutschen Doktorgrad „Dr.“ gleichzusetzen.
 
 Die Bezeichnungen wurden von der jeweils zuständigen Ärztekammer verliehen.
 
