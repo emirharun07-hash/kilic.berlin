@@ -1,0 +1,16 @@
+// Cloudflare Workers – statische Website (keine serverseitige Logik).
+// Doku: https://developers.cloudflare.com/workers/static-assets/
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "orthomitte-website",
+  "compatibility_date": "2026-10-28",
+  "assets": {
+    "directory": "./dist",
+    // /aerzte -> aerzte.html; /aerzte.html und /aerzte/ werden auf /aerzte umgeleitet
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  // Vorschau-URLs (*.workers.dev) für jede hochgeladene Version, z. B. aus dem develop-Branch.
+  "workers_dev": true,
+  "preview_urls": true
+}

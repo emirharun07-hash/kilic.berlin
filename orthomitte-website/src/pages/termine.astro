@@ -1,0 +1,55 @@
+---
+/** Termine (alte URL: /termine). Sprechzeiten: src/data/oeffnungszeiten.ts */
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/sections/PageHero.astro';
+import OpeningHours from '@/components/ui/OpeningHours.astro';
+import BookingButton from '@/components/ui/BookingButton.astro';
+import AkutterminInfo from '@/components/praxis/AkutterminInfo.astro';
+import AnamneseHinweis from '@/components/praxis/AnamneseHinweis.astro';
+import Icon from '@/components/ui/Icon.astro';
+import { praxis } from '@/data/praxis';
+import { breadcrumbSchema } from '@/data/strukturierte-daten';
+
+const crumbs = [{ name: 'Startseite', href: '/' }, { name: 'Termine', href: '/termine' }];
+---
+
+<BaseLayout
+  title="Termine & Sprechzeiten"
+  description="Termine in der Orthopädischen Praxis Mitte, Berlin: Sprechzeiten, Online-Terminbuchung über Doctolib, Akuttermine und digitaler Anamnesebogen."
+  schema={[breadcrumbSchema(crumbs)]}
+>
+  <PageHero
+    title="Termine & Sprechzeiten"
+    eyebrow="Terminvereinbarung"
+    intro="Unser Anliegen ist es, unsere Patientinnen und Patienten möglichst ohne Wartezeit angemessen zu untersuchen und zu behandeln. Wir arbeiten deshalb mit Terminvergabe."
+    crumbs={crumbs}
+  />
+
+  <section class="container-page grid grid-cols-1 gap-6 py-16 sm:py-20 lg:grid-cols-[1fr_1.1fr]">
+    <div class="card p-7 sm:p-8">
+      <h2 class="flex items-center gap-3 text-2xl"><Icon name="clock" class="size-6 text-brand-600" /> Sprechzeiten</h2>
+      <OpeningHours class="mt-5" />
+      <a href="/feriensprechzeiten" class="link mt-5 inline-block text-sm">Sprechzeiten in den Ferien</a>
+    </div>
+    <div class="card flex flex-col p-7 sm:p-8">
+      <h2 class="flex items-center gap-3 text-2xl"><Icon name="calendar" class="size-6 text-brand-600" /> So vereinbaren Sie einen Termin</h2>
+      <p class="mt-4 text-[0.9375rem] leading-relaxed text-ink-600">
+        Sie erreichen uns telefonisch, per E-Mail oder Sie buchen direkt online über {praxis.terminbuchung.anbieter}.
+      </p>
+      <ul class="mt-6 space-y-3 text-[0.9375rem]">
+        <li class="flex items-center gap-3"><Icon name="phone" class="size-5 text-ink-400" /><a href={`tel:${praxis.telefon.link}`} class="link">{praxis.telefon.anzeige}</a></li>
+        <li class="flex items-center gap-3"><Icon name="mail" class="size-5 text-ink-400" /><a href={`mailto:${praxis.email}`} class="link">{praxis.email}</a></li>
+      </ul>
+      <div class="mt-auto pt-8">
+        <BookingButton class="w-full sm:w-auto" />
+      </div>
+    </div>
+  </section>
+
+  <section class="container-page pb-10" aria-label="Akuttermine">
+    <AkutterminInfo />
+  </section>
+  <section class="container-page pb-24">
+    <AnamneseHinweis />
+  </section>
+</BaseLayout>

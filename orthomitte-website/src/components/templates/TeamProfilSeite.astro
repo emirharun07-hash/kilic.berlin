@@ -1,0 +1,117 @@
+---
+/**
+ * Vorlage für Profil-/Vita-Seiten (src/content/team/*.md mit `url`).
+ * Der Lebenslauf steht als Markdown im Dateiinhalt (Tabelle oder Liste "Jahr – Station").
+ */
+import type { CollectionEntry } from 'astro:content';
+import { Image } from 'astro:assets';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/ui/Breadcrumbs.astro';
+import CtaBand from '@/components/sections/CtaBand.astro';
+import BookingButton from '@/components/ui/BookingButton.astro';
+import Icon from '@/components/ui/Icon.astro';
+import { breadcrumbSchema, personSchema } from '@/data/strukturierte-daten';
+import { logoPath, logoViewBox } from '@/components/ui/logo-path';
+
+interface Props {
+  entry: CollectionEntry<'team'>;
+}
+const { entry } = Astro.props;
+const d = entry.data;
+const url = `/${d.url}`;
+const crumbs = [
+  { name: 'Startseite', href: '/' },
+  { name: 'Über uns', href: '/überuns' },
+  { name: d.name, href: url },
+];
+---
+
+<BaseLayout
+  title={d.seo.title ?? `${d.name} – ${d.rolle}`}
+  description={d.seo.description ?? `${d.name}, ${d.rolle} in der Orthopädischen Praxis Mitte, Berlin: Werdegang, Qualifikationen und Schwerpunkte.`}
+  image={d.foto}
+  noindex={d.seo.noindex}
+  schema={[breadcrumbSchema(crumbs), personSchema({ name: d.name, rolle: d.rolle, url })]}
+>
+  <section class="relative overflow-hidden bg-sand-100">
+    <div class="container-page grid grid-cols-1 gap-12 py-14 sm:py-20 lg:grid-cols-[22rem_1fr] lg:gap-20">
+      <div class="animate-fade-up order-2 lg:order-1">
+        <div class="relative mx-auto max-w-sm overflow-hidden rounded-[1.75rem] bg-sand-200 shadow-[var(--shadow-lift)]">
+          {
+            d.foto ? (
+              <Image
+                src={d.foto}
+                alt={d.fotoAlt ?? `Porträt von ${d.name}`}
+                widths={[360, 540, 720]}
+                sizes="(min-width: 1024px) 22rem, 90vw"
+                class="aspect-[4/5] w-full object-cover object-top"
+                loading="eager"
+              />
+            ) : (
+              <div class="flex aspect-[4/5] items-center justify-center">
+                <svg viewBox={logoViewBox} class="size-1/3 text-sand-300" aria-hidden="true">
+                  <path fill="currentColor" fill-rule="evenodd" d={logoPath} />
+                </svg>
+              </div>
+            )
+          }
+        </div>
+      </div>
+      <div class="animate-fade-up order-1 self-center lg:order-2">
+        <Breadcrumbs items={crumbs} />
+        <h1 class="mt-8 text-[2.5rem] leading-[1.05] sm:text-6xl">{d.name}</h1>
+        <p class="mt-4 text-lg text-brand-700 sm:text-xl">{d.rolle}</p>
+        {d.kurzprofil && <p class="mt-6 max-w-2xl text-lg leading-relaxed text-ink-600">{d.kurzprofil}</p>}
+        {
+          d.schwerpunkte.length > 0 && (
+            <ul class="mt-7 flex flex-wrap gap-2">
+              {d.schwerpunkte.map((s) => (
+                <li class="rounded-full border border-ink-200 bg-white px-3.5 py-1.5 text-sm text-ink-700">{s}</li>
+              ))}
+            </ul>
+          )
+        }
+        <div class="mt-8 flex flex-wrap gap-3">
+          <BookingButton />
+          {
+            d.email && (
+              <a href={`mailto:${d.email}`} class="btn-secondary">
+                <Icon name="mail" class="size-4.5" /> E-Mail schreiben
+              </a>
+            )
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-page py-16 sm:py-20" aria-labelledby="werdegang">
+    <h2 id="werdegang" class="text-3xl sm:text-4xl">Werdegang &amp; Qualifikationen</h2>
+    <div class="prose-praxis vita mt-8 max-w-4xl">
+      <slot />
+    </div>
+    <a href="/überuns" class="link mt-12 inline-flex items-center gap-2 text-sm">
+      <Icon name="arrow" class="size-4 rotate-180" /> Zurück zum Team
+    </a>
+  </section>
+
+  <CtaBand />
+</BaseLayout>
+
+<style>
+  /* Lebenslauf-Tabellen als Zeitleiste darstellen */
+  .vita :global(table) { border-collapse: separate; border-spacing: 0; }
+  .vita :global(thead) { display: none; }
+  .vita :global(td:first-child) {
+    width: 9.5rem;
+    padding-right: 1.5rem;
+    font-weight: 600;
+    color: var(--color-brand-700);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  @media (max-width: 640px) {
+    .vita :global(tr) { display: block; padding: 0.75rem 0; border-bottom: 1px solid var(--color-ink-100); }
+    .vita :global(td) { display: block; border: 0; padding: 0; }
+  }
+</style>

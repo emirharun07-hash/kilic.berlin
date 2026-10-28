@@ -1,0 +1,79 @@
+---
+/**
+ * Leistungsübersicht (alte URL: /leistungen; /leistungen-2 leitet hierher weiter).
+ * Leistungen: src/content/leistungen/*.md · Bereiche: src/data/leistungsbereiche.ts
+ */
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/sections/PageHero.astro';
+import LeistungsBereich from '@/components/leistungen/LeistungsBereich.astro';
+import CtaBand from '@/components/sections/CtaBand.astro';
+import { leistungsbereiche, privatpraxisBereiche } from '@/data/leistungsbereiche';
+import { breadcrumbSchema } from '@/data/strukturierte-daten';
+
+const alle = (await getCollection('leistungen'))
+  .filter((l) => l.data.inUebersicht)
+  .sort((a, b) => a.data.reihenfolge - b.data.reihenfolge);
+const von = (bereich: string, kategorie: string) => alle.filter((l) => l.data.bereich === bereich && l.data.kategorie === kategorie);
+const crumbs = [{ name: 'Startseite', href: '/' }, { name: 'Leistungen', href: '/leistungen' }];
+---
+
+<BaseLayout
+  title="Leistungen – Orthopädie & Funktionelle Medizin"
+  description="Leistungen der Orthopädischen Praxis Mitte in Berlin: Manuelle Medizin, Akupunktur, Stoßwelle, Dry Needling, FDM, Sonographie, Infusionstherapie, Einlagen und mehr."
+  schema={[breadcrumbSchema(crumbs)]}
+>
+  <PageHero
+    title="Was wir behandeln"
+    eyebrow="Unsere Leistungen"
+    intro="Wir bieten Ihnen eine umfassende orthopädische Versorgung – von der präzisen Diagnose über moderne Therapieverfahren bis hin zur langfristigen Schmerzprävention."
+    crumbs={crumbs}
+  >
+    <nav aria-label="Leistungsbereiche" class="mt-8 flex flex-wrap gap-2">
+      {[...leistungsbereiche, { id: 'privatpraxis-leistungen', titel: 'Privatpraxis' }].map((b) => (
+        <a href={`#${b.id}`} class="rounded-full border border-ink-200 bg-white/70 px-4 py-2 text-sm text-ink-700 transition hover:border-brand-400 hover:text-brand-700">{b.titel}</a>
+      ))}
+    </nav>
+  </PageHero>
+
+  <div class="container-page py-6 sm:py-10">
+    {leistungsbereiche.map((b, i) => <LeistungsBereich bereich={b} leistungen={von('orthopaedie', b.id)} nummer={i + 1} />)}
+  </div>
+
+  <section id="privatpraxis-leistungen" class="scroll-mt-24 bg-white py-16 sm:py-20" aria-labelledby="pp-titel">
+    <div class="container-page">
+      <div class="max-w-3xl" data-reveal>
+        <p class="eyebrow">Privatpraxis für Funktionelle Medizin</p>
+        <h2 id="pp-titel" class="mt-4 text-4xl leading-tight">Ergänzende Leistungen unserer Privatpraxis</h2>
+        <p class="mt-4 text-lg text-ink-600">
+          Für privatversicherte Patientinnen und Patienten sowie Selbstzahler – im selben Gebäude und auf derselben Etage.
+          <a href="/privatpraxis" class="link">Mehr zur Privatpraxis</a>
+        </p>
+      </div>
+      {privatpraxisBereiche.map((b) => <LeistungsBereich bereich={b} leistungen={von('funktionelle-medizin', b.id)} />)}
+    </div>
+  </section>
+
+  <section class="container-page py-16 sm:py-20" aria-labelledby="kosten-titel">
+    <h2 id="kosten-titel" class="text-3xl">Kassenleistungen und IGeL</h2>
+    <div class="mt-6 grid grid-cols-1 gap-6 md:grid-cols-2">
+      <div class="card p-7">
+        <h3 class="text-xl">Kassenleistungen</h3>
+        <p class="mt-3 text-[0.9375rem] leading-relaxed text-ink-600">
+          Bei Kassenleistungen handelt es sich um medizinische Leistungen, die von den gesetzlichen Krankenkassen bezahlt werden.
+          Das Leistungsangebot der verschiedenen gesetzlichen Krankenkassen für ihre versicherten Mitglieder ist weitgehend identisch.
+          Gemäß § 12 Abs. 1 Satz 1 und 2 Sozialgesetzbuch V (SGB) bezahlen sie, was wirtschaftlich, medizinisch notwendig und ausreichend ist.
+        </p>
+      </div>
+      <div class="card p-7">
+        <h3 class="text-xl">IGeL-Leistungen</h3>
+        <p class="mt-3 text-[0.9375rem] leading-relaxed text-ink-600">
+          Bei IGeL-Leistungen handelt es sich um individuelle Gesundheitsleistungen (IGeL), die per Gesetz nicht zu den Aufgaben
+          der gesetzlichen Krankenversicherungen gehören und somit nicht von diesen bezahlt werden.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <CtaBand />
+</BaseLayout>

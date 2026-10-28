@@ -1,0 +1,33 @@
+---
+/** Brotkrumen-Navigation (sichtbar + strukturierte Daten werden im PageHero erzeugt). */
+import Icon from './Icon.astro';
+export interface Crumb {
+  name: string;
+  href: string;
+}
+interface Props {
+  items: Crumb[];
+}
+const { items } = Astro.props;
+---
+
+<nav aria-label="Brotkrumen" class="text-[0.8125rem] text-ink-500">
+  <ol class="flex flex-wrap items-center gap-1.5">
+    {
+      items.map((c, i) => (
+        <li class="flex items-center gap-1.5">
+          {i > 0 && <Icon name="chevron" class="size-3 text-ink-300" />}
+          {i < items.length - 1 ? (
+            <a href={c.href} class="transition hover:text-brand-700">
+              {c.name}
+            </a>
+          ) : (
+            <span aria-current="page" class="text-ink-700">
+              {c.name}
+            </span>
+          )}
+        </li>
+      ))
+    }
+  </ol>
+</nav>

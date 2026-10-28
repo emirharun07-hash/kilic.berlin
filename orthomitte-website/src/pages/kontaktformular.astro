@@ -1,0 +1,68 @@
+---
+/**
+ * Kontakt (alte URL: /kontaktformular).
+ * Bewusst OHNE eigenes Webformular (Gesundheitsdaten, Art. 9 DSGVO, kein Server nötig):
+ * Kontakt per Telefon, E-Mail oder über die Nachrichtenfunktion von Doctolib.
+ */
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/sections/PageHero.astro';
+import OpeningHours from '@/components/ui/OpeningHours.astro';
+import BookingButton from '@/components/ui/BookingButton.astro';
+import AkutterminInfo from '@/components/praxis/AkutterminInfo.astro';
+import Icon from '@/components/ui/Icon.astro';
+import { praxis } from '@/data/praxis';
+import { breadcrumbSchema } from '@/data/strukturierte-daten';
+
+const crumbs = [{ name: 'Startseite', href: '/' }, { name: 'Kontakt', href: '/kontaktformular' }];
+const wege = [
+  { icon: 'phone' as const, titel: 'Telefon', text: 'Während der Sprechzeiten erreichen Sie uns telefonisch.', label: praxis.telefon.anzeige, href: `tel:${praxis.telefon.link}`, extern: false },
+  { icon: 'mail' as const, titel: 'E-Mail', text: 'Bitte senden Sie uns per E-Mail keine sensiblen Gesundheitsdaten.', label: praxis.email, href: `mailto:${praxis.email}`, extern: false },
+  { icon: 'calendar' as const, titel: `Nachricht über ${praxis.terminbuchung.anbieter}`, text: `Über ${praxis.terminbuchung.anbieter} können Sie uns eine Nachricht oder Anfrage senden.`, label: 'Nachricht senden', href: praxis.terminbuchung.nachrichtUrl, extern: true },
+];
+---
+
+<BaseLayout
+  title="Kontakt"
+  description="Kontakt zur Orthopädischen Praxis Mitte in Berlin: Telefon 030 2292958, E-Mail mail@orthomitte.de, Nachricht über Doctolib, Sprechzeiten und Adresse."
+  schema={[breadcrumbSchema(crumbs)]}
+>
+  <PageHero
+    title="Kontakt"
+    eyebrow="Wir sind für Sie da"
+    intro="Schicken Sie uns eine Nachricht oder rufen Sie uns an – wir freuen uns auf Ihre Anfrage."
+    crumbs={crumbs}
+  />
+  <section class="container-page py-16 sm:py-20">
+    <ul class="grid grid-cols-1 gap-6 md:grid-cols-3">
+      {
+        wege.map((w) => (
+          <li class="card flex flex-col p-7">
+            <span class="flex size-12 items-center justify-center rounded-2xl bg-brand-50 text-brand-600"><Icon name={w.icon} class="size-6" /></span>
+            <h2 class="mt-5 text-xl">{w.titel}</h2>
+            <p class="mt-2 flex-1 text-[0.9375rem] leading-relaxed text-ink-600">{w.text}</p>
+            <a href={w.href} class="btn-secondary mt-6 self-start" {...(w.extern ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>
+              {w.label} {w.extern && <Icon name="external" class="size-4" />}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+    <div class="mt-6 grid grid-cols-1 gap-6 lg:grid-cols-2">
+      <div class="card p-7">
+        <h2 class="flex items-center gap-3 text-xl"><Icon name="clock" class="size-5 text-brand-600" /> Sprechzeiten</h2>
+        <OpeningHours class="mt-4" />
+      </div>
+      <div class="card flex flex-col p-7">
+        <h2 class="flex items-center gap-3 text-xl"><Icon name="pin" class="size-5 text-brand-600" /> Adresse</h2>
+        <address class="mt-4 text-[0.9375rem] leading-relaxed text-ink-800 not-italic">
+          {praxis.name}<br />{praxis.adresse.strasse} ({praxis.adresse.zusatz})<br />{praxis.adresse.plz} {praxis.adresse.ort}<br />Fax: {praxis.fax}
+        </address>
+        <div class="mt-auto flex flex-wrap gap-3 pt-6">
+          <BookingButton />
+          <a href="/anfahrt" class="btn-secondary">Anfahrt</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-page pb-24" aria-label="Akuttermine"><AkutterminInfo /></section>
+</BaseLayout>

@@ -1,0 +1,28 @@
+---
+/** Raster aller Personen mit Profil (Daten: src/content/team/), optional nach Gruppe gefiltert. */
+import { getCollection } from 'astro:content';
+import TeamCard from './TeamCard.astro';
+
+interface Props {
+  gruppen?: ('aerzte' | 'therapie' | 'team')[];
+}
+const { gruppen = ['aerzte', 'therapie'] } = Astro.props;
+const personen = (await getCollection('team'))
+  .filter((p) => gruppen.includes(p.data.gruppe))
+  .sort((a, b) => a.data.reihenfolge - b.data.reihenfolge);
+---
+
+<ul class="grid grid-cols-2 gap-x-5 gap-y-10 sm:grid-cols-3 lg:grid-cols-4 lg:gap-x-8">
+  {
+    personen.map((p, i) => (
+      <li data-reveal style={`--reveal-delay:${(i % 4) * 70}ms`}>
+        <TeamCard person={p} />
+        {p.data.url && (
+          <a href={`/${p.data.url}`} class="link mt-3 inline-block text-sm" aria-label={`Vita von ${p.data.name}`}>
+            Vita ansehen
+          </a>
+        )}
+      </li>
+    ))
+  }
+</ul>

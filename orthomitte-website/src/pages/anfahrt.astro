@@ -1,0 +1,51 @@
+---
+/** Anfahrt (alte URL: /anfahrt). Adresse & ÖPNV: src/data/praxis.ts */
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/sections/PageHero.astro';
+import MapEmbed from '@/components/ui/MapEmbed.astro';
+import TransitInfo from '@/components/ui/TransitInfo.astro';
+import OpeningHours from '@/components/ui/OpeningHours.astro';
+import Icon from '@/components/ui/Icon.astro';
+import CtaBand from '@/components/sections/CtaBand.astro';
+import { praxis } from '@/data/praxis';
+import { breadcrumbSchema } from '@/data/strukturierte-daten';
+
+const crumbs = [{ name: 'Startseite', href: '/' }, { name: 'Anfahrt', href: '/anfahrt' }];
+---
+
+<BaseLayout
+  title="Anfahrt – Dorotheenstraße 56, Berlin-Mitte"
+  description="So finden Sie die Orthopädische Praxis Mitte: Dorotheenstraße 56 (2. OG), 10117 Berlin – wenige Gehminuten vom Bahnhof Friedrichstraße (U6, S-Bahn, Tram, Bus)."
+  schema={[breadcrumbSchema(crumbs)]}
+>
+  <PageHero
+    title="Anfahrt"
+    eyebrow="So finden Sie uns"
+    intro={`${praxis.adresse.strasse} (${praxis.adresse.zusatz}), ${praxis.adresse.plz} ${praxis.adresse.ort} – mitten in Berlin, nahe dem Bahnhof Friedrichstraße.`}
+    crumbs={crumbs}
+  />
+  <section class="container-page grid grid-cols-1 gap-6 py-16 sm:py-20 lg:grid-cols-[1.4fr_1fr]">
+    <MapEmbed />
+    <div class="flex flex-col gap-6">
+      <div class="card p-7">
+        <h2 class="flex items-center gap-3 text-xl"><Icon name="pin" class="size-5 text-brand-600" /> Adresse</h2>
+        <address class="mt-4 text-[0.9375rem] leading-relaxed text-ink-800 not-italic">
+          {praxis.name}<br />{praxis.adresse.strasse} ({praxis.adresse.zusatz})<br />{praxis.adresse.plz} {praxis.adresse.ort}
+        </address>
+        <ul class="mt-5 space-y-2 text-[0.9375rem]">
+          <li><span class="text-ink-500">Telefon</span> <a href={`tel:${praxis.telefon.link}`} class="link ml-2">{praxis.telefon.anzeige}</a></li>
+          <li><span class="text-ink-500">Fax</span> <span class="ml-2 text-ink-800">{praxis.fax}</span></li>
+          <li><span class="text-ink-500">E-Mail</span> <a href={`mailto:${praxis.email}`} class="link ml-2">{praxis.email}</a></li>
+        </ul>
+      </div>
+      <TransitInfo />
+    </div>
+  </section>
+  <section class="container-page pb-8">
+    <div class="card max-w-xl p-7">
+      <h2 class="flex items-center gap-3 text-xl"><Icon name="clock" class="size-5 text-brand-600" /> Sprechzeiten</h2>
+      <OpeningHours class="mt-4" />
+    </div>
+  </section>
+  <CtaBand />
+</BaseLayout>

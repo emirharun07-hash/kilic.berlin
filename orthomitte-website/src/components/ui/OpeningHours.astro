@@ -1,0 +1,53 @@
+---
+/** Sprechzeiten-Tabelle (Daten: src/data/oeffnungszeiten.ts). Heutiger Tag wird per Script hervorgehoben. */
+import { sprechzeiten, feriensprechzeiten, sprechzeitenHinweis } from '@/data/oeffnungszeiten';
+interface Props {
+  class?: string;
+  /** true = Feriensprechzeiten anzeigen */
+  ferien?: boolean;
+  /** Hinweis unter der Tabelle anzeigen */
+  hinweis?: boolean;
+}
+const { class: className = '', ferien = false, hinweis = true } = Astro.props;
+const zeilen = ferien ? feriensprechzeiten : sprechzeiten;
+---
+
+<div class={className}>
+  <table class="w-full text-[0.9375rem]">
+    <caption class="sr-only">Sprechzeiten</caption>
+    <tbody>
+      {
+        zeilen.map((s) => (
+          <tr class="border-b border-ink-100 last:border-0" data-weekday={ferien ? undefined : s.schemaTag}>
+            <th scope="row" class="py-3 pr-4 text-left font-medium text-ink-700">
+              <span class="today-dot mr-2 hidden size-1.5 rounded-full bg-brand-500 align-middle" />
+              {s.tag}
+            </th>
+            <td class="py-3 text-right text-ink-900 tabular-nums">
+              {
+                s.zeiten.length
+                  ? s.zeiten.map((z, i) => (
+                      <span class="block whitespace-nowrap sm:inline">
+                        {i > 0 && <span class="hidden px-1 text-ink-300 sm:inline">·</span>}
+                        {z}
+                      </span>
+                    ))
+                  : 'geschlossen'
+              }
+            </td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+  {hinweis && sprechzeitenHinweis && <p class="mt-4 text-sm text-ink-500">{sprechzeitenHinweis}</p>}
+</div>
+
+<script>
+  const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  const today = days[new Date().getDay()];
+  document.querySelectorAll<HTMLElement>(`[data-weekday="${today}"]`).forEach((row) => {
+    row.classList.add('font-semibold');
+    row.querySelector('.today-dot')?.classList.replace('hidden', 'inline-block');
+  });
+</script>

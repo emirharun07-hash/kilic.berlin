@@ -1,0 +1,42 @@
+---
+/**
+ * Erzeugt automatisch eine Seite für jede Markdown-Datei in
+ *   src/content/leistungen/, src/content/team/ (mit `url`) und src/content/seiten/.
+ * Die Adresse ergibt sich aus dem Feld `url` der jeweiligen Datei.
+ * Diese Datei muss für neue Inhalte NICHT angepasst werden.
+ */
+import { getCollection, render } from 'astro:content';
+import LeistungSeite from '@/components/templates/LeistungSeite.astro';
+import TeamProfilSeite from '@/components/templates/TeamProfilSeite.astro';
+import InfoSeite from '@/components/templates/InfoSeite.astro';
+
+export async function getStaticPaths() {
+  const leistungen = await getCollection('leistungen');
+  const team = (await getCollection('team')).filter((p) => p.data.url);
+  const seiten = await getCollection('seiten');
+  return [
+    ...leistungen.map((entry) => ({ params: { slug: entry.data.url }, props: { typ: 'leistung' as const, entry } })),
+    ...team.map((entry) => ({ params: { slug: entry.data.url! }, props: { typ: 'team' as const, entry } })),
+    ...seiten.map((entry) => ({ params: { slug: entry.data.url }, props: { typ: 'seite' as const, entry } })),
+  ];
+}
+
+const { typ, entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+{
+  typ === 'leistung' ? (
+    <LeistungSeite entry={entry}>
+      <Content />
+    </LeistungSeite>
+  ) : typ === 'team' ? (
+    <TeamProfilSeite entry={entry}>
+      <Content />
+    </TeamProfilSeite>
+  ) : (
+    <InfoSeite entry={entry}>
+      <Content />
+    </InfoSeite>
+  )
+}

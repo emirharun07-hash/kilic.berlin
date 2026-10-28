@@ -1,0 +1,32 @@
+---
+/**
+ * Praxislogo: originale Bildmarke (konzentrische Kreise) + Schriftzug.
+ * `inverted` = helle Variante für dunkle Hintergründe (Footer).
+ */
+import { logoPath, logoViewBox } from './logo-path';
+
+interface Props {
+  inverted?: boolean;
+  class?: string;
+}
+const { inverted = false, class: className = '' } = Astro.props;
+---
+
+<span class:list={['flex items-center gap-3', className]}>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox={logoViewBox}
+    class="size-10 shrink-0 text-brand-500 sm:size-11"
+    aria-hidden="true"
+  >
+    <path fill="currentColor" fill-rule="evenodd" d={logoPath}></path>
+  </svg>
+  <span class="flex flex-col leading-none">
+    <span class:list={['font-serif text-[1.1875rem] tracking-[-0.01em] sm:text-[1.3125rem]', inverted ? 'text-white' : 'text-ink-900']}>
+      Orthopädische Praxis <span class:list={['italic', inverted ? 'text-brand-500' : 'text-brand-600']}>Mitte</span>
+    </span>
+    <span class:list={['mt-1.5 text-[0.625rem] font-semibold tracking-[0.2em] uppercase sm:text-[0.6875rem]', inverted ? 'text-ink-300' : 'text-ink-500']}>
+      Berlin · Dorotheenstraße
+    </span>
+  </span>
+</span>

@@ -1,0 +1,255 @@
+---
+/**
+ * Kopfzeile mit Logo, Hauptnavigation (inkl. Untermenüs) und Terminbutton.
+ * Menüpunkte werden in src/data/navigation.ts gepflegt – nicht hier.
+ */
+import { hauptmenue, type NavEintrag } from '@/data/navigation';
+import { praxis } from '@/data/praxis';
+import Logo from '@/components/ui/Logo.astro';
+import Icon from '@/components/ui/Icon.astro';
+import BookingButton from '@/components/ui/BookingButton.astro';
+
+const current = decodeURI(Astro.url.pathname).replace(/\.html$/, '').replace(/(.)\/$/, '$1');
+const isActive = (item: NavEintrag): boolean =>
+  item.href === current || (item.kinder ?? []).some((k) => k.href === current);
+---
+
+<header class="site-header sticky top-0 z-50 border-b border-transparent transition-colors duration-300" data-header>
+  <a href="#inhalt" class="btn-primary sr-only focus:not-sr-only focus:absolute focus:top-3 focus:left-3 focus:z-[60]">
+    Zum Inhalt springen
+  </a>
+
+  <!-- Schmale Infoleiste -->
+  <div class="hidden bg-ink-900 text-[0.8125rem] text-ink-100 lg:block">
+    <div class="container-page flex h-9 items-center justify-between">
+      <p class="flex items-center gap-2">
+        <Icon name="pin" class="size-3.5 text-brand-300" />
+        {praxis.adresse.strasse}, {praxis.adresse.plz} {praxis.adresse.ort}-Mitte
+      </p>
+      <div class="flex items-center gap-6">
+        <a href={`tel:${praxis.telefon.link}`} class="flex items-center gap-2 hover:text-white">
+          <Icon name="phone" class="size-3.5 text-brand-300" />{praxis.telefon.anzeige}
+        </a>
+        <a href={`mailto:${praxis.email}`} class="flex items-center gap-2 hover:text-white">
+          <Icon name="mail" class="size-3.5 text-brand-300" />{praxis.email}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="header-bar bg-sand-50/85 backdrop-blur-xl">
+    <div class="container-page flex h-[4.5rem] items-center justify-between gap-6 lg:h-20">
+      <a href="/" class="shrink-0">
+        <Logo />
+        <span class="sr-only"> – zur Startseite</span>
+      </a>
+
+      <nav aria-label="Hauptnavigation" class="hidden lg:block">
+        <ul class="flex items-center gap-1">
+          {
+            hauptmenue.map((item) =>
+              item.kinder ? (
+                <li class="nav-dropdown relative">
+                  <button
+                    type="button"
+                    class:list={[
+                      'nav-link flex items-center gap-1',
+                      isActive(item) && 'is-active',
+                    ]}
+                    aria-expanded="false"
+                    data-dropdown-toggle
+                  >
+                    {item.label}
+                    <Icon name="chevron-down" class="size-3.5 transition-transform duration-200" />
+                  </button>
+                  <div class="dropdown-panel invisible absolute top-full left-1/2 w-[22rem] -translate-x-1/2 pt-3 opacity-0 transition duration-200">
+                    <ul class="card p-2">
+                      {item.kinder.map((kind) => (
+                        <li>
+                          <a
+                            href={kind.href}
+                            class="group flex flex-col rounded-xl px-4 py-3 transition hover:bg-sand-100"
+                            aria-current={kind.href === current ? 'page' : undefined}
+                          >
+                            <span class="text-[0.9375rem] font-semibold text-ink-900 group-hover:text-brand-700">
+                              {kind.label}
+                            </span>
+                            {kind.beschreibung && (
+                              <span class="mt-0.5 text-[0.8125rem] leading-snug text-ink-500">{kind.beschreibung}</span>
+                            )}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </li>
+              ) : (
+                <li>
+                  <a
+                    href={item.href}
+                    class:list={['nav-link', isActive(item) && 'is-active']}
+                    aria-current={item.href === current ? 'page' : undefined}
+                  >
+                    {item.label}
+                  </a>
+                </li>
+              ),
+            )
+          }
+        </ul>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <BookingButton class="hidden !px-5 !py-2.5 sm:inline-flex" label="Termin buchen" />
+        <button
+          type="button"
+          class="inline-flex size-11 items-center justify-center rounded-full border border-ink-200 bg-white text-ink-900 lg:hidden"
+          aria-controls="mobile-menu"
+          aria-expanded="false"
+          data-menu-toggle
+        >
+          <span class="sr-only">Menü öffnen</span>
+          <Icon name="menu" class="size-5" />
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Navigation -->
+  <div
+    id="mobile-menu"
+    class="fixed inset-0 top-[4.5rem] z-40 hidden overflow-y-auto bg-sand-50 lg:hidden"
+    data-mobile-menu
+  >
+    <nav aria-label="Mobile Navigation" class="container-page pt-4 pb-32">
+      <ul class="divide-y divide-ink-100">
+        {
+          hauptmenue.map((item) =>
+            item.kinder ? (
+              <li>
+                <details class="group">
+                  <summary class="flex cursor-pointer list-none items-center justify-between py-4 font-serif text-2xl text-ink-900">
+                    {item.label}
+                    <Icon name="chevron-down" class="size-5 text-ink-400 transition group-open:rotate-180" />
+                  </summary>
+                  <ul class="space-y-1 pb-4 pl-1">
+                    {item.kinder.map((kind) => (
+                      <li>
+                        <a
+                          href={kind.href}
+                          class="block rounded-lg py-2 text-base text-ink-700 hover:text-brand-700"
+                          aria-current={kind.href === current ? 'page' : undefined}
+                        >
+                          {kind.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+              </li>
+            ) : (
+              <li>
+                <a href={item.href} class="block py-4 font-serif text-2xl text-ink-900">
+                  {item.label}
+                </a>
+              </li>
+            ),
+          )
+        }
+      </ul>
+      <div class="mt-8 space-y-3">
+        <BookingButton class="w-full" />
+        <a href={`tel:${praxis.telefon.link}`} class="btn-secondary w-full">
+          <Icon name="phone" class="size-4.5" />
+          {praxis.telefon.anzeige}
+        </a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .nav-link {
+    position: relative;
+    display: inline-flex;
+    border-radius: 9999px;
+    padding: 0.5rem 0.9rem;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--color-ink-700);
+    transition: color 0.2s;
+  }
+  .nav-link:hover,
+  .nav-link.is-active {
+    color: var(--color-ink-950);
+  }
+  .nav-link.is-active::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0.1rem;
+    width: 5px;
+    height: 5px;
+    border-radius: 9999px;
+    background: var(--color-brand-500);
+    transform: translateX(-50%);
+  }
+  .nav-dropdown:hover .dropdown-panel,
+  .nav-dropdown:focus-within .dropdown-panel,
+  .nav-dropdown.is-open .dropdown-panel {
+    visibility: visible;
+    opacity: 1;
+  }
+  .nav-dropdown:hover [data-dropdown-toggle] svg,
+  .nav-dropdown.is-open [data-dropdown-toggle] svg {
+    transform: rotate(180deg);
+  }
+  .site-header.is-scrolled .header-bar {
+    background: rgb(252 250 247 / 0.94);
+    box-shadow: 0 1px 0 var(--color-ink-100);
+  }
+</style>
+
+<script>
+  const header = document.querySelector<HTMLElement>('[data-header]');
+  const onScroll = () => header?.classList.toggle('is-scrolled', window.scrollY > 8);
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  // Untermenüs per Tastatur/Touch öffnen
+  document.querySelectorAll<HTMLButtonElement>('[data-dropdown-toggle]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const li = btn.closest('.nav-dropdown');
+      const open = !li?.classList.contains('is-open');
+      document.querySelectorAll('.nav-dropdown.is-open').forEach((el) => el.classList.remove('is-open'));
+      li?.classList.toggle('is-open', open);
+      btn.setAttribute('aria-expanded', String(open));
+    });
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.nav-dropdown.is-open').forEach((el) => el.classList.remove('is-open'));
+      closeMenu();
+    }
+  });
+  document.addEventListener('click', (e) => {
+    if (!(e.target as HTMLElement).closest('.nav-dropdown')) {
+      document.querySelectorAll('.nav-dropdown.is-open').forEach((el) => el.classList.remove('is-open'));
+    }
+  });
+
+  // Mobiles Menü
+  const toggle = document.querySelector<HTMLButtonElement>('[data-menu-toggle]');
+  const menu = document.querySelector<HTMLElement>('[data-mobile-menu]');
+  function closeMenu() {
+    menu?.classList.add('hidden');
+    toggle?.setAttribute('aria-expanded', 'false');
+    document.documentElement.style.overflow = '';
+  }
+  toggle?.addEventListener('click', () => {
+    const open = menu?.classList.contains('hidden');
+    menu?.classList.toggle('hidden', !open);
+    toggle.setAttribute('aria-expanded', String(open));
+    document.documentElement.style.overflow = open ? 'hidden' : '';
+  });
+</script>

@@ -1,0 +1,32 @@
+---
+/** Ärztinnen & Ärzte (alte URL: /aerzte). Personen: src/content/team/*.md */
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHero from '@/components/sections/PageHero.astro';
+import TeamGrid from '@/components/team/TeamGrid.astro';
+import CtaBand from '@/components/sections/CtaBand.astro';
+import { breadcrumbSchema } from '@/data/strukturierte-daten';
+
+const crumbs = [
+  { name: 'Startseite', href: '/' },
+  { name: 'Ärztinnen & Ärzte', href: '/aerzte' },
+];
+---
+
+<BaseLayout
+  title="Ärztinnen & Ärzte"
+  description="Ärztinnen und Ärzte der Orthopädischen Praxis Mitte in Berlin: Arne Schlichting und Dr. Bülent Kılıç, Fachärzte für Orthopädie und Unfallchirurgie."
+  schema={[breadcrumbSchema(crumbs)]}
+>
+  <PageHero
+    title="Ärztinnen & Ärzte"
+    eyebrow="Unser ärztliches Team"
+    intro="Zwei erfahrene Fachärzte für Orthopädie und Unfallchirurgie bilden den Kern unserer medizinischen Versorgung – ergänzt durch Ärztinnen in Weiterbildung und unser therapeutisches Team. Auf den Profilseiten finden Sie Werdegang und Qualifikationen."
+    crumbs={crumbs}
+  >
+    <a href="/überuns" class="link mt-6 inline-block text-sm">Zum gesamten Praxisteam</a>
+  </PageHero>
+  <section class="container-page py-20 sm:py-24" aria-label="Ärztinnen und Ärzte">
+    <TeamGrid gruppen={['aerzte']} />
+  </section>
+  <CtaBand />
+</BaseLayout>

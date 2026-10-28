@@ -1,0 +1,30 @@
+# Automatische Prüfung der Praxis-Website (orthomitte-website/)
+# Läuft bei jedem Push und jedem Pull Request, der den Website-Ordner betrifft.
+# Das Veröffentlichen übernimmt Cloudflare Workers Builds (siehe orthomitte-website/DEPLOYMENT.md).
+name: Website orthomitte – Tests
+
+on:
+  push:
+    paths: ['orthomitte-website/**', '.github/workflows/orthomitte-website-ci.yml']
+  pull_request:
+    paths: ['orthomitte-website/**', '.github/workflows/orthomitte-website-ci.yml']
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: orthomitte-website
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: orthomitte-website/.nvmrc
+          cache: npm
+          cache-dependency-path: orthomitte-website/package-lock.json
+      - run: npm ci
+      - name: Typprüfung, Build und Qualitätsprüfung
+        run: npm test

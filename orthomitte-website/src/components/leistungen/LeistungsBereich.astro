@@ -1,0 +1,38 @@
+---
+/** Ein Leistungsbereich mit Überschrift, Beschreibung und Karten aller zugehörigen Leistungen. */
+import type { CollectionEntry } from 'astro:content';
+import type { Leistungsbereich } from '@/data/leistungsbereiche';
+import LeistungKarte from './LeistungKarte.astro';
+import Icon from '@/components/ui/Icon.astro';
+
+interface Props {
+  bereich: Leistungsbereich;
+  leistungen: CollectionEntry<'leistungen'>[];
+  nummer?: number;
+}
+const { bereich, leistungen, nummer } = Astro.props;
+---
+
+<section id={bereich.id} class="scroll-mt-32 border-t border-ink-100 py-14 first:border-0 sm:py-16" aria-labelledby={`${bereich.id}-titel`}>
+  <div class="grid grid-cols-1 items-end gap-6 lg:grid-cols-[1fr_1.1fr] lg:gap-16" data-reveal>
+    <div class="flex items-start gap-5">
+      <span class="flex size-12 shrink-0 items-center justify-center rounded-2xl bg-white text-brand-600 shadow-[var(--shadow-soft)] ring-1 ring-ink-100">
+        <Icon name={bereich.icon} class="size-6" />
+      </span>
+      <div>
+        {nummer && <p class="font-serif text-sm text-brand-600 tabular-nums">0{nummer}</p>}
+        <h2 id={`${bereich.id}-titel`} class="mt-1 text-3xl leading-tight sm:text-4xl">{bereich.titel}</h2>
+      </div>
+    </div>
+    <p class="text-[0.9375rem] leading-relaxed text-ink-600">{bereich.text}</p>
+  </div>
+  <ul class="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    {
+      leistungen.map((l, i) => (
+        <li data-reveal style={`--reveal-delay:${(i % 4) * 70}ms`}>
+          <LeistungKarte leistung={l} />
+        </li>
+      ))
+    }
+  </ul>
+</section>

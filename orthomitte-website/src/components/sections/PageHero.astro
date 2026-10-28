@@ -1,0 +1,54 @@
+---
+/**
+ * Kopfbereich für Unterseiten: Brotkrumen, Dachzeile, H1, Einleitung und optionales Bild.
+ */
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import Breadcrumbs, { type Crumb } from '@/components/ui/Breadcrumbs.astro';
+
+interface Props {
+  title: string;
+  eyebrow?: string;
+  intro?: string;
+  crumbs: Crumb[];
+  image?: ImageMetadata;
+  imageAlt?: string;
+  imagePosition?: string;
+}
+const { title, eyebrow, intro, crumbs, image, imageAlt = '', imagePosition = 'center' } = Astro.props;
+---
+
+<section class="relative overflow-hidden border-b border-ink-100/70 bg-sand-100">
+  <div aria-hidden="true" class="absolute top-1/2 -right-32 size-[30rem] -translate-y-1/2 rounded-full border border-brand-200/60"></div>
+  <div aria-hidden="true" class="absolute top-1/2 -right-12 size-[18rem] -translate-y-1/2 rounded-full border border-brand-200/60"></div>
+  <div
+    class:list={[
+      'container-page relative grid grid-cols-1 items-center gap-10 py-14 sm:py-20',
+      image && 'lg:grid-cols-[1.15fr_0.85fr] lg:gap-16',
+    ]}
+  >
+    <div class="animate-fade-up">
+      <Breadcrumbs items={crumbs} />
+      {eyebrow && <p class="eyebrow mt-8">{eyebrow}</p>}
+      <h1 class:list={['text-[2.375rem] leading-[1.06] sm:text-6xl', eyebrow ? 'mt-4' : 'mt-8']}>{title}</h1>
+      {intro && <p class="mt-6 max-w-2xl text-lg leading-relaxed text-ink-600 sm:text-xl">{intro}</p>}
+      <slot />
+    </div>
+    {
+      image && (
+        <div class="animate-fade-up relative [animation-delay:120ms]">
+          <Image
+            src={image}
+            alt={imageAlt}
+            widths={[480, 720, 960]}
+            sizes="(min-width: 1024px) 40vw, 100vw"
+            class="aspect-[4/3] w-full rounded-[1.75rem] object-cover shadow-[var(--shadow-lift)]"
+            style={`object-position:${imagePosition}`}
+            loading="eager"
+            fetchpriority="high"
+          />
+        </div>
+      )
+    }
+  </div>
+</section>

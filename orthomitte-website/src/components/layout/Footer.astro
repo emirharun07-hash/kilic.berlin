@@ -1,0 +1,96 @@
+---
+/**
+ * Fußzeile: Kontakt, Sprechzeiten, Navigation und rechtliche Links.
+ * Inhalte kommen aus src/data/praxis.ts, oeffnungszeiten.ts und navigation.ts.
+ */
+import { praxis } from '@/data/praxis';
+import { sprechzeiten } from '@/data/oeffnungszeiten';
+import { footerSpalten, rechtlicheLinks } from '@/data/navigation';
+import Logo from '@/components/ui/Logo.astro';
+import Icon from '@/components/ui/Icon.astro';
+import BookingButton from '@/components/ui/BookingButton.astro';
+
+const jahr = new Date().getFullYear();
+---
+
+<footer class="relative overflow-hidden bg-ink-950 text-ink-200" aria-labelledby="footer-heading">
+  <h2 id="footer-heading" class="sr-only">Praxisinformationen</h2>
+  <div aria-hidden="true" class="pointer-events-none absolute -top-40 -right-40 size-[34rem] rounded-full border border-white/5"></div>
+  <div aria-hidden="true" class="pointer-events-none absolute -top-20 -right-20 size-[22rem] rounded-full border border-white/5"></div>
+
+  <div class="container-page relative pt-20 pb-10">
+    <div class="grid grid-cols-1 gap-14 lg:grid-cols-12">
+      <div class="lg:col-span-4">
+        <Logo inverted />
+        <address class="mt-8 space-y-3 text-[0.9375rem] not-italic leading-relaxed">
+          <p class="flex gap-3">
+            <Icon name="pin" class="mt-0.5 size-4.5 shrink-0 text-brand-400" />
+            <span>
+              {praxis.adresse.strasse} ({praxis.adresse.zusatz})<br />
+              {praxis.adresse.plz} {praxis.adresse.ort}
+            </span>
+          </p>
+          <p>
+            <a href={`tel:${praxis.telefon.link}`} class="flex gap-3 hover:text-white">
+              <Icon name="phone" class="mt-0.5 size-4.5 shrink-0 text-brand-400" />{praxis.telefon.anzeige}
+            </a>
+          </p>
+          <p>
+            <a href={`mailto:${praxis.email}`} class="flex gap-3 hover:text-white">
+              <Icon name="mail" class="mt-0.5 size-4.5 shrink-0 text-brand-400" />{praxis.email}
+            </a>
+          </p>
+        </address>
+        <BookingButton class="mt-8" />
+      </div>
+
+      <div class="lg:col-span-3">
+        <h3 class="font-sans text-xs font-semibold tracking-[0.18em] text-ink-400 uppercase">Sprechzeiten</h3>
+        <dl class="mt-6 space-y-2.5 text-[0.9375rem]">
+          {
+            sprechzeiten.map((s) => (
+              <div class="flex justify-between gap-4 border-b border-white/5 pb-2.5">
+                <dt class="text-ink-300">{s.tag}</dt>
+                <dd class="text-right text-white tabular-nums">
+                  {s.zeiten.length ? s.zeiten.map((z) => <span class="block">{z}</span>) : 'geschlossen'}
+                </dd>
+              </div>
+            ))
+          }
+        </dl>
+      </div>
+
+      {
+        footerSpalten.map((spalte) => (
+          <div class="lg:col-span-2 lg:first-of-type:col-start-9">
+            <h3 class="font-sans text-xs font-semibold tracking-[0.18em] text-ink-400 uppercase">{spalte.titel}</h3>
+            <ul class="mt-6 space-y-3 text-[0.9375rem]">
+              {spalte.links.map((l) => (
+                <li>
+                  <a href={l.href} class="transition hover:text-white">
+                    {l.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
+    </div>
+
+    <div class="mt-16 flex flex-col gap-4 border-t border-white/10 pt-8 text-sm text-ink-400 sm:flex-row sm:items-center sm:justify-between">
+      <p>© {jahr} {praxis.name}</p>
+      <ul class="flex flex-wrap gap-x-6 gap-y-2">
+        {
+          rechtlicheLinks.map((l) => (
+            <li>
+              <a href={l.href} class="hover:text-white">
+                {l.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</footer>

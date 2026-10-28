@@ -1,0 +1,35 @@
+---
+/** Karte für eine Leistung in Übersichten (Daten aus src/content/leistungen/*.md). */
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import Icon from '@/components/ui/Icon.astro';
+
+interface Props {
+  leistung: CollectionEntry<'leistungen'>;
+}
+const { leistung } = Astro.props;
+const d = leistung.data;
+---
+
+<a href={`/${d.url}`} class="group card flex h-full flex-col overflow-hidden transition duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-lift)]">
+  {
+    d.bild && (
+      <div class="aspect-[16/10] overflow-hidden">
+        <Image
+          src={d.bild}
+          alt={d.bildAlt ?? ''}
+          widths={[360, 560, 720]}
+          sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 100vw"
+          class="size-full object-cover transition duration-700 ease-out group-hover:scale-[1.04]"
+        />
+      </div>
+    )
+  }
+  <div class="flex flex-1 flex-col p-6">
+    <h3 class="text-xl leading-snug group-hover:text-brand-700">{d.titel}</h3>
+    <p class="mt-2 flex-1 text-[0.9375rem] leading-relaxed text-ink-600">{d.kurzbeschreibung}</p>
+    <span class="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-brand-700">
+      Mehr erfahren <Icon name="arrow" class="size-4 transition group-hover:translate-x-1" />
+    </span>
+  </div>
+</a>
