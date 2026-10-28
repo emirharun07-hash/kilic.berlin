@@ -2,6 +2,8 @@
 titel: "Funktionelle Störungen"
 url: "funktionsstörungen"
 einleitung: "Erklärung, Ursachen und Therapieansätze bei schmerzfreien und schmerzhaften Funktionsstörungen."
+bild: ../../assets/images/infos/funktionsstoerungen.jpg
+bildAlt: "Illustration eines Menschen mit sichtbarem Skelett und hervorgehobenen Schmerzpunkten an Nacken und Knie"
 rubrik: Patienteninformationen
 seo:
   title: "Funktionelle Störungen"
