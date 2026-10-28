@@ -11,6 +11,6 @@ seo:
 
 Gemäß den Empfehlungen der STIKO sollte die Influenza-Impfung wie üblich im Spätherbst (Mitte Oktober bis Mitte Dezember) verabreicht werden. Die Influenza-Impfung kann simultan, d. h. gleichzeitig, mit einer COVID-(Auffrisch-)Impfung verabreicht werden. Die Injektion soll jeweils an unterschiedlichen Gliedmaßen erfolgen (siehe hierzu FAQ "Darf die Influenza-Impfung zusammen mit der COVID-19-Impfung gegeben werden?").
 
-Für die Impfung kann man sich telefonisch bzw. bequem online über [Arzt-Direkt](https://app.arzt-direkt.de/orthomitte-berlin) anmelden.
+Für die Impfung kann man sich telefonisch bzw. bequem online über unsere [Terminbuchung bei Doctolib](https://www.doctolib.de/gemeinschaftspraxis/berlin/orthopaedische-praxis-mitte-buelent-kilic) anmelden.
 
 *Ihr Praxisteam*

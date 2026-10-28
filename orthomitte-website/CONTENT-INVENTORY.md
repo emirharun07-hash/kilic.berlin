@@ -112,7 +112,7 @@ neue Seite weitergeleitet, **keine Adresse geht verloren** (automatisch geprüft
 | `/photo-albums` | Wix-Fotoalbum mit nur einem Bild (Bild nicht abrufbar, HTTP 403). |
 | `/start` | Ältere Fassung der Startseite. |
 | `/corona` | Corona-Hinweise aus dem Jahr 2020 (überholt). Text archiviert; Wiederherstellung auf Wunsch. |
-| `/susanne-koop`, `/freia-de-vries`, `/rebecca-brendenahl` | Personen werden auf der aktuellen „Über uns“-Seite nicht mehr geführt (Freia de Vries laut eigener Vita seit 10/2025 in anderer Praxis; Rebecca-Seite war leer, Rebecca wird ohne Profil im Praxisteam geführt). **Bitte bestätigen.** |
+| `/susanne-koop`, `/freia-de-vries`, `/rebecca-brendenahl` | Susanne Koop und Freia de Vries sind laut Praxis (28.10.2026) nicht mehr in der Praxis tätig. Rebecca-Seite war leer; Rebecca wird ohne Profil im Praxisteam geführt. |
 
 ## 3. Navigation der alten Website
 
@@ -142,9 +142,9 @@ Footer: Impressum · Datenschutz. Seitlich schwebendes Doctolib-Widget (Termin /
 | Doctolib (Profil Dr. Kılıç) | Link für EDS-Sprechstunde auf /hypermobilität | unverändert übernommen |
 | **SM-Clinic** (digitaler Anamnesebogen) | Menülink | Seite /anamnese + Hinweise auf /termine, /feriensprechzeiten |
 | **116117 Patienten-Navi** (KV) | eingebettetes Wix-HTML-Widget mit externem Bild | eigener Button mit identischem Ziel-Link (kein externes Bild) |
-| **Arzt-Direkt** (app.arzt-direkt.de/orthomitte-berlin) | als „Online-Kalender“ auf /termine und für Grippeimpfung auf /influenza | /termine verweist nun auf Doctolib (wie Header). Auf /influenza unverändert. **Bitte klären, ob Arzt-Direkt noch genutzt wird.** |
+| **Arzt-Direkt** (app.arzt-direkt.de/orthomitte-berlin) | als „Online-Kalender“ auf /termine und für Grippeimpfung auf /influenza | Wird laut Praxis (28.10.2026) nicht mehr genutzt → alle Verweise auf Doctolib umgestellt (/termine, /influenza). |
 | Google Maps (Wix-Widget) | auf Startseite, /anfahrt, /überuns, /leistungen (lädt sofort) | ersetzt durch OpenStreetMap mit Zwei-Klick-Lösung + Links zu Google Maps/Apple Karten |
-| Wix-Kontaktformular | /kontaktformular | **entfällt** (Datenschutz, Art. 9 DSGVO) → Telefon, E-Mail, Doctolib-Nachricht |
+| Wix-Kontaktformular | /kontaktformular | **entfällt** (von der Praxis bestätigt) → Telefon, E-Mail, Doctolib-Nachricht |
 | Instagram | @dr_kilic (Vita), @orthomitte (Privatpraxis) | als Textlinks übernommen |
 | Google Analytics / Tag Manager / DoubleClick | auf jeder Seite geladen | **entfällt** (kein Tracking) |
 | Externe Fachlinks | RKI, PubMed, EDS-Initiative, kilic.berlin | übernommen; Links auf kilic.berlin (Seite /funktionsstörungen) auf die gleichnamigen eigenen Seiten umgestellt |

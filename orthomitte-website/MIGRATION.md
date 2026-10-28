@@ -195,15 +195,15 @@ Frühestens **4 Wochen** nach Phase 4, wenn Google die neue Domain indexiert hat
 
 ## 10. Offene Fragen an die Praxis
 
-1. **Team:** Sind Susanne Koop und Freia de Vries noch in der Praxis tätig? (derzeit nicht gelistet, Profile archiviert)
+1. ~~Team: Susanne Koop / Freia de Vries~~ – geklärt: nicht mehr in der Praxis (Profile weitergeleitet, Texte archiviert).
 2. **Vivien Zahn:** Foto und Lebenslauf vorhanden?
 3. **Eiseninfusion:** eigener Text gewünscht? (bisherige Seite enthielt Procain-Text)
 4. **Preise:** Welche Procain-Preise (120/550 € oder 150/650 €) und welcher Energy-&-Balance-Paketpreis (575 € oder 600 €) gelten?
-5. **Arzt-Direkt:** Wird `app.arzt-direkt.de/orthomitte-berlin` noch genutzt (z. B. für Impfungen)?
+5. ~~Arzt-Direkt~~ – geklärt: wird nicht mehr genutzt, Verweise auf Doctolib umgestellt.
 6. **ÖPNV-Angaben:** Welche Linienliste ist korrekt (Startseite vs. Anfahrt)?
 7. **Corona-Seite:** endgültig entfernen (derzeit Weiterleitung auf Impfungen)?
 8. **Ohrakupunktur:** Seite war leer – eigener Text gewünscht?
-9. **Kontaktformular:** Ist der Verzicht auf ein Webformular in Ordnung? (Alternative: verschlüsseltes Formular eines Drittanbieters mit AV-Vertrag)
+9. ~~Kontaktformular~~ – geklärt: es gibt kein Kontaktformular mehr.
 10. **SPF-Eintrag** für die E-Mail-Zustellbarkeit ergänzen (Abschnitt 4.5)?
 
 ## 11. Rückweg (Rollback)

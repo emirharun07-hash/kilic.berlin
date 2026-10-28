@@ -32,7 +32,7 @@
 | 116117 | Link zum Patienten-Navi der Kassenärztlichen Bundesvereinigung (keine Datenübermittlung beim Seitenaufruf). |
 | Instagram | Reine Textlinks (keine eingebetteten Inhalte). |
 | E-Mail | Kontakt per E-Mail (Strato als E-Mail-Provider); Hinweis, dass unverschlüsselte E-Mail für Gesundheitsdaten ungeeignet ist. |
-| Kontaktformular | **Entfällt.** |
+| Kontaktformular | **Entfällt** (von der Praxis bestätigt). |
 
 ## C. Gliederungsvorschlag
 
