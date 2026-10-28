@@ -196,6 +196,7 @@ Auf Wunsch der Praxis wurden Impressum, Datenschutzerklärung und Werbeaussagen 
 | HWG § 10 / Markennamen | ProcCluster®, Dekristol®, Phyto C®, Vagusvit®, Amitriptylin entfernt bzw. durch Wirkstoff-/Gattungsbegriffe ersetzt. |
 | UWG | Vergleich „6000 statt 2000 Impulse bei anderen Anbietern“, „bestmögliche Qualität zu fairen Konditionen“ entfernt. |
 | Berufsbezeichnung | dr. Landenberger: „Ärztin in Weiterbildung für Allgemeinmedizin, Schwerpunkt Funktionelle Medizin“. |
+| Osteopathie | Geklärt: Herr Giesker behandelt auf ärztliche Anordnung (Delegation) – im Profil und auf der Seite Privatpraxis vermerkt. |
 | Go-Live-Sperre | `npm run build:production` bricht ab, solange Platzhalter „BITTE ERGÄNZEN“ existieren (`scripts/golive-check.mjs`). |
 
 **Noch von der Praxis zu ergänzen bzw. zu entscheiden (vor Go-Live)**
@@ -205,7 +206,6 @@ Auf Wunsch der Praxis wurden Impressum, Datenschutzerklärung und Werbeaussagen 
 | **hoch** | Impressum-Platzhalter | Rechtsform/Register der BAG, Träger der Privatpraxis, Approbationsstaat dr. Landenberger, Berufshaftpflichtversicherung (Name, Anschrift, Geltungsbereich), USt-IdNr. (falls vorhanden). |
 | **hoch** | Datenschutz-Platzhalter | Verantwortliche Stelle Privatpraxis, Datenschutzbeauftragte(r) (oder Abschnitt löschen), Anbieter SM-Clinic. AV-Verträge mit Cloudflare, Strato, SM-Clinic (und ggf. Doctolib) prüfen/abschließen. |
 | **hoch** | Paketpreise / Rabatte | „600 € bei Buchung von 4 Terminen“, „5er-Kur 550 €“: Pauschal- bzw. Rabattpreise sind mit der GOÄ (Einzelabrechnung) und § 7 HWG (Zuwendungen) schwer vereinbar → anwaltlich prüfen; ggf. auf GOÄ-Einzelpreise umstellen. |
-| mittel | Osteopathie | Ausübung durch Nicht-Ärzte erfordert in Berlin eine Heilpraktikererlaubnis (oder ärztliche Delegation) – Angabe im Profil von Herrn Giesker prüfen/ergänzen. |
 | mittel | Procain-/Eiseninfusion | Verschreibungspflichtige Arzneimittel: Seiten beschreiben nur das Verfahren (ohne Präparatenamen). Bitte so beibehalten. |
 | niedrig | Preise | Widersprüchliche Preisangaben (CONTENT-INVENTORY.md, Abschnitt 8) vereinheitlichen. |
 | niedrig | Bildrechte | Nutzungsrechte und Einwilligungen für alle übernommenen Fotos bestätigen; hEDS-Checkliste (PDF): Urheber/Erlaubnis. |

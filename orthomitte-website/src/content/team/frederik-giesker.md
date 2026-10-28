@@ -19,6 +19,8 @@ seo:
 
 **Master of Science (M.Sc.) in Osteopathie**
 
+Osteopathische Behandlungen erfolgen in unserer Praxis auf ärztliche Anordnung.
+
 ### Akademischer Werdegang
 
 | Jahr | Abschluss |
