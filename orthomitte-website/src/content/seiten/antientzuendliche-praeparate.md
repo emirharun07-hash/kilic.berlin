@@ -3,6 +3,8 @@ titel: "Antientzündliche Präparate"
 url: "antientzuendliche-praeparate"
 einleitung: "Ganzheitliche Ansätze zur Behandlung abakterieller Entzündungen mit Naturstoffen."
 komplementaer: true
+bild: ../../assets/images/infos/antientzuendliche-praeparate.jpg
+bildAlt: "Fisch, Ananas, Zitrusfrüchte, Ingwer, Kurkuma, Kräuter und Kapseln als Sinnbild für natürliche antientzündliche Wirkstoffe"
 rubrik: Patienteninformationen
 seo:
   title: "Antientzündliche Präparate"
